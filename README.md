@@ -2,7 +2,7 @@
 Migración del proyecto a Laravel
 Desarrollo de proyecto Seriales Pasos para trabajar con GIT Y Como colaborar en el proyecto.
 
-- Paso 1. clonar el proyecto, para esto debes tener GIT instalado en tu equipo local -ingresar a GIT Bash y crear una carpeta que esté dentro de tu servidor Apache(xampp, mampp) esto es importante ya que lo que clonaran, despues tendran que codear y probar sus codigos y es necesario que este en el localhost de su servidor. -una vez creada la carpeta que puede ser ejemplo ProyectoDH (mkdir ProyectoDH) -Entra a la carpeta con cd ProyectoDH -Ejecuta git clone https://github.com/equipo-digital-house/master.git -Esta direccion es el repositorio remoto al cual iremos siempre a buscar la ultima version a través de un clone
+- Paso 1. Crear una carpeta. Entrar con Git Bash a esa carpeta. Ejecutar "git clone + la ruta del repositorio". Entrar a la carpeta creada con Git Bash. Ejecutar "git init" para determinar que ese será nuestro master. Ejecutar "composer install" (puede ser "composer update" tb). Renombrar el archivo .env.example por .env.
 - Paso 2. realizar un PULL, para bajar los ultimos commit que hay en remoto.
 - Paso 3. al realizar el clone la carpeta que crearon traera todos los archivos que contiene nuestro master remoto.
 - Paso 4. entra a la carpeta master (cd master) -chequear con un git status (deberian aparecer nuevos archivos a la carpeta).
