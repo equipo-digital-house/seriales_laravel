@@ -1,72 +1,15 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# seriales_laravel
+Migración del proyecto a Laravel
+Desarrollo de proyecto Seriales Pasos para trabajar con GIT Y Como colaborar en el proyecto.
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/d/total.svg" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/v/stable.svg" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
-</p>
-
-## About Laravel
-
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
-
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
-
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
-
-## Learning Laravel
-
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
-
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
-
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-source software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+- Según Dani, los pasos para realizar el clon era: 1) git clone + ruta, 2) entrar a la carpeta que se crea, 3) composer install, 4) renombrar .env.example por .env.
+- Paso 2. realizar un PULL, para bajar los ultimos commit que hay en remoto.
+- Paso 3. al realizar el clone la carpeta que crearon traera todos los archivos que contiene nuestro master remoto.
+- Paso 4. entra a la carpeta master (cd master) -chequear con un git status (deberian aparecer nuevos archivos a la carpeta).
+- Paso 5. inicializa el git (git init), esto le dira que la carpeta master que será el repositorio master local
+- Paso 6. Apunta el repositorio master local con el repositorio master remoto (git remote add origin https://github.com/equipo-digital-house/master.git)
+- Paso 7. realiza el git config user.name "tuUserName" y el git config user.email "tuEmail@gmail.com" Ojo. estas credenciales son las que tuvimos que configurar en gitHub.
+- Paso 8. En este punto se supone que deben modificar el archivo que les haya tocado codear y una vez que hayan hecho los cambios y esté probado en el localhost, debemos enviarlo al repositorio remoto. -para esto debemos volver a Git Bash y posicionarnos en nuestra carpeta master local e indicarle que vamos a agregar archivos para enviar al remoto (git add .) te agrega todos los archivos que hayan sufrido modificacion al stage. (los está preparando para poder empaquetarlos y despues enviarlos)
+- Paso 9. realizar el commit el cual debe ir con un mensaje que indique las modificaciones que se efectuaron (git commit -m "cambios en pagina x "), esto lo que hace es empaquetar lo agregado mas el mensaje que será el commit de cambios.
+- Paso 10. realizar un PULL, para bajar los ultimos commit que hay en remoto, antes de realizar un push.
+- Paso 11. realizar el push para enviar a repositorio remoto nuestros cambios (git push origin master ) la primera vez que lo hagas te pedira tu password de gitHub, si todo sale bien te mostrara que ha enviado los archivos al repositorio master remoto. Puedes chequear lleno al sitio gitHub y comprobar que estan alli los archivos enviados. Despúes los pasos 7 al 9 se deberan realizar tantas veces hagamos cambios.
