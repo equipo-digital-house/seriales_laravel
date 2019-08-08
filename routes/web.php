@@ -116,3 +116,7 @@ Route::post('/eliminarPreguntaFrecuente{id}', function () {
   $vac = compact("id");
     return view('eliminarPreguntaFrecuente', $vac);
 });
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
