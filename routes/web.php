@@ -23,21 +23,23 @@ Route::get('/preguntasFrecuentes', function () {
     return view('preguntasFrecuentes');
 });
 
-Route::get('/registro', function () {
-    return view('registro');
-});
+//comento las rutas de registro y login porque no sé si iremos a necesitarlas
 
-Route::post('/registro', function () {
-    return view('registro');
-});
+// Route::get('/registro', function () {
+//     return view('registro');
+// });
+//
+// Route::post('/registro', function () {
+//     return view('registro');
+// });
 
-Route::get('/login', function () {
-    return view('login');
-});
-
-Route::post('/login', function () {
-    return view('login');
-});
+// Route::get('/login', function () {
+//     return view('login');
+// });
+//
+// Route::post('/login', function () {
+//     return view('login');
+// });
 
 Route::get('/perfil{id}', function ($id) {
     $vac = compact("id");
