@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-<link rel="stylesheet" href="{{ asset('css/master.css') }}">
+<?php $titulo = "Registro" ?>
 <div class="container-fluid p-0">
 
   <main>
