@@ -1,8 +1,8 @@
-
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-  <link rel="stylesheet" href="{{ asset('css/master.css') }}">
+  <?php $titulo = "Login" ?>
+  {{-- <link rel="stylesheet" href="{{ asset('css/master.css') }}"> --}}
 <div class="container-fluid">
   <main>
     <h3 class="subtitulo">¿Querés jugar?</h3>
