@@ -20,27 +20,7 @@ Route::get('/index', function () {
     return view('index');
 });
 
-Route::get('/preguntasFrecuentes', function () {
-    return view('preguntasFrecuentes');
-});
-
-//comento las rutas de registro y login porque no sé si iremos a necesitarlas
-
-// Route::get('/registro', function () {
-//     return view('registro');
-// });
-//
-// Route::post('/registro', function () {
-//     return view('registro');
-// });
-
-// Route::get('/login', function () {
-//     return view('login');
-// });
-//
-// Route::post('/login', function () {
-//     return view('login');
-// });
+Route::get('/preguntasfrecuentes', 'FaqController@index');
 
 Route::get('/perfil{id}', function ($id) {
     $vac = compact("id");
