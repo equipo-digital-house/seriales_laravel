@@ -23,9 +23,9 @@ class QuestionsSeeder extends Seeder
     foreach ($data as $obj) {
         Question::create(array(
           'name'=>$obj->name,
+          'image'=>$obj->image,
           'serie_id'=>$obj->serie_id,
-          'level_id'=>$obj->level_id,
-          'image'=>$obj->image));
+          'level_id'=>$obj->level_id));
 
         }
 

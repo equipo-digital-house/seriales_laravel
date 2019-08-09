@@ -16,7 +16,7 @@ class DatabaseSeeder extends Seeder
         //$this->call(FrequentQuestionsSeeder::class);
         $this->call(SeriesSeeder::class);
         $this->call(LevelsSeeder::class);
-        $this->call(QuestionsSeeder::class);
-        $this->call(AnswersSeeder::class);
+        //$this->call(QuestionsSeeder::class);
+        //$this->call(AnswersSeeder::class);
     }
 }
