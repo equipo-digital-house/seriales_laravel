@@ -1,0 +1,52 @@
+
+
+<header>
+  <nav>
+    <ul class="row" style="margin-bottom: 0;">
+      <a href="index.php" class="offset-3 col-6 col-md-2 offset-md-0"><img class="logo" src="/imgsitio/logoSerialesFB.png" alt="Seriales"></a>
+      <?php
+      if(isset($_SESSION["email"]) && $_SESSION["access"]==9): ?>
+      <button class="admin-button btn btn-outline-secondary" type="button" name="button"><a href="administrador.php">Administrador</a> </button>
+      <?php endif; ?>
+      <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a href="index.php">inicio</a></li>
+      <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a href="preguntasFrecuentes.php">preguntas</a></li>
+      <li class="col-12 flex-column flex-md-row col-md-2 menu-items">
+        <?php if(isset($_SESSION["email"])): ?>
+          <a href="perfil.php">mi perfil</a>
+          <?php else: ?>
+          <a href="registro.php">registro</a>
+        <?php endif; ?>
+        </li>
+
+      <li class="col-12 flex-column flex-md-row col-md-2 menu-items">
+        <?php
+        if(isset($_SESSION["email"])): ?>
+          <a href="logout.php">desloguearme</a>
+          <?php else: ?>
+          <a href="login.php">login</a>
+        <?php endif; ?>
+      </li>
+      <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="juego.php">jugar</a></li>
+    </ul>
+
+    <div class="redessociales" align="right">
+      <a href="#"><i class="fab fa-google-play"></i></a>
+      <a href="#"><i class="fab fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-facebook-square"></i></a>
+      <a href="#"><i class="fab fa-apple"></i></a>
+      <a href="#"><i class="fab fa-instagram"></i></a>
+    </div>
+
+
+
+  </nav>
+
+
+
+  <?php
+  if(isset($_SESSION["email"])){
+    require_once('php/bienvenida.php');
+
+  }
+  ?>
+</header>
