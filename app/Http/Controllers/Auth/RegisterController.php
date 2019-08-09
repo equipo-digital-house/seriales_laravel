@@ -23,7 +23,7 @@ class RegisterController extends Controller
 
     use RegistersUsers;
 
-    /**
+    /**ome
      * Where to redirect users after registration.
      *
      * @var string
@@ -67,6 +67,7 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]);
+        ]); //adjuntar imagen por default
+
     }
 }

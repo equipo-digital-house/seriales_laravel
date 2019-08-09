@@ -1,0 +1,35 @@
+[
+	{
+		"id" : 3,
+		"name" : "Romina",
+		"email" : "romina@seriales.com",
+		"password" : "$2y$10$YDoB0cZF30MZKXOGSeT90OgbeLk/f6oAchEGq13aFYUNL0Z3tVouK",
+		"avatar" : "5d41105c94a61.png",
+		"access" : 9,
+		"level" : 1,
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 12,
+		"name" : "Aldana",
+		"email" : "aldana@seriales.com",
+		"password" : "$2y$10$xb5kOk5lgsxbvS87JQFdouf5KAADKOF212O/faF.O8YNFjjl4vSDe",
+		"avatar" : "misterX.jpg",
+		"access" : 9,
+		"level" : 1,
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 13,
+		"name" : "Cynthia",
+		"email" : "cynthia@seriales.com",
+		"password" : "$2y$10$EY/nXdh1qIV8Yii3jmzyOeNyOz2CaOHqYt03jMJfoxF1Xj3yDIOk.",
+		"avatar" : "misterX.jpg",
+		"access" : 9,
+		"level" : 1,
+		"create_at" : null,
+		"update_at" : null
+	}
+]
