@@ -4,8 +4,13 @@
   <nav>
     <ul class="row" style="margin-bottom: 0;">
       <a href="index.php" class="offset-3 col-6 col-md-2 offset-md-0"><img class="logo" src="/imgsitio/logoSerialesFB.png" alt="Seriales"></a>
-      <?php
-      if(isset($_SESSION["email"]) && $_SESSION["access"]==9): ?>
+      @guest
+
+      @if(Auth::User() && Auth::User()->
+        isset($_SESSION["email"]) && $_SESSION["access"]==9): ?>
+
+{{-- HASTA ACA LARAVEL --}}
+
       <button class="admin-button btn btn-outline-secondary" type="button" name="button"><a href="administrador.php">Administrador</a> </button>
       <?php endif; ?>
       <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a href="index.php">inicio</a></li>
