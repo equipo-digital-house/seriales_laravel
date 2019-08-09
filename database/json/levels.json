@@ -1,0 +1,22 @@
+{
+	{
+		"name" : "Básico",
+		"level" : 1,
+		"score" : 2,
+	},
+	{
+		"name" : "Intermedio",
+		"level" : 2,
+		"score" : 3,
+	},
+	{
+		"name" : "Avanzado",
+		"level" : 3,
+		"score" : 4,
+	},
+	{
+		"name" : "Start",
+		"level" : 4,
+		"score" : 5,
+	}
+}

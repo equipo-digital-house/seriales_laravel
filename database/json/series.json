@@ -1,0 +1,121 @@
+[
+	{
+		"id" : 1,
+		"name" : "Friends",
+		"image" : "img/series/logo_friends.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 2,
+		"name" : "Orange Is The New Black ",
+		"image" : "img/series/logo_orangeisthenewblack.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 3,
+		"name" : "Stranger Things",
+		"image" : "img/series/logo_strangerthings.jpg",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 4,
+		"name" : "Lost",
+		"image" : "img/series/logo_lost.jpg",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 5,
+		"name" : "Los Simpson",
+		"image" : "img/series/logo_thesimpsons.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 6,
+		"name" : "Dexter",
+		"image" : "img/series/logo_dexter.jpg",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 7,
+		"name" : "Breaking Bad",
+		"image" : "img/series/logo_breakingbad.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 8,
+		"name" : "The Big BangTheory",
+		"image" : "img/series/logo_thebigbangtheory.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 9,
+		"name" : "Two And A Half Men",
+		"image" : "img/series/logo_twoandahalfmen.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 11,
+		"name" : "House Of Cards",
+		"image" : "img/series/logo_houseofcards.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 12,
+		"name" : "How I Met Your Mother",
+		"image" : "img/series/logo_howimetyourmother.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 13,
+		"name" : "Seinfeld",
+		"image" : "img/series/logo_seinfeld.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 14,
+		"name" : "Grey's Anatomy",
+		"image" : "img/series/logo_greysanatomy.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 15,
+		"name" : "Vikings",
+		"image" : "img/series/logo_vikings.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 16,
+		"name" : "The Walking Dead",
+		"image" : "img/series/logo_thewalkingdead.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 17,
+		"name" : "Modern Family",
+		"image" : "img/series/logo_modernfamily.png",
+		"create_at" : null,
+		"update_at" : null
+	},
+	{
+		"id" : 18,
+		"name" : "The Game of Thrones",
+		"image" : "img/series/logo_got.png",
+		"create_at" : null,
+		"update_at" : null
+	}
+]
