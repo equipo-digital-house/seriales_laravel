@@ -2,8 +2,6 @@
 
 @section('content')
   <?php $titulo = "Login" ?>
-  {{-- <link rel="stylesheet" href="{{ asset('css/master.css') }}"> --}}
-<div class="container-fluid">
   <main>
     <h3 class="subtitulo">¿Querés jugar?</h3>
     <h2 class="titulo">Iniciar sesion</h2>

@@ -49,9 +49,9 @@
                     @enderror
 
 
-                <label for="repassword">{{ __('Repetir contraseña*') }}</label>
+                <label for="password_confirmation">{{ __('Repetir contraseña*') }}</label>
 
-                <input id="repassword" type="password" class="form-control" name="repassword" required autocomplete="new-password">
+                <input id="repassword" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
 
 
                 <button type="submit" class="btn-formulario">
