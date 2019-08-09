@@ -9,8 +9,9 @@ class Question extends Model
     //
     protected $fillable=[
       'name',
+      'image',
       'serie_id',
       'level_id',
-      'image'
+
     ];
 }

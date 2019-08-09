@@ -14,15 +14,18 @@ class CreateQuestionsTable extends Migration
     public function up()
     {
         Schema::create('questions', function (Blueprint $table) {
+            $table->engine = 'InnoDB';
             $table->bigIncrements('id');
             $table->text('name');
             $table->string('image')->nullable();
             $table->unsignedBigInteger('serie_id');
             $table->unsignedBigInteger('level_id');
             $table->timestamps();
+            //relaciones
+            $table->foreign('serie_id')->references('id')->on('series')->onDelete('cascade')->onUpdate('cascade');
+            $table->foreign('level_id')->references('id')->on('levels')->onDelete('cascade')->onUpdate('cascade');
 
-            $table->foreign('serie_id')->references('id')->on('series');
-            $table->foreign('level_id')->references('id')->on('levels');
+
         });
     }
 
