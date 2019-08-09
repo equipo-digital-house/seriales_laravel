@@ -51,7 +51,7 @@
       <article class="col-12" >
 
         <div class="avatar">
-          <img src="img/img_perfil/{{Auth::User()->avatar}}" width="120" height="120" alt="Avatar">
+          <img src="/storage/avatars/{{Auth::User()->avatar}}" width="120" height="120" alt="Avatar">
         </div>
 
        <h2 class="titulo">Bienvenid@, {{Auth::User()->name}}</h2>
