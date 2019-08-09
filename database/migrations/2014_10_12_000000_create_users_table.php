@@ -22,6 +22,7 @@ class CreateUsersTable extends Migration
             $table->string('avatar');
             $table->integer('access');
             $table->integer('level');
+            $table->integer('score')->nullable();
             $table->rememberToken();
             $table->timestamps();
         });

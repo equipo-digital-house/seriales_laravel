@@ -16,12 +16,13 @@ class CreateQuestionsTable extends Migration
         Schema::create('questions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('name');
-            $table->string('image');
-            $table->unsignedInteger('series_id');
-            $table->foreign('series_id')->reference->on('series');
-            $table->unsignedInteger('levels_id');
-            $table->foreign('levels_id')->reference->on('levels');
+            $table->string('image')->nullable();
+            $table->unsignedBigInteger('serie_id');
+            $table->unsignedBigInteger('level_id');
             $table->timestamps();
+
+            $table->foreign('serie_id')->references('id')->on('series');
+            $table->foreign('level_id')->references('id')->on('levels');
         });
     }
 
