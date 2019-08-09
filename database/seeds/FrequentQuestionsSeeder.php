@@ -2,9 +2,9 @@
 
 use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
-use App\Level;
+use App\FrequentQuestion;
 
-class LevelsSeeder extends Seeder
+class FrequentQuestionsSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -13,17 +13,18 @@ class LevelsSeeder extends Seeder
      */
     public function run()
     {
-        DB::table('levels')->delete();
-      $json=File::get("database/json/levels.json");
+        //
+        DB::table('frequentquestions')->delete();
+      $json=File::get("database/json/questions.json");
 
       $data=json_decode($json);
       //dd($data);
 
     foreach ($data as $obj) {
-        Level::create(array(
+        FrequentQuestion::create(array(
           'name'=>$obj->name,
-          'level'=>$obj->level,
-          'score'=>$obj->score));
+          'answer'=>$obj->answer
+        ));
 
         }
 

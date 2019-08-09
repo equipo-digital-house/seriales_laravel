@@ -4,12 +4,13 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
-class Levels extends Model
+class Answer extends Model
 {
     //
     protected $fillable=[
       'name',
-      'level',
-      'score'
+      'correctAnswer',
+      'image',
+      'question_id'
     ];
 }
