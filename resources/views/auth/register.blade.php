@@ -1,5 +1,6 @@
 @extends('layouts.master')
 
+
 @section('content')
 <?php $titulo = "Registro" ?>
 <div class="container-fluid p-0">
@@ -16,11 +17,11 @@
                   @csrf
 
 
-                <label for="nombre">{{ __('Nombre de usuario*') }}</label>
+                <label for="name">{{ __('Nombre de usuario*') }}</label>
 
-                <input id="nombre" type="text" class="form-control @error('nombre') is-invalid @enderror" name="nombre" value="{{ old('nombre') }}" required autocomplete="nombre" autofocus>
+                <input id="name" type="text" class="form-control @error('name') is-invalid @enderror" name="name" value="{{ old('name') }}" required autocomplete="name" autofocus>
 
-                  @error('nombre')
+                  @error('name')
                       <span class="error">
                           <strong>{{ $message }}</strong>
                       </span>
@@ -49,9 +50,9 @@
                     @enderror
 
 
-                <label for="repassword">{{ __('Repetir contraseña*') }}</label>
+                <label for="password-confirm">{{ __('Repetir contraseña*') }}</label>
 
-                <input id="repassword" type="password" class="form-control" name="repassword" required autocomplete="new-password">
+                <input id="password-confirm" type="password" class="form-control" name="password_confirmation" required autocomplete="new-password">
 
 
                 <button type="submit" class="btn-formulario">
