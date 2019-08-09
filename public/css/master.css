@@ -5,7 +5,7 @@
 }
 
 nav {
-  background-image: url(../img/bg-seriales3.png);
+  background-image: url(../imgsitio/bg-seriales3.png);
   padding: 20px;
 }
 
@@ -178,7 +178,7 @@ main {
 }
 
 .tarjeta-1 {
-  background-image: url("../img/bg-seriales.png");
+  background-image: url("../imgsitio/bg-seriales.png");
   display: flex;
   padding: 2% 3%;
 }
@@ -228,7 +228,7 @@ main {
 
 
 .tarjetaJuegoA {
-  background-image: url("../img/bg-seriales.png");
+  background-image: url("../imgsitio/bg-seriales.png");
   display: flex;
 
 }
@@ -435,7 +435,7 @@ main {
   /**perteneciente a pagina de preguntas frecuentes**/
 main .main-pf {
   padding: 30px;
-  background-image: url(../img/bg-seriales.png);
+  background-image: url(../imgsitio/bg-seriales.png);
 }
 
 .preguntas-frecuentes{

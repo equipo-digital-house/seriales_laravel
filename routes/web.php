@@ -45,7 +45,9 @@ Route::get('/preguntasFrecuentes', function () {
 
 Route::get('/preguntasfrecuentes', 'FaqController@index');
 
-Route::get('/perfil{id}', function ($id) {
+Route::get('/perfil', "PerfilController@mostrar");
+
+Route::get('/perfil/{id}', function ($id) {
     $vac = compact("id");
     return view('perfil', $vac);
 });
