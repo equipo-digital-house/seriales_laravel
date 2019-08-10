@@ -18,7 +18,7 @@ class UsersSeeder extends Seeder
       $json=File::get("database/json/users.json");
 
       $data=json_decode($json);
-      //dd($data);
+      // dd($data);
 
     foreach ($data as $obj) {
         User::create(array(
