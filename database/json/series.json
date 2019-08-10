@@ -54,6 +54,12 @@
 
 	},
 	{
+		"id" : 10,
+		"name" : "That 70s Show",
+		"image" : "img/series/logo_that70show.png"
+
+	},
+	{
 		"id" : 11,
 		"name" : "House Of Cards",
 		"image" : "img/series/logo_houseofcards.png"

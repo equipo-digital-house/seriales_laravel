@@ -1,0 +1,37 @@
+[
+	{
+		"id" : 1,
+		"name" : "¿Qué es Seriales?",
+		"answer" : "Seriales es un juego en línea de preguntas y respuestas sobre las series contemporáneas más influyentes. Podrás poner a prueba tu conocimiento sobre tus series favoritas y competir en línea con muchos otros fanáticos del mundo. ¡Esperamos que te diviertas!"
+	},
+	{
+		"id" : 2,
+		"name" : "¿Como puedo jugar?",
+		"answer" : "Para jugar, ve a \"Registrarme\" y completa los datos requeridos. Una vez hecho esto, recibirás un correo con un enlace para dar de alta tu usuario. Luego, podrás iniciar sesión y ¡listo! Ya estarás listo para jugar."
+	},
+	{
+		"id" : 3,
+		"name" : "Me registre y no me puedo loguear",
+		"answer" : "Si realizaste tu registro, no olvides revisar su casilla de correo y hacer clic en el enlace que te llegará para dar de alta tu usuario. Luego, ya podrás iniciar sesión."
+	},
+	{
+		"id" : 4,
+		"name" : "¿Hay que pagar para jugar?",
+		"answer" : "No, este juego es gratuito. Queremos que la diversión esté al alcance de todxs."
+	},
+	{
+		"id" : 5,
+		"name" : "¿Necesito instalar una aplicación complementaria?",
+		"answer" : "No, no necesitas descargar ni instalar nada para jugar. Puedes acceder al juego desde cualquier pc, laptop o celular. Seriales no es una aplicación."
+	},
+	{
+		"id" : 6,
+		"name" : "¿Cómo se juega?",
+		"answer" : "Cuando elijas comenzar el juego, deberás elegir una serie entre la lista de opciones disponibles o, si te sientes inspiradx, podrás jugar con todas las series al mismo tiempo. Cuando elijas una de las opciones, se disparará un grupo de preguntas que tendrán cuatro respuestas posibles cada una. Deberás elegir la que consideres correcta dentro de un tiempo límite de 15 segundos, que marcará un contador. Hay respuestas de tipo texto y respuestas de tipo imagen. Por cada pregunta de nivel 1 que respondas bien, recibirás un punto. Por las de nivel 2, dos puntos y por las de nivel 3, tres puntos. El juego tiene tres niveles de dificultad. A medida que avances respondiendo preguntas correctamente, este se incrementará. El puntaje acumulado se irá registrando y subirás posiciones en la tabla de jugadores."
+	},
+	{
+		"id" : 7,
+		"name" : "¿Puedo invitar a mis amigxs a jugar?",
+		"answer" : "¡Claro que sí! Nos gusta la tele fuerte, la cerveza fría y lxs jugadorxs copados, copados, así que invitá a todxs lxs amigxs que quieras. :)"
+	}
+]
