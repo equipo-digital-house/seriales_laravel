@@ -45,7 +45,7 @@ Route::get('/preguntasFrecuentes', function () {
 
 Route::get('/preguntasfrecuentes', 'FaqController@index');
 
-Route::get('/perfil', "PerfilController@mostrar");
+Route::get('/perfil', "UserController@show");
 
 Route::get('/perfil/{id}', function ($id) {
     $vac = compact("id");
@@ -63,9 +63,7 @@ Route::get('/juego', function () {
     return view('juego');
 });
 
-Route::get('/administrador', function () {
-    return view('administrador');
-});
+Route::get('/administrador', 'AdministradorController@mostrar');
 
 Route::get('/acceso', function () {
     return view('acceso');
