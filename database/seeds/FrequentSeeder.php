@@ -4,7 +4,7 @@ use Illuminate\Database\Seeder;
 use Illuminate\Support\Facades\DB;
 use App\FrequentQuestion;
 
-class FrequentQuestionsSeeder extends Seeder
+class FrequentSeeder extends Seeder
 {
     /**
      * Run the database seeds.
@@ -14,8 +14,8 @@ class FrequentQuestionsSeeder extends Seeder
     public function run()
     {
         //
-        DB::table('frequentquestions')->delete();
-      $json=File::get("database/json/frequentQuestions.json");
+        DB::table('frequent_questions')->delete();
+      $json=File::get("database/json/FrequentQuestions.json");
 
       $data=json_decode($json);
       //dd($data);
@@ -23,7 +23,8 @@ class FrequentQuestionsSeeder extends Seeder
     foreach ($data as $obj) {
         FrequentQuestion::create(array(
           'name'=>$obj->name,
-          'answer'=>$obj->answer
-        ));
+          'answer'=>$obj->answer));
+
+        }
     }
 }

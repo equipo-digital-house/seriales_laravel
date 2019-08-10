@@ -1,2159 +1,2519 @@
 [
 	{
+		"id" : 1,
 		"name" : "Respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imgid1.jpeg",
 		"question_id" : 1
 	},
 	{
+		"id" : 2,
 		"name" : "Respuesta2",
 		"correctAnswer" : 2,
 		"image" : "img/img_answers/imgid2.jpeg",
 		"question_id" : 1
 	},
 	{
+		"id" : 3,
 		"name" : "Respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imgid3.jpeg",
 		"question_id" : 1
 	},
 	{
+		"id" : 4,
 		"name" : "Respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imgid4.jpeg",
 		"question_id" : 1
 	},
 	{
+		"id" : 5,
 		"name" : "Arya aprovecha la oportunidad al encontrarlo dormido en una tienda de campaña y le corta la mano derecha con su espada Aguja.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 2
 	},
 	{
+		"id" : 6,
 		"name" : "Katelyn Stark le manda a cortar la mano por haber empujado a su hijo Brann por una ventana desde una torre alta en King's Landing, luego de que este lo encontrara a Jamie y a su hermana Cersei teniendo sexo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 2
 	},
 	{
+		"id" : 7,
 		"name" : "La guerrera Brienne of Tarth le corta la mano mientras Jamie intentaba abusar sexualmente de ella.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 2
 	},
 	{
+		"id" : 8,
 		"name" : "Un mercenario llamado Locke, que trabaja para la casa Bolton se la corta mientras lo tiene prisionero.",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 2
 	},
 	{
+		"id" : 9,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers9.jpg",
 		"question_id" : 3
 	},
 	{
+		"id" : 10,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers10.png",
 		"question_id" : 3
 	},
 	{
+		"id" : 11,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers11.jpg",
 		"question_id" : 3
 	},
 	{
+		"id" : 12,
 		"name" : "respuesta4",
 		"correctAnswer" : 4,
 		"image" : "img/img_answers/imganswers12.jpg",
 		"question_id" : 3
 	},
 	{
+		"id" : 13,
 		"name" : "Delincuentes, bastardos y primogénitos de las casas más importantes.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 4
 	},
 	{
+		"id" : 14,
 		"name" : "Delincuentes, eunucos y enanos.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 4
 	},
 	{
+		"id" : 15,
 		"name" : "Delincuentes, pobres y bastardos.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 4
 	},
 	{
+		"id" : 16,
 		"name" : "Delincuentes y los primogénitos de las casas más importantes.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 4
 	},
 	{
+		"id" : 17,
 		"name" : "Sansa Stark lo apuñala con una espada.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 5
 	},
 	{
+		"id" : 18,
 		"name" : "Sansa Stark lo deja a merced de unos perros hambrientos.",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 5
 	},
 	{
+		"id" : 19,
 		"name" : "Drogon lo quema vivo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 5
 	},
 	{
+		"id" : 20,
 		"name" : "Arya Stark lo degüella.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 5
 	},
 	{
+		"id" : 21,
 		"name" : "Tras perder un enfrentamiento contra Euron Greyjoy, el antes invencible caballero decide exiliarse en las Ciudades Libres para mejorar su entrenamiento.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 6
 	},
 	{
+		"id" : 22,
 		"name" : "Robert Baratheon lo descubre tratando de vender un hombre como esclavo y, para evitar la muerte y la Guardia de la Noche, Mormont se exilia en Winterfell.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 6
 	},
 	{
+		"id" : 23,
 		"name" : "Ned Stark lo descubre tratando de vender un hombre como esclavo y, para evitar la muerte y la Guardia de la Noche, Mormont se exilia en las Ciudades Libres.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 6
 	},
 	{
+		"id" : 24,
 		"name" : "Tras confesarle su amor a Daenerys Targaryen, Daenerys lo rechaza y él no puede lidiar con la humillación, por eso decide exiliarse a las Ciudades Libres.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 6
 	},
 	{
+		"id" : 25,
 		"name" : "Que le corten el cabello tras perder en una batalla.",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 7
 	},
 	{
+		"id" : 26,
 		"name" : "Envejecer y ya no poder montar a caballo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 7
 	},
 	{
+		"id" : 27,
 		"name" : "No ser bueno para disparar flechas con arcos.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 7
 	},
 	{
+		"id" : 28,
 		"name" : "Que un compañero le robe la esposa y se acueste con ella.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 7
 	},
 	{
+		"id" : 29,
 		"name" : "Syrio Forel",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 8
 	},
 	{
+		"id" : 30,
 		"name" : "Oberyn Martell",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 8
 	},
 	{
+		"id" : 31,
 		"name" : "Viserys Targaryen",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 8
 	},
 	{
+		"id" : 32,
 		"name" : "Illyrio Mopatis",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 8
 	},
 	{
+		"id" : 33,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers33.jpg",
 		"question_id" : 9
 	},
 	{
+		"id" : 34,
 		"name" : "respuesta2",
 		"correctAnswer" : 2,
 		"image" : "img/img_answers/imganswers34.jpg",
 		"question_id" : 9
 	},
 	{
+		"id" : 35,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers35.jpg",
 		"question_id" : 9
 	},
 	{
+		"id" : 36,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers36.jpg",
 		"question_id" : 9
 	},
 	{
+		"id" : 37,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers37.png",
 		"question_id" : 10
 	},
 	{
+		"id" : 38,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers38.jpg",
 		"question_id" : 10
 	},
 	{
+		"id" : 39,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers39.jpg",
 		"question_id" : 10
 	},
 	{
+		"id" : 40,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers40.jpg",
 		"question_id" : 10
 	},
 	{
+		"id" : 41,
 		"name" : "Le corta la punta de un dedo del pie.",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 11
 	},
 	{
+		"id" : 42,
 		"name" : "Le rompe un diente.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 11
 	},
 	{
+		"id" : 43,
 		"name" : "Le arranca una uña del un dedo del pie.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 11
 	},
 	{
+		"id" : 44,
 		"name" : "Le corta parte de la oreja.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 11
 	},
 	{
+		"id" : 45,
 		"name" : "Full House",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 12
 	},
 	{
+		"id" : 46,
 		"name" : "La niñera",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 12
 	},
 	{
+		"id" : 47,
 		"name" : "The X-Files",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 12
 	},
 	{
+		"id" : 48,
 		"name" : "Mad About You",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 12
 	},
 	{
+		"id" : 49,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers49.png",
 		"question_id" : 13
 	},
 	{
+		"id" : 50,
 		"name" : "respuesta2",
 		"correctAnswer" : 2,
 		"image" : "img/img_answers/imganswers50.jpg",
 		"question_id" : 13
 	},
 	{
+		"id" : 51,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers51.jpg",
 		"question_id" : 13
 	},
 	{
+		"id" : 52,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers52.jpg",
 		"question_id" : 13
 	},
 	{
+		"id" : 53,
 		"name" : "En un banco",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 14
 	},
 	{
+		"id" : 54,
 		"name" : "En el metro",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 14
 	},
 	{
+		"id" : 55,
 		"name" : "En un restorán",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 14
 	},
 	{
+		"id" : 56,
 		"name" : "En un baño público",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 14
 	},
 	{
+		"id" : 57,
 		"name" : "Rachel Green",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 15
 	},
 	{
+		"id" : 58,
 		"name" : "Monica Geller",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 15
 	},
 	{
+		"id" : 59,
 		"name" : "Phoebe Buffay",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 15
 	},
 	{
+		"id" : 60,
 		"name" : "Joey Tribbiani",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 15
 	},
 	{
+		"id" : 61,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers61.png",
 		"question_id" : 16
 	},
 	{
+		"id" : 62,
 		"name" : "respuesta2",
 		"correctAnswer" : 2,
 		"image" : "img/img_answers/imganswers62.png",
 		"question_id" : 16
 	},
 	{
+		"id" : 63,
 		"name" : "repuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers63.jpg",
 		"question_id" : 16
 	},
 	{
+		"id" : 64,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers64.jpg",
 		"question_id" : 16
 	},
 	{
+		"id" : 65,
 		"name" : "Erica, Jack y Chandler",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 17
 	},
 	{
+		"id" : 66,
 		"name" : "Frank Jr. Jr., Chandler y Emma",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 17
 	},
 	{
+		"id" : 67,
 		"name" : "Ben, Emma y Mike",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 17
 	},
 	{
+		"id" : 68,
 		"name" : "Frank Jr. Jr., Leslie y Chandler",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 17
 	},
 	{
+		"id" : 69,
 		"name" : "Rachel Green",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 18
 	},
 	{
+		"id" : 70,
 		"name" : "Gunther",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 18
 	},
 	{
+		"id" : 71,
 		"name" : "El tipo feo y desnudo",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 18
 	},
 	{
+		"id" : 72,
 		"name" : "La abuela de Phoebe Buffay",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 18
 	},
 	{
+		"id" : 73,
 		"name" : "Suzanne Warren",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 19
 	},
 	{
+		"id" : 74,
 		"name" : "Tiffany Doggett",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 19
 	},
 	{
+		"id" : 75,
 		"name" : "Marisol Gonzales",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 19
 	},
 	{
+		"id" : 76,
 		"name" : "Poussey Washington",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 19
 	},
 	{
+		"id" : 77,
 		"name" : "Porque mató a Larry Bloom, su esposo, una semana antes de su boda.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 20
 	},
 	{
+		"id" : 78,
 		"name" : "Porque era la líder de una red de venta ilegal de ropa interior sucia.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 20
 	},
 	{
+		"id" : 79,
 		"name" : "Porque la sorprendieron llevando un maletín con dinero narco a Bélgica.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 20
 	},
 	{
+		"id" : 80,
 		"name" : "Porque mató a Alex Vause, su exnovia, ya que esta la obligaba a traficar dinero narco.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 20
 	},
 	{
+		"id" : 81,
 		"name" : "Peluquero",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 21
 	},
 	{
+		"id" : 82,
 		"name" : "Bombero",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 21
 	},
 	{
+		"id" : 83,
 		"name" : "Profesor de matemática",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 21
 	},
 	{
+		"id" : 84,
 		"name" : "Policía",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 21
 	},
 	{
+		"id" : 85,
 		"name" : "Porque intentó matar a un médico que se rehusó a operarla para hacerse el cambio de sexo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 22
 	},
 	{
+		"id" : 86,
 		"name" : "Porque ayudó a una amiga a entrar a los Estados Unidos de manera ilegal.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 22
 	},
 	{
+		"id" : 87,
 		"name" : "Porque mató a su padre, que abusaba de ella cuando era un niño.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 22
 	},
 	{
+		"id" : 88,
 		"name" : "Porque robaba tarjetas de crédito para pagarse las operaciones de cambio de sexo.",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 22
 	},
 	{
+		"id" : 89,
 		"name" : "Nicky Nichols",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 23
 	},
 	{
+		"id" : 90,
 		"name" : "Poussey Washington",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 23
 	},
 	{
+		"id" : 91,
 		"name" : "Lorna Morello",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 23
 	},
 	{
+		"id" : 92,
 		"name" : "Dayanara Díaz",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 23
 	},
 	{
+		"id" : 93,
 		"name" : "Para hacer el papeleo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 24
 	},
 	{
+		"id" : 94,
 		"name" : "Para revisar la lista de criminales.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 24
 	},
 	{
+		"id" : 95,
 		"name" : "Para tomar café y reflexionar.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 24
 	},
 	{
+		"id" : 96,
 		"name" : "Para comer donas y conversar con los colegas.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 24
 	},
 	{
+		"id" : 97,
 		"name" : "Hawkings",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 25
 	},
 	{
+		"id" : 98,
 		"name" : "Phantom City",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 25
 	},
 	{
+		"id" : 99,
 		"name" : "Port Newcastle",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 25
 	},
 	{
+		"id" : 100,
 		"name" : "Hawton Town",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 25
 	},
 	{
+		"id" : 101,
 		"name" : "Porque fue la onceava criatura de su tipo que secuestró el grupo de científicos del laboratorio.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 26
 	},
 	{
+		"id" : 102,
 		"name" : "Porque, cuando los científicos la secuestraron, no hacía más que repetir \"once\"\" todo el tiempo.\"",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 26
 	},
 	{
+		"id" : 103,
 		"name" : "Por un tatuaje que tiene en el brazo.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 26
 	},
 	{
+		"id" : 104,
 		"name" : "El doctor Martin Brenner la bautizó así porque estimó que ella tenía once años cuando la conoció.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 26
 	},
 	{
+		"id" : 105,
 		"name" : "Jack Shephard y Kate Austen, en la primera temporada.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 27
 	},
 	{
+		"id" : 106,
 		"name" : "Sayid Jarrah y John Locke, en la segunda temporada.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 27
 	},
 	{
+		"id" : 107,
 		"name" : "Hugo Reyes y Charlie Pace, en la primera temporada.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 27
 	},
 	{
+		"id" : 108,
 		"name" : "John Locke y Boone Carlyle, en la primera temporada.",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 27
 	},
 	{
+		"id" : 109,
 		"name" : "Shannon Carlyle",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 28
 	},
 	{
+		"id" : 110,
 		"name" : "Boone Carlyle",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 28
 	},
 	{
+		"id" : 111,
 		"name" : "Charlie Pace",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 28
 	},
 	{
+		"id" : 112,
 		"name" : "Ana Lucía Cortez",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 28
 	},
 	{
+		"id" : 113,
 		"name" : "58",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 29
 	},
 	{
+		"id" : 114,
 		"name" : "71",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 29
 	},
 	{
+		"id" : 115,
 		"name" : "102",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 29
 	},
 	{
+		"id" : 116,
 		"name" : "20",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 29
 	},
 	{
+		"id" : 117,
 		"name" : "\"Benjamin les tendió una trampa\"\".\"",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
+		"id" : 118,
 		"name" : "\"Desmond no es quién dice ser\"\".\"",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
+		"id" : 119,
 		"name" : "\"Este no es el barco de Penny\"\".\"",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
+		"id" : 120,
 		"name" : "\"El bebé de Claire es la causa del accidente\"\".\"",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
+		"id" : 121,
 		"name" : "Backstreet Boys",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 31
 	},
 	{
+		"id" : 122,
 		"name" : "N'sync",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 31
 	},
 	{
+		"id" : 123,
 		"name" : "Stephen Hawking",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 31
 	},
 	{
+		"id" : 124,
 		"name" : "Kid Rock",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 31
 	},
 	{
+		"id" : 125,
 		"name" : "Descubren que tenía secuestrado a Poochie, un perro estrella entre los chicos, que le hace competencia con su programa.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 32
 	},
 	{
+		"id" : 126,
 		"name" : "El Gordo Tony lo acusa de ser el jefe de una red de tráfico de leche de rata.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 32
 	},
 	{
+		"id" : 127,
 		"name" : "Un payaso enmascarado muy parecido a él asalta el minisúper de Apu y Homero lo acusa confundiéndolo con el verdadero Krusty.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 32
 	},
 	{
+		"id" : 128,
 		"name" : "Lo sorprenden vendiéndoles una bebida muy sospechosa a unos muchachos.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 32
 	},
 	{
+		"id" : 129,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers129.png",
 		"question_id" : 33
 	},
 	{
+		"id" : 130,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers130.png",
 		"question_id" : 33
 	},
 	{
+		"id" : 131,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers131.png",
 		"question_id" : 33
 	},
 	{
+		"id" : 132,
 		"name" : "respuesta4",
 		"correctAnswer" : 4,
 		"image" : "img/img_answers/imganswers132.png",
 		"question_id" : 33
 	},
 	{
+		"id" : 133,
 		"name" : "Nahasamasapeemapetilon",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 34
 	},
 	{
+		"id" : 134,
 		"name" : "Nahasapeemapetilon",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 34
 	},
 	{
+		"id" : 135,
 		"name" : "Apu",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 34
 	},
 	{
+		"id" : 136,
 		"name" : "Nahasapemaepelon",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 34
 	},
 	{
+		"id" : 137,
 		"name" : "El departamento de Edna Krabappel",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 35
 	},
 	{
+		"id" : 138,
 		"name" : "La casa del profesor Skinner",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 35
 	},
 	{
+		"id" : 139,
 		"name" : "La mansión Ziff",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 35
 	},
 	{
+		"id" : 140,
 		"name" : "El departamento de soltero de Kirk Van Houten",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 35
 	},
 	{
+		"id" : 141,
 		"name" : "In-A-Gadda-Da-Vida, de Iron Butterfly",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 36
 	},
 	{
+		"id" : 142,
 		"name" : "Blaze of Glory, de Jon Bon Jovi",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 36
 	},
 	{
+		"id" : 143,
 		"name" : "Thunderstruck, de AC/DC",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 36
 	},
 	{
+		"id" : 144,
 		"name" : "Man in The Box, de Alice in Chains",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 36
 	},
 	{
+		"id" : 145,
 		"name" : "My Sharona, de The Knack",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 37
 	},
 	{
+		"id" : 146,
 		"name" : "Can't help falling in love, de Elvis Presley",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 37
 	},
 	{
+		"id" : 147,
 		"name" : "Close to you, de The Carpenters",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 37
 	},
 	{
+		"id" : 148,
 		"name" : "Something, de The Beatles",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 37
 	},
 	{
+		"id" : 149,
 		"name" : "Metallica",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 38
 	},
 	{
+		"id" : 150,
 		"name" : "The White Stripes",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 38
 	},
 	{
+		"id" : 151,
 		"name" : "Korn",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 38
 	},
 	{
+		"id" : 152,
 		"name" : "Aerosmith",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 38
 	},
 	{
+		"id" : 153,
 		"name" : "Los Peces del Infierno",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 39
 	},
 	{
+		"id" : 154,
 		"name" : "Los Borbotones",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 39
 	},
 	{
+		"id" : 155,
 		"name" : "Los Satanes del Infieno",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 39
 	},
 	{
+		"id" : 156,
 		"name" : "Los Magios",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 39
 	},
 	{
+		"id" : 157,
 		"name" : "Una muestra de sangre",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 40
 	},
 	{
+		"id" : 158,
 		"name" : "Una muestra de saliva",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 40
 	},
 	{
+		"id" : 159,
 		"name" : "Un diente",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 40
 	},
 	{
+		"id" : 160,
 		"name" : "Un mechón de pelos",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 40
 	},
 	{
+		"id" : 161,
 		"name" : "El Fisgón Morbosón",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 41
 	},
 	{
+		"id" : 162,
 		"name" : "El Asesino del Camión de Hielo",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 41
 	},
 	{
+		"id" : 163,
 		"name" : "El Carnicero de la Bahía",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 41
 	},
 	{
+		"id" : 164,
 		"name" : "El Carnicero de Bay Harbor",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 41
 	},
 	{
+		"id" : 165,
 		"name" : "El Código Vogel",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 42
 	},
 	{
+		"id" : 166,
 		"name" : "El Código de Harry",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 42
 	},
 	{
+		"id" : 167,
 		"name" : "El Código de la Muerte",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 42
 	},
 	{
+		"id" : 168,
 		"name" : "El Código Morgan",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 42
 	},
 	{
+		"id" : 169,
 		"name" : "Brian Moser",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 43
 	},
 	{
+		"id" : 170,
 		"name" : "James Doakes",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 43
 	},
 	{
+		"id" : 171,
 		"name" : "Alex Timmons",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 43
 	},
 	{
+		"id" : 172,
 		"name" : "Miguel Prado",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 43
 	},
 	{
+		"id" : 173,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers173.jpg",
 		"question_id" : 44
 	},
 	{
+		"id" : 174,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers174.png",
 		"question_id" : 44
 	},
 	{
+		"id" : 175,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers175.jpg",
 		"question_id" : 44
 	},
 	{
+		"id" : 176,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers176.png",
 		"question_id" : 44
 	},
 	{
+		"id" : 177,
 		"name" : "Colombia",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 45
 	},
 	{
+		"id" : 178,
 		"name" : "Argentina",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 45
 	},
 	{
+		"id" : 179,
 		"name" : "Chile",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 45
 	},
 	{
+		"id" : 180,
 		"name" : "Ecuador",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 45
 	},
 	{
+		"id" : 181,
 		"name" : "5",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 46
 	},
 	{
+		"id" : 182,
 		"name" : "2",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 46
 	},
 	{
+		"id" : 183,
 		"name" : "10",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 46
 	},
 	{
+		"id" : 184,
 		"name" : "7",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 46
 	},
 	{
+		"id" : 185,
 		"name" : "respuesta1",
 		"correctAnswer" : 1,
 		"image" : "img/img_answers/imganswers185.png",
 		"question_id" : 47
 	},
 	{
+		"id" : 186,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers186.jpg",
 		"question_id" : 47
 	},
 	{
+		"id" : 187,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers187.png",
 		"question_id" : 47
 	},
 	{
+		"id" : 188,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers188.jpg",
 		"question_id" : 47
 	},
 	{
+		"id" : 189,
 		"name" : "Afeitarse",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 48
 	},
 	{
+		"id" : 190,
 		"name" : "Freír huevos",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 48
 	},
 	{
+		"id" : 191,
 		"name" : "Matar un mosquito",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 48
 	},
 	{
+		"id" : 192,
 		"name" : "Mirar por la ventana",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 48
 	},
 	{
+		"id" : 193,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers193.jpg",
 		"question_id" : 49
 	},
 	{
+		"id" : 194,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers194.jpg",
 		"question_id" : 49
 	},
 	{
+		"id" : 195,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers196.jpg",
 		"question_id" : 49
 	},
 	{
+		"id" : 196,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers195.jpg",
 		"question_id" : 49
 	},
 	{
+		"id" : 197,
 		"name" : "Jesse Pinkman es exalumno de Walter White.",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 50
 	},
 	{
+		"id" : 198,
 		"name" : "Jesse Pinkman era amigo del hijo de Walter White, Walter White Jr.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 50
 	},
 	{
+		"id" : 199,
 		"name" : "Walter White y Jesse Pinkman son amantes.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 50
 	},
 	{
+		"id" : 200,
 		"name" : "Walter White es tío de Jesse Pinkman.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 50
 	},
 	{
+		"id" : 201,
 		"name" : "Con el matón de Gus Fring, Mike Ehrmantraut.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 51
 	},
 	{
+		"id" : 202,
 		"name" : "Con su jefe, Ted Beneke.",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 51
 	},
 	{
+		"id" : 203,
 		"name" : "Con el abogado Saul Goodman.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 51
 	},
 	{
+		"id" : 204,
 		"name" : "Con su cuñado, Hank Schrader.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 51
 	},
 	{
+		"id" : 205,
 		"name" : "Lydia Rodarte-Quayle",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 52
 	},
 	{
+		"id" : 206,
 		"name" : "Jane Margolis",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 52
 	},
 	{
+		"id" : 207,
 		"name" : "Gretchen Schwartz",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 52
 	},
 	{
+		"id" : 208,
 		"name" : "Marie Schrader",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 52
 	},
 	{
+		"id" : 209,
 		"name" : "De pulmón",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 53
 	},
 	{
+		"id" : 210,
 		"name" : "De estómago",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 53
 	},
 	{
+		"id" : 211,
 		"name" : "De piel",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 53
 	},
 	{
+		"id" : 212,
 		"name" : "De próstata",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 53
 	},
 	{
+		"id" : 213,
 		"name" : "Cinco",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 54
 	},
 	{
+		"id" : 214,
 		"name" : "Ocho",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 54
 	},
 	{
+		"id" : 215,
 		"name" : "Once",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 54
 	},
 	{
+		"id" : 216,
 		"name" : "Doce",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 54
 	},
 	{
+		"id" : 217,
 		"name" : "Matemático",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 55
 	},
 	{
+		"id" : 218,
 		"name" : "Astrofísico",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 55
 	},
 	{
+		"id" : 219,
 		"name" : "Microbiólogo",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 55
 	},
 	{
+		"id" : 220,
 		"name" : "Físico nuclear",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 55
 	},
 	{
+		"id" : 221,
 		"name" : "En la segunda temporada",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 56
 	},
 	{
+		"id" : 222,
 		"name" : "En la primera temporada",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 56
 	},
 	{
+		"id" : 223,
 		"name" : "En la tercera temporada",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 56
 	},
 	{
+		"id" : 224,
 		"name" : "En la sexta temporada",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 56
 	},
 	{
+		"id" : 225,
 		"name" : "Camarera",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 57
 	},
 	{
+		"id" : 226,
 		"name" : "Vendedora de cosméticos",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 57
 	},
 	{
+		"id" : 227,
 		"name" : "Masajista",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 57
 	},
 	{
+		"id" : 228,
 		"name" : "Cantante",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 57
 	},
 	{
+		"id" : 229,
 		"name" : "A los 20 años",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 58
 	},
 	{
+		"id" : 230,
 		"name" : "A los 24 años",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 58
 	},
 	{
+		"id" : 231,
 		"name" : "A los 30 años",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 58
 	},
 	{
+		"id" : 232,
 		"name" : "A los 25 años",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 58
 	},
 	{
+		"id" : 233,
 		"name" : "En el Instituto Científico de California",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 59
 	},
 	{
+		"id" : 234,
 		"name" : "En la Universidad de California",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 59
 	},
 	{
+		"id" : 235,
 		"name" : "En el Instituto de Tecnología de California",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 59
 	},
 	{
+		"id" : 236,
 		"name" : "En la Universidad de Harvard",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 59
 	},
 	{
+		"id" : 237,
 		"name" : "Howard Wolowitz",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 60
 	},
 	{
+		"id" : 238,
 		"name" : "Penny Hofstadter",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 60
 	},
 	{
+		"id" : 239,
 		"name" : "Rajesh Koothrappali",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 60
 	},
 	{
+		"id" : 240,
 		"name" : "Sheldon Cooper",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 60
 	},
 	{
+		"id" : 241,
 		"name" : "180",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 61
 	},
 	{
+		"id" : 242,
 		"name" : "204",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 61
 	},
 	{
+		"id" : 243,
 		"name" : "154",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 61
 	},
 	{
+		"id" : 244,
 		"name" : "187",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 61
 	},
 	{
+		"id" : 245,
 		"name" : "Batman",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 62
 	},
 	{
+		"id" : 246,
 		"name" : "Flash",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 62
 	},
 	{
+		"id" : 247,
 		"name" : "Hulk",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 62
 	},
 	{
+		"id" : 248,
 		"name" : "Superman",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 62
 	},
 	{
+		"id" : 249,
 		"name" : "Médica",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 63
 	},
 	{
+		"id" : 250,
 		"name" : "Congresista",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 63
 	},
 	{
+		"id" : 251,
 		"name" : "Corredora inmobiliaria",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 63
 	},
 	{
+		"id" : 252,
 		"name" : "Vendedora de automóviles",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 63
 	},
 	{
+		"id" : 253,
 		"name" : "19 de febrero de 2015",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 64
 	},
 	{
+		"id" : 254,
 		"name" : "30 de septiembre de 2011",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 64
 	},
 	{
+		"id" : 255,
 		"name" : "9 de febrero de 2015",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 64
 	},
 	{
+		"id" : 256,
 		"name" : "4 de marzo de 2000",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 64
 	},
 	{
+		"id" : 257,
 		"name" : "Maggie",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 65
 	},
 	{
+		"id" : 258,
 		"name" : "Felippa",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 65
 	},
 	{
+		"id" : 259,
 		"name" : "Andrea",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 65
 	},
 	{
+		"id" : 260,
 		"name" : "Rose",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 65
 	},
 	{
+		"id" : 261,
 		"name" : "Malibú",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 66
 	},
 	{
+		"id" : 262,
 		"name" : "Los Angeles",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 66
 	},
 	{
+		"id" : 263,
 		"name" : "Miami",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 66
 	},
 	{
+		"id" : 264,
 		"name" : "Nueva York",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 66
 	},
 	{
+		"id" : 265,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers265.jpg",
 		"question_id" : 67
 	},
 	{
+		"id" : 266,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers266.jpg",
 		"question_id" : 67
 	},
 	{
+		"id" : 267,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers267.jpg",
 		"question_id" : 67
 	},
 	{
+		"id" : 268,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers268.jpg",
 		"question_id" : 67
 	},
 	{
+		"id" : 269,
 		"name" : "Manejaba una cadena de consesionarias de autos.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 68
 	},
 	{
+		"id" : 270,
 		"name" : "Componía jingles publicitarios.",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 68
 	},
 	{
+		"id" : 271,
 		"name" : "Era un famoso actor porno.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 68
 	},
 	{
+		"id" : 272,
 		"name" : "Manejaba una importante funeraria.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 68
 	},
 	{
+		"id" : 273,
 		"name" : "Crazy, de Aerosmith",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 69
 	},
 	{
+		"id" : 274,
 		"name" : "Nothing else matters, de Metallica",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 69
 	},
 	{
+		"id" : 275,
 		"name" : "Highway star, de Deep Purple",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 69
 	},
 	{
+		"id" : 276,
 		"name" : "Smoke on the water, de Deep Purple",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 69
 	},
 	{
+		"id" : 277,
 		"name" : "Era astronauta.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 70
 	},
 	{
+		"id" : 278,
 		"name" : "Era quiropráctico.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 70
 	},
 	{
+		"id" : 279,
 		"name" : "Era doctor.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 70
 	},
 	{
+		"id" : 280,
 		"name" : "Era dueño de una funeraria.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 70
 	},
 	{
+		"id" : 281,
 		"name" : "respuesta1",
 		"correctAnswer" : 1,
 		"image" : "img/img_answers/imganswers281.jpg",
 		"question_id" : 71
 	},
 	{
+		"id" : 282,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers282.jpg",
 		"question_id" : 71
 	},
 	{
+		"id" : 283,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers283.jpg",
 		"question_id" : 71
 	},
 	{
+		"id" : 284,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers284.png",
 		"question_id" : 71
 	},
 	{
+		"id" : 285,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers285.jpg",
 		"question_id" : 72
 	},
 	{
+		"id" : 286,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers286.jpg",
 		"question_id" : 72
 	},
 	{
+		"id" : 287,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers287.jpg",
 		"question_id" : 72
 	},
 	{
+		"id" : 288,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers288.jpg",
 		"question_id" : 72
 	},
 	{
+		"id" : 289,
 		"name" : "Francis Underwood",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 74
 	},
 	{
+		"id" : 290,
 		"name" : "Leann Harvey",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 74
 	},
 	{
+		"id" : 291,
 		"name" : "Jackie Sharp",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 74
 	},
 	{
+		"id" : 292,
 		"name" : "Rachel Posner",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 74
 	},
 	{
+		"id" : 293,
 		"name" : "Ranjit Singh",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 75
 	},
 	{
+		"id" : 294,
 		"name" : "Carl MacLaren",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 75
 	},
 	{
+		"id" : 295,
 		"name" : "Kevin Venkataraghavan",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 75
 	},
 	{
+		"id" : 296,
 		"name" : "Barney Stinson",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 75
 	},
 	{
+		"id" : 297,
 		"name" : "George",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 76
 	},
 	{
+		"id" : 298,
 		"name" : "Jerry",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 76
 	},
 	{
+		"id" : 299,
 		"name" : "Cosmo",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 76
 	},
 	{
+		"id" : 300,
 		"name" : "Frank",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 76
 	},
 	{
+		"id" : 301,
 		"name" : "Mc Flurry",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 77
 	},
 	{
+		"id" : 302,
 		"name" : "Mc Dreamy",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 77
 	},
 	{
+		"id" : 303,
 		"name" : "Mr. Right",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 77
 	},
 	{
+		"id" : 304,
 		"name" : "Mc Hottie",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 77
 	},
 	{
+		"id" : 305,
 		"name" : "Gyda",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 78
 	},
 	{
+		"id" : 306,
 		"name" : "Lagertha",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 78
 	},
 	{
+		"id" : 307,
 		"name" : "Judith",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 78
 	},
 	{
+		"id" : 308,
 		"name" : "Aslaug",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 78
 	},
 	{
+		"id" : 309,
 		"name" : "Granja Carlson",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 79
 	},
 	{
+		"id" : 310,
 		"name" : "Granja Dixon",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 79
 	},
 	{
+		"id" : 311,
 		"name" : "Granja Jones",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 79
 	},
 	{
+		"id" : 312,
 		"name" : "Granja Greene",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 79
 	},
 	{
+		"id" : 313,
 		"name" : "Lo hirieron un grupo de bandidos durante una persecusión por la carretera.",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 80
 	},
 	{
+		"id" : 314,
 		"name" : "En una discusión con su amigo y colega Shane por el amor de Lori, a Rick se le escapa un tiro. Shane se asusta y le termina disparando.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 80
 	},
 	{
+		"id" : 315,
 		"name" : "Lo hirió un científico que huía con documentación confidencial que explicaba el origen de la propagación de la enfermedad que volvía zombies a las personas.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 80
 	},
 	{
+		"id" : 316,
 		"name" : "Intenta evitar un asalto a una familia y uno de los delincuentes lo hiere de gravedad.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 80
 	},
 	{
+		"id" : 317,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers317.png",
 		"question_id" : 81
 	},
 	{
+		"id" : 318,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers318.png",
 		"question_id" : 81
 	},
 	{
+		"id" : 319,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers319.jpg",
 		"question_id" : 81
 	},
 	{
+		"id" : 320,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers320.jpg",
 		"question_id" : 81
 	},
 	{
+		"id" : 321,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers321.jpg",
 		"question_id" : 82
 	},
 	{
+		"id" : 322,
 		"name" : "respuesta2",
 		"correctAnswer" : 2,
 		"image" : "img/img_answers/imganswers322.jpg",
 		"question_id" : 82
 	},
 	{
+		"id" : 323,
 		"name" : "respuesta3",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers323.jpg",
 		"question_id" : 82
 	},
 	{
+		"id" : 324,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers324.jpg",
 		"question_id" : 82
 	},
 	{
+		"id" : 325,
 		"name" : "¿Quién era el presidente antes del apocalipsis? ¿Cómo sobreviviste hasta ahora? ¿Qué música te gusta?",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 83
 	},
 	{
+		"id" : 326,
 		"name" : "¿A cuántos caminantes mataste? ¿Cómo sobreviviste hasta ahora? ¿Por qué?",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 83
 	},
 	{
+		"id" : 327,
 		"name" : "¿A cuántos caminantes mataste? ¿A cuántas personas mataste? ¿Por qué?",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 83
 	},
 	{
+		"id" : 328,
 		"name" : "¿A cuántos caminantes mataste? ¿A cuántas personas mataste? ¿Sabes dónde conseguir comida?",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 83
 	},
 	{
+		"id" : 329,
 		"name" : "3",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 84
 	},
 	{
+		"id" : 330,
 		"name" : "6",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 84
 	},
 	{
+		"id" : 331,
 		"name" : "7",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 84
 	},
 	{
+		"id" : 332,
 		"name" : "8",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 84
 	},
 	{
+		"id" : 333,
 		"name" : "respuesta1",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers333.png",
 		"question_id" : 85
 	},
 	{
+		"id" : 334,
 		"name" : "respuesta2",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers334.jpg",
 		"question_id" : 85
 	},
 	{
+		"id" : 335,
 		"name" : "respuesta3",
 		"correctAnswer" : 3,
 		"image" : "img/img_answers/imganswers335.jpg",
 		"question_id" : 85
 	},
 	{
+		"id" : 336,
 		"name" : "respuesta4",
 		"correctAnswer" : 0,
 		"image" : "img/img_answers/imganswers336.jpg",
 		"question_id" : 85
 	},
 	{
+		"id" : 337,
 		"name" : "Aparece un grupo llamado los Susurradores, que se disfraza con piel de caminante.",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 86
 	},
 	{
+		"id" : 338,
 		"name" : "Una peligrosa mujer llamada Betty, que lidera un grupo de miles de caminantes.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 86
 	},
 	{
+		"id" : 339,
 		"name" : "Jesus y su grupo se pone en contra de Rick y los suyos y los amenaza con acabar con ellos.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 86
 	},
 	{
+		"id" : 340,
 		"name" : "Negan y los Salvadores aprovechan la clemencia de Rick Grimes y lo ataca por sorpresa.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 86
 	},
 	{
+		"id" : 341,
 		"name" : "Les decía a sus feligreses que el apocalipsis era el castigo de Dios por tanta degeneración.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 87
 	},
 	{
+		"id" : 342,
 		"name" : "Les robaba la comida a sus feligreses.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 87
 	},
 	{
+		"id" : 343,
 		"name" : "Cerró la iglesia y no dejó que sus feligreses entraran a refugiarse mientras los atacaba una horda de caminantes.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 87
 	},
 	{
+		"id" : 344,
 		"name" : "Mató de un disparo a varios de sus feligreses, que se habían convertido y querían comérselo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 87
 	},
 	{
+		"id" : 345,
 		"name" : "Negan le da una golpiza en la cabeza y, por ese motivo, pierde el ojo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 88
 	},
 	{
+		"id" : 346,
 		"name" : "Michonne apuñala a un chico llamado Ron y a este se le escapa un tiro mientras caía al piso, que impacta de lleno en el ojo de Carl.",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 88
 	},
 	{
+		"id" : 347,
 		"name" : "Uno de los seguidores de Negan le dispara una flecha en el ojo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 88
 	},
 	{
+		"id" : 348,
 		"name" : "Carl está limpiando su arma y se le escapa un tiro, que le da de lleno en el ojo.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 88
 	},
 	{
+		"id" : 349,
 		"name" : "Lily y Frank Buffay",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 89
 	},
 	{
+		"id" : 350,
 		"name" : "Ross y Rachel Green",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 89
 	},
 	{
+		"id" : 351,
 		"name" : "Jenny y Charles Montagne",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 89
 	},
 	{
+		"id" : 352,
 		"name" : "Julianna y Clive Bixby",
 		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 89
 	},
 	{
+		"id" : 353,
 		"name" : "Nueva York",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 90
 	},
 	{
+		"id" : 354,
 		"name" : "Miami",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 90
 	},
 	{
+		"id" : 355,
 		"name" : "Los Angeles",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 90
 	},
 	{
+		"id" : 356,
 		"name" : "California",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 90
 	},
 	{
+		"id" : 357,
 		"name" : "Gloria y Manny",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 91
 	},
 	{
+		"id" : 358,
 		"name" : "Mitchel y Cameron",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 91
 	},
 	{
+		"id" : 359,
 		"name" : "Luke y Lily",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 91
 	},
 	{
+		"id" : 360,
 		"name" : "Claire y Mitchell",
 		"correctAnswer" : 4,
 		"image" : null,

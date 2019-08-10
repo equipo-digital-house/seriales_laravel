@@ -13,7 +13,7 @@ class CreateFrequentquestionsTable extends Migration
      */
     public function up()
     {
-        Schema::create('frequentquestions', function (Blueprint $table) {
+        Schema::create('frequent_questions', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->text('name');
             $table->text('answer');
@@ -28,6 +28,6 @@ class CreateFrequentquestionsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('frequentquestions');
+        Schema::dropIfExists('frequent_questions');
     }
 }
