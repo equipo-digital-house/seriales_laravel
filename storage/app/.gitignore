@@ -1,5 +1,3 @@
 *
-!public/
-!public/avatars/
-!public/imgsitio/
+!public/*
 !.gitignore
