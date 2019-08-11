@@ -21,7 +21,7 @@
 
           <div class="card-header" id="heading-{{$index}}">
           <h2 class="mb-0">
-          <button class="font-preguntas btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{$index}}" aria-expanded="true" aria-controls="collapse">
+          <button class="font-preguntas btn btn-link" type="button" data-toggle="collapse" data-target="#collapse-{{$index}}" aria-expanded="true" aria-controls="collapse-{{$index}}">
 
             {{$pregunta->id}}. {{$pregunta->name}}
 

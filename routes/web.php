@@ -21,27 +21,7 @@ Route::get('/index', function () {
 });
 
 
-Route::get('/preguntasFrecuentes', function () {
-    return view('preguntasFrecuentes');
-});
-
-//comento las rutas de registro y login porque no sé si iremos a necesitarlas
-
-// Route::get('/registro', function () {
-//     return view('registro');
-// });
-//
-// Route::post('/registro', function () {
-//     return view('registro');
-// });
-//
-// Route::get('/login', function () {
-//     return view('login');
-// });
-//
-// Route::post('/login', function () {
-//     return view('login');
-// });
+Route::get('/administrador', 'AdministradorController@mostrar');
 
 Route::get('/preguntasfrecuentes', 'FaqController@index');
 
@@ -63,7 +43,7 @@ Route::get('/juego', function () {
     return view('juego');
 });
 
-Route::get('/administrador', 'AdministradorController@mostrar');
+
 
 Route::get('/acceso', function () {
     return view('acceso');
