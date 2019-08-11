@@ -15,8 +15,8 @@ class UserController extends Controller
   }
 
     public function show() {
-      $usuarioLogueado = User::all();
-      dd($usuarioLogueado);
+      // $usuarioLogueado = User::all();
+
 
         return view('perfil');
         // ->with('usuarioLogueado', $usuarioLogueado)
