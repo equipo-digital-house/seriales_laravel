@@ -3,10 +3,10 @@
 <header>
   <nav>
     <ul class="row" style="margin-bottom: 0;">
-      <a href="index.php" class="offset-3 col-6 col-md-2 offset-md-0"><img class="logo" src="/imgsitio/logoSerialesFB.png" alt="Seriales"></a>
+      <a href="{{ URL::to('index') }}" class="offset-3 col-6 col-md-2 offset-md-0"><img class="logo" src="/imgsitio/logoSerialesFB.png" alt="Seriales"></a>
 
         @if(Auth::User() && Auth::User()->role == 9)
-        <button class="admin-button btn btn-outline-secondary" type="button" name="button"><a href="{{ URL::to('../administrador.blade.php') }}">Administrador</a> </button>
+        <button class="admin-button btn btn-outline-secondary" type="button" name="button"><a href="{{ URL::to('administrador') }}">Administrador</a> </button>
         @endif
 
         <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a href="{{ URL::to('index') }}">inicio</a></li>

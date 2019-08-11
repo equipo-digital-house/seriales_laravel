@@ -1,8 +1,8 @@
 @extends('layouts.master')
 
+@section('content')
 <!DOCTYPE html>
 <html lang="es" dir="ltr">
-@section('content')
 <?php $titulo = "Registro" ?>
 <div class="container-fluid p-0">
 

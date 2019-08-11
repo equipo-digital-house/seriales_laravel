@@ -183,13 +183,21 @@ main {
   padding: 2% 3%;
 }
 
+.botonJugarIndex{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .botonJugar {
   text-align: center;
   border: 2px solid #2a6171;
   border-radius: 30px;
-  width: 30%;
-  padding: 10px 0 10px 0;
-  background-color: #75cac3;
+  width: 20%;
+  padding: 10px 30px 10px 30px;
+  background-color: #f34573;
   margin: auto;
   color: #ffffff;
   font-family: 'Righteous', cursive;
@@ -197,7 +205,7 @@ main {
 }
 
 .botonJugar:hover {
-  color:#f34573;
+  color:#75cac3;
   text-decoration: none;
   }
 
@@ -277,23 +285,6 @@ main {
   .tarjeta-1, .tarjetaJuegoA {
     flex-direction: column;
     flex-wrap: wrap;
-  }
-
-  .bannerHome {
-    border-left: none;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  #banner1 {display: block;}
-  #banner2 {display: none;}
-
-  .bannerHome img {
-    width: 100%;
-  }
-
-  .explicacion {
-    width: 100%;
   }
 
   .tarjetaJuegoA {
