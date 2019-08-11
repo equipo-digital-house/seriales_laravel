@@ -279,23 +279,6 @@ main {
     flex-wrap: wrap;
   }
 
-  .bannerHome {
-    border-left: none;
-    margin-top: 20px;
-    margin-bottom: 5px;
-  }
-
-  #banner1 {display: block;}
-  #banner2 {display: none;}
-
-  .bannerHome img {
-    width: 100%;
-  }
-
-  .explicacion {
-    width: 100%;
-  }
-
   .tarjetaJuegoA {
     flex-direction: row;
     padding-top: 4%;
