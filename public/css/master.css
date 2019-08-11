@@ -197,7 +197,7 @@ main {
   border-radius: 30px;
   width: 20%;
   padding: 10px 30px 10px 30px;
-  background-color: #75cac3;
+  background-color: #f34573;
   margin: auto;
   color: #ffffff;
   font-family: 'Righteous', cursive;
@@ -205,7 +205,7 @@ main {
 }
 
 .botonJugar:hover {
-  color:#f34573;
+  color:#75cac3;
   text-decoration: none;
   }
 

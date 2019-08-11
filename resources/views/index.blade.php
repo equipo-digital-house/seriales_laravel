@@ -2,18 +2,15 @@
 
 @section('content')
 
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-
 <body>
   <main class="inicio">
     <div id="carouselSeries" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
-        <div class="carousel-item active" data-interval="5000">
-          <img src="/imgsitio/explicacion1.png" class="d-block w-100" alt="Seriales">
-        </div>
-        <div class="carousel-item" data-interval="4000">
+        <div class="carousel-item active" data-interval="4000">
           <img src="/imgsitio/gameOfThrones.png" class="d-block w-100" alt="GOT">
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img src="/imgsitio/explicacion1.png" class="d-block w-100" alt="Seriales">
         </div>
         <div class="carousel-item" data-interval="4000">
           <img src="/imgsitio/orangeIsTheNewBlack.png" class="d-block w-100" alt="OITNB">
@@ -34,20 +31,25 @@
           <img src="/imgsitio/theBigBangTheory.png" class="d-block w-100" alt="TBBT">
         </div>
       </div>
+
       <a class="carousel-control-prev" href="#carouselSeries" role="button" data-slide="prev">
         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
         <span class="sr-only">Previous</span>
       </a>
+
       <a class="carousel-control-next" href="#carouselSeries" role="button" data-slide="next">
         <span class="carousel-control-next-icon" aria-hidden="true"></span>
         <span class="sr-only">Next</span>
       </a>
-  </div>
 
-      <div class="botonJugarIndex">
+      </div>
 
-        <a class="botonJugar" href="{{ URL::to('juego') }}">¡Jugar!</a>
-
+          <div class="botonJugarIndex">
+            @if(Auth::User())
+            <a class="botonJugar" href="{{ URL::to('juego') }}">¡Jugar!</a>
+            @else
+            <a class="botonJugar" href="{{ URL::to('register') }}">¡Jugar!</a>
+            @endif
       </div>
 
 </main>
