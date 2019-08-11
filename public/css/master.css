@@ -183,12 +183,20 @@ main {
   padding: 2% 3%;
 }
 
+.botonJugarIndex{
+  padding-top: 30px;
+  padding-bottom: 0px;
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .botonJugar {
   text-align: center;
   border: 2px solid #2a6171;
   border-radius: 30px;
-  width: 30%;
-  padding: 10px 0 10px 0;
+  width: 20%;
+  padding: 10px 30px 10px 30px;
   background-color: #75cac3;
   margin: auto;
   color: #ffffff;

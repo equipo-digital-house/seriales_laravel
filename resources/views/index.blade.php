@@ -43,6 +43,13 @@
         <span class="sr-only">Next</span>
       </a>
   </div>
+
+      <div class="botonJugarIndex">
+
+        <a class="botonJugar" href="{{ URL::to('juego') }}">¡Jugar!</a>
+
+      </div>
+
 </main>
 
 </body>
