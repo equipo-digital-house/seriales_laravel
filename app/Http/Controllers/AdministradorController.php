@@ -7,8 +7,8 @@ use App\User;
 
 class AdministradorController extends Controller {
     public function mostrar() {
-      $user = User::find(Auth::User()->id);
-      $this->authorize('mostrar', $user);
+      // $user = User::find(Auth::User()->id);
+      // $this->authorize('mostrar', $user);
       return view('administrador');
   }
 }
