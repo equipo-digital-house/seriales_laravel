@@ -25,7 +25,7 @@
 
        </div>
        </li>
-      <a class="nav-item nav-link text-light" href="administradorpreguntasfrecuentes.php">Preguntas Frecuentes</a>
+      <a class="nav-item nav-link text-light" href="{{URL::to('administradorpreguntasfrecuentes')}}">Preguntas Frecuentes</a>
           </div>
         </div>
       </nav>
