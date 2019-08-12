@@ -27,6 +27,19 @@ Route::get('/preguntasfrecuentes', 'FaqController@index');
 
 Route::get('/perfil', "UserController@show");
 
+// Route::get('/juego/{id}', 'JuegoController@showSerie');
+
+Route::get('/administradorpreguntasfrecuentes', 'FaqController@showFaq');
+
+Route::post('/administradorpreguntasfrecuentes', 'FaqController@createFaq');
+
+Route::get('/editarpreguntafrecuente/update/{id}', 'FaqController@editFaq');
+
+Route::patch('/editarpreguntafrecuente/{id}/update', 'FaqController@update');
+
+
+////////////
+
 Route::get('/perfil/{id}', function ($id) {
     $vac = compact("id");
     return view('perfil', $vac);
@@ -79,29 +92,6 @@ Route::post('/eliminarSeriesAdmin{id}', function ($id) {
     return view('eliminarSeriesAdmin', $vac);
 });
 
-Route::get('/administradorpreguntasfrecuentes', function () {
-    return view('administradorpreguntasfrecuentes');
-});
-
-Route::get('/editarPreguntaFrecuente{id}', function ($id) {
-    $vac = compact("id");
-    return view('editarPreguntaFrecuente'. $vac);
-});
-
-Route::post('/editarPreguntaFrecuente{id}', function ($id) {
-    $vac = compact("id");
-    return view('editarPreguntaFrecuente'. $vac);
-});
-
-Route::get('/eliminarPreguntaFrecuente{id}', function ($id) {
-    $vac = compact("id");
-    return view('eliminarPreguntaFrecuente', $vac);
-});
-
-Route::post('/eliminarPreguntaFrecuente{id}', function () {
-  $vac = compact("id");
-    return view('eliminarPreguntaFrecuente', $vac);
-});
 
 Auth::routes();
 
