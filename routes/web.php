@@ -51,36 +51,16 @@ Route::get('/acceso', function () {
     return view('acceso');
 });
 
-Route::get('/listadoSeriesAdmin', function () {
-    return view('listadoSeriesAdmin');
-});
-
-Route::get('/agregarSerie', function () {
-    return view('agregarSerie');
-});
-
-Route::post('/agregarSerie', function () {
-    return view('agregarSerie');
-});
-
-Route::get('/agregarPreguntas', function () {
-    return view('agregarPreguntas');
-});
-
-Route::post('/agregarPreguntas', function () {
-    return view('agregarPreguntas');
-});
-
-Route::get('/eliminarSeriesAdmin/{id}', function ($id) {
-    $vac = compact("id");
-    return view('eliminarSeriesAdmin', $vac);
-});
-
-Route::post('/eliminarSeriesAdmin{id}', function ($id) {
-    $vac = compact("id");
-    return view('eliminarSeriesAdmin', $vac);
-});
-
+Route::get('/listadoSeries','SerieController@index');
+Route::get('/listadoPreguntas/{id}','QuestionController@index');
+Route::get('/listadoRespuestas/{id}','AnswerController@index');
+Route::get('/nuevaSerie','SerieController@create');
+Route::post('/nuevaSerie','SerieController@store');
+//Route::get('/nuevaPregunta','QuestionController@create');
+Route::get('/nuevaPregunta/{id}','QuestionController@create');
+Route::post('/nuevaPregunta','QuestionController@store');
+Route::get('/nuevaRespuesta','AnswerController@create');
+Route::post('/nuevaRespuesta','AnswerController@store');
 
 Auth::routes();
 
