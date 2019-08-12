@@ -13,4 +13,8 @@ class Answer extends Model
       'image',
       'question_id'
     ];
+public function question(){
+  return $this->belongsTo('App\Question');
+}
+
 }

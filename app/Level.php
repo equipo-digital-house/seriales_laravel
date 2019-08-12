@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use app\Question;
 class Level extends Model
 {
     //
@@ -12,4 +12,8 @@ class Level extends Model
       'level',
       'score'
     ];
+
+    public function question(){
+      return $this->hasMany(Question);
+    }
 }
