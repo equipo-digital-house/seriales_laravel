@@ -2,65 +2,24 @@
 
 @section('content')
 <div class="container">
-{{--
-  require_once("autoload.php");
-  if(!isset($_SESSION["email"])) {
-      redirect("registro.php");
-  }
-
-
-  $avatar=null;
-
-  $userSession= BaseMYSQL::buscarPorEmail($_SESSION["email"],$pdo,'users');
-
-  if($_POST) {
-    $datoModificado= $_POST['seleccion'];
-
-    $errores= $validar->validarperfil($_POST);
-
-      if(count($errores)==0){
-        if($_FILES) {
-          $avatar = $registro->armarAvatar($_FILES);
-          $userSession['avatar'] = $avatar;
-        } else {
-          $avatar = $userSession['avatar'];
-        }
-
-       switch($datoModificado) {
-         case 1 :
-         $userSession['name'] = $_POST["nombre"];
-         $userSession['email'] = $_POST["email"];
-         break;
-
-         case 2 :
-         $userSession["avatar"] = $avatar;
-         break;
-
-         case 3 :
-         $userSession["password"]= Encriptar::hashPassword($_POST["password"]);
-         break;
-       }
-
-      $accion= BaseMYSQL::actualizarUsuario($userSession, $pdo, $avatar);
-
-    }
-  }
-   ?> --}}
-
     <section class="row  text-center ">
       <article class="col-12" >
 
         <div class="avatar">
-          <img src="/storage/avatars/{{Auth::User()->avatar}}" width="120" height="120" alt="Avatar">
+          <img src="/storage/avatars/{{$usuarioLog->avatar}}" width="120" height="120" alt="Avatar">
         </div>
 
-       <h2 class="titulo">Bienvenid@, {{Auth::User()->name}}</h2>
+       <h2 class="titulo">Bienvenid@, {{$usuarioLog->name}}</h2>
          <div class="row">
            <div class="col-12 col-lg-6 offset-lg-3">
 
-           {{-- @if($_POST) {
-             $validar->mostrarErrores($errores, isset($accion));
-           } --}}
+           @if (count($errors->all()) != 0)
+             <ul class="alert alert-danger">
+               @foreach ($errors->all() as $error)
+                 <li>{{$error}}</li>
+               @endforeach
+             </ul>
+           @endif
 
 <!-- SECCION DE DATOS DE USUARIO -->
            <div class="accordion" id="accordionExample">
@@ -75,8 +34,8 @@
 
                <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
                  <div class="card-body">
-                   <p>Nombre usuario: {{Auth::User()->name}}</p>
-                   <p>Email: {{Auth::User()->email}}</p>
+                   <p>Nombre usuario: {{$usuarioLog->name}}</p>
+                   <p>Email: {{$usuarioLog->email}}</p>
                  </div>
                 </div>
              </div>
@@ -94,11 +53,13 @@
 
              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
                <div class="card-body">
-                 <form class="registro" action="perfil.php" method="post" enctype= "multipart/form-data">
+                 <form class="registro" action="{{ URL::to('perfil') }}" method="post" enctype= "multipart/form-data">
+                   {{ csrf_field() }}
+
                    <label for="nombre">Nombre de usuario*</label>
-                   <input type="text" name="nombre" value="{{Auth::User()->name}}" required>
+                   <input type="text" name="name" value="{{$usuarioLog->name}}" required>
                    <label for="email">Tu correo electrónico*</label>
-                   <input type="email" name="email" value="{{Auth::User()->email}}"required>
+                   <input type="email" name="email" value="{{$usuarioLog->email}}"required>
 
                    <input type="hidden" name="seleccion" value="{{1}}">
 
@@ -120,7 +81,8 @@
              </div>
              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
                <div class="card-body">
-                 <form class="registro" action="perfil.php" method="post" enctype= "multipart/form-data">
+                 <form class="registro" action="{{ URL::to('perfil') }}" method="post" enctype= "multipart/form-data">
+                   {{ csrf_field() }}
                    <label for="avatar">Foto de tu perfil:</label>
                    <input  type="file" name="avatar" value="">
                    <input type="hidden" name="seleccion" value="{{2}}">
@@ -141,11 +103,13 @@
              </div>
              <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
                <div class="card-body">
-                 <form class="registro" action="perfil.php" method="post" enctype= "multipart/form-data">
+                 <form class="registro" action="{{ URL::to('perfil') }}" method="post" enctype= "multipart/form-data">
+                   {{ csrf_field() }}
                  <label for="password">Nueva Contraseña *</label>
                  <input type="password" name="password" value=""required>
-                 <label for="repassword">Repetir Contraseña*</label>
-                 <input type="password" name="repassword" value=""required>
+
+                 <label for="password-confirm">Repetir Contraseña*</label>
+                 <input id="password-confirm" type="password" name="password_confirmation" required>
                  <input type="hidden" name="seleccion" value="{{3}}">
                  <button class="btn-formulario" type="submit" name="submit">Modificar</button>
                </div>

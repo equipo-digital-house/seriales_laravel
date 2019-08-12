@@ -27,17 +27,9 @@ Route::get('/preguntasfrecuentes', 'FaqController@index');
 
 Route::get('/perfil', "UserController@show");
 
-Route::get('/perfil/{id}', function ($id) {
-    $vac = compact("id");
-    return view('perfil', $vac);
-});
-
 //no estoy segura de si perfil solo sería por post o no
 
-Route::post('/perfil{id}', function ($id) {
-    $vac = compact("id");
-    return view('perfil', $vac);
-});
+Route::post('/perfil', "UserController@update");
 
 Route::get('/juego', function () {
     return view('juego');
