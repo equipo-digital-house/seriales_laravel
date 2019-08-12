@@ -37,14 +37,6 @@ Route::get('/editarpreguntafrecuente/update/{id}', 'FaqController@editFaq');
 
 Route::patch('/editarpreguntafrecuente/{id}/update', 'FaqController@update');
 
-
-////////////
-
-Route::get('/perfil/{id}', function ($id) {
-    $vac = compact("id");
-    return view('perfil', $vac);
-});
-
 //no estoy segura de si perfil solo sería por post o no
 
 Route::post('/perfil', "UserController@update");
