@@ -235,14 +235,14 @@
 		"name" : "¿Cuál es el apellido de la siguiente familia?",
 		"serie_id" : 5,
 		"level_id" : 1,
-		"image" : "img/img_questions/imgid34.png"
+		"image" : "imgid34.png"
 	},
 	{
 		"id" : 35,
 		"name" : "¿Qué casa es esta?",
 		"serie_id" : 5,
 		"level_id" : 1,
-		"image" : "img/img_questions/imgid35.png"
+		"image" : "imgid35.png"
 	},
 	{
 		"id" : 36,

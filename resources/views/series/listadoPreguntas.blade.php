@@ -15,7 +15,7 @@
         </div>
 
       <div class="img-thumbnail">
-        <img src="/{{$serie->image}}" alt="" class="img-fluid rounded mx-auto d-block" width="100px">
+        <img src="/storage/img/series/{{$serie->image}}" alt="" class="img-fluid rounded mx-auto d-block" width="100px">
         <h2 class="text-center">{{$serie->name}}</h2>
       </div>
 
@@ -52,7 +52,7 @@
                     <th scope="row">{{$cont++}}</th>
                         <td>{{$question->name}}</td>
                         @if($question->image!=NULL)
-                        <td><img src="/{{$question->image}}" alt="" class="img-fluid rounded" width="100px"></td>
+                        <td><img src="/storage/img/img_questions/{{$question->image}}" alt="" class="img-fluid rounded" width="100px"></td>
                          @else<td>Sin Imagen</td>
                          @endif
                         <td>{{$question->level->name}}</td>

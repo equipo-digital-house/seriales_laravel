@@ -2,109 +2,109 @@
 	{
 		"id" : 1,
 		"name" : "Friends",
-		"image" : "img/series/logo_friends.png"
+		"image" : "logo_friends.png"
 
 	},
 	{
 		"id" : 2,
 		"name" : "Orange Is The New Black ",
-		"image" : "img/series/logo_orangeisthenewblack.png"
+		"image" : "logo_orangeisthenewblack.png"
 
 	},
 	{
 		"id" : 3,
 		"name" : "Stranger Things",
-		"image" : "img/series/logo_strangerthings.jpg"
+		"image" : "logo_strangerthings.jpg"
 
 	},
 	{
 		"id" : 4,
 		"name" : "Lost",
-		"image" : "img/series/logo_lost.jpg"
+		"image" : "logo_lost.jpg"
 
 	},
 	{
 		"id" : 5,
 		"name" : "Los Simpson",
-		"image" : "img/series/logo_thesimpsons.png"
+		"image" : "logo_thesimpsons.png"
 
 	},
 	{
 		"id" : 6,
 		"name" : "Dexter",
-		"image" : "img/series/logo_dexter.jpg"
+		"image" : "logo_dexter.jpg"
 
 	},
 	{
 		"id" : 7,
 		"name" : "Breaking Bad",
-		"image" : "img/series/logo_breakingbad.png"
+		"image" : "logo_breakingbad.png"
 
 	},
 	{
 		"id" : 8,
 		"name" : "The Big BangTheory",
-		"image" : "img/series/logo_thebigbangtheory.png"
+		"image" : "logo_thebigbangtheory.png"
 
 	},
 	{
 		"id" : 9,
 		"name" : "Two And A Half Men",
-		"image" : "img/series/logo_twoandahalfmen.png"
+		"image" : "logo_twoandahalfmen.png"
 
 	},
 	{
 		"id" : 10,
 		"name" : "That 70s Show",
-		"image" : "img/series/logo_that70show.jpg"
+		"image" : "logo_that70show.jpg"
 
 	},
 	{
 		"id" : 11,
 		"name" : "House Of Cards",
-		"image" : "img/series/logo_houseofcards.png"
+		"image" : "logo_houseofcards.png"
 
 	},
 	{
 		"id" : 12,
 		"name" : "How I Met Your Mother",
-		"image" : "img/series/logo_howimetyourmother.png"
+		"image" : "logo_howimetyourmother.png"
 
 	},
 	{
 		"id" : 13,
 		"name" : "Seinfeld",
-		"image" : "img/series/logo_seinfeld.png"
+		"image" : "logo_seinfeld.png"
 
 	},
 	{
 		"id" : 14,
 		"name" : "Grey's Anatomy",
-		"image" : "img/series/logo_greysanatomy.png"
+		"image" : "logo_greysanatomy.png"
 
 	},
 	{
 		"id" : 15,
 		"name" : "Vikings",
-		"image" : "img/series/logo_vikings.png"
+		"image" : "logo_vikings.png"
 
 	},
 	{
 		"id" : 16,
 		"name" : "The Walking Dead",
-		"image" : "img/series/logo_thewalkingdead.png"
+		"image" : "logo_thewalkingdead.png"
 
 	},
 	{
 		"id" : 17,
 		"name" : "Modern Family",
-		"image" : "img/series/logo_modernfamily.png"
+		"image" : "logo_modernfamily.png"
 
 	},
 	{
 		"id" : 18,
 		"name" : "The Game of Thrones",
-		"image" : "img/series/logo_got.png"
+		"image" : "logo_got.png"
 
 	}
 ]

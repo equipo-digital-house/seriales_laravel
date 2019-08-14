@@ -14,7 +14,7 @@
 
     <div class="container">
       <div class="img-thumbnail">
-        <img src="/{{$question->serie->image}}" alt="" class="img-fluid rounded mx-auto d-block" width="200px">
+        <img src="/storage/img/series/{{$question->serie->image}}" alt="" class="img-fluid rounded mx-auto d-block" width="200px">
       </div>
       <h2 class="text-center">{{$question->name}}</h2>
       <ul class="nav justify-content-end">
@@ -42,7 +42,7 @@
                     <td>{{$answer->name}}</td>
                     <td>{{$answer->correctAnswer}}</td>
                      @if($answer->image!=NULL)
-                       <td><img src="/{{$answer->image}}" alt="" class="img-fluid rounded" width="100px"></td>
+                       <td><img src="/storage/img/img_answers/{{$answer->image}}" alt="" class="img-fluid rounded" width="100px"></td>
                      @else <td>Sin Imagen</td>
                      @endif
 
