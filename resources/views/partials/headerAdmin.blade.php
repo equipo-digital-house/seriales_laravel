@@ -1,4 +1,5 @@
-<header>
+<body>
+<header class="admin">
       <nav class="navbar navbar-expand-lg bg-dark">
         <a class="navbar-brand text-light" href={{ URL::to('administrador') }}><img src="img/logoSerialesFB.png" width="40" height="40" alt="">  Administración Seriales</a>
 
@@ -11,17 +12,16 @@
               <input class="form-control mr-sm-2" type="search" placeholder="Buscar..." aria-label="Buscar">
               <button class="btn btn-primary my-2 my-sm-0" type="submit">Buscar</button>
             </form> -->
-            <a class="nav-item nav-link active text-light" href="index.php">Home<span class="sr-only">(current)</span></a>
-             <a class="nav-item nav-link text-light" href="{{ URL::to('accesos') }}">Accesos</a>
+            <a class="nav-item nav-link active text-light" href="/index">Home<span class="sr-only">(current)</span></a>
+             <a class="nav-item nav-link text-light" href="/acceso">Accesos</a>
             <li class="nav-item dropdown">
        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
          Series
        </a>
        <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-        <a class="dropdown-item" href={{ URL::to('listadoSeries') }}>Listado</a>
-        <a class="dropdown-item" href={{ URL::to('nuevaSerie') }}>Agregar Series</a>
-        <a class="dropdown-item" href={{ URL::to('agregarPregunta') }}>Agregar Preguntas</a>
-        <a class="dropdown-item" href="eliminarSeriesAdmin.php">Eliminar Series</a>
+        <a class="dropdown-item" href="/listadoSeries">Listado</a>
+        <a class="dropdown-item" href="/nuevaSerie">Agregar Series</a>
+        <a class="dropdown-item" href="/eliminarSeries">Eliminar Series</a>
 
        </div>
        </li>
@@ -29,3 +29,4 @@
           </div>
         </div>
       </nav>
+</header>

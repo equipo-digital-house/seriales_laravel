@@ -25,20 +25,53 @@ class FaqController extends Controller
     ];
 
     $mensajes = [
-      'required' => 'Por favor, complete el campo :attribute',
+      'required' => 'Por favor, complete el campo :attribute'
     ];
 
     $this->validate($request, $reglas, $mensajes);
 
-    $nuevaFaq = new FrequentQuestion($request->all());
-    $nuevaFaq->save();
+    $preguntaFrecuente = new FrequentQuestion($request->all());
+    $preguntaFrecuente->save();
     return redirect('administradorpreguntasfrecuentes');
 
   }
 
-  public function editFac($id){
+  public function editFaq($id){
     $preguntaFrecuente = FrequentQuestion::find($id);
     return view('preguntasfrecuentes.editarpreguntafrecuente')->with('preguntaFrecuente', $preguntaFrecuente);
+  }
 
+  public function updateFaq(Request $request, $id){
+
+    $reglas = [
+      'name' => 'required',
+      'answer' => 'required'
+    ];
+
+    $mensajes = [
+      'required' => 'Por favor, complete el campo :attribute'
+    ];
+
+    $this->validate($request, $reglas, $mensajes);
+    $preguntaFrecuente = FrequentQuestion::find($id);
+
+    $preguntaFrecuente->name = $request->input('name') !== $preguntaFrecuente->name ? $request->input('name') : $preguntaFrecuente->name;
+
+    $preguntaFrecuente->answer = $request->input('answer') !== $preguntaFrecuente->answer ? $request->input('answer') : $preguntaFrecuente->answer;
+
+    $preguntaFrecuente->save();
+
+    return redirect('administradorpreguntasfrecuentes');
+  }
+
+  public function indexFaq($id){
+  $preguntaFrecuente = FrequentQuestion::find($id);
+  return view('preguntasfrecuentes.eliminarpreguntafrecuente')->with('preguntaFrecuente', $preguntaFrecuente);
+}
+
+  public function destroyFaq($id){
+    $borrarFaq = FrequentQuestion::find($id);
+    $borrarFaq->delete();
+    return redirect('administradorpreguntasfrecuentes');
   }
 }

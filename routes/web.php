@@ -35,7 +35,11 @@ Route::post('/administradorpreguntasfrecuentes', 'FaqController@createFaq');
 
 Route::get('/editarpreguntafrecuente/update/{id}', 'FaqController@editFaq');
 
-Route::patch('/editarpreguntafrecuente/{id}/update', 'FaqController@update');
+Route::patch('/editarpreguntafrecuente/update/{id}', 'FaqController@updateFaq');
+
+Route::get('/eliminarpreguntafrecuente/{id}', 'FaqController@indexFaq');
+
+Route::get('/borrarFaq/{id}', 'FaqController@destroyFaq');
 
 //no estoy segura de si perfil solo sería por post o no
 

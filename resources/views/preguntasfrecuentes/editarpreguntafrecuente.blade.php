@@ -12,12 +12,12 @@
 
         <div class="form-group">
           <label for="pregunta">Pregunta</label>
-          <input type="text" class="form-control" name="name" value="{{$pregunta->name}}">
+          <input type="text" class="form-control" name="name" value="{{$preguntaFrecuente->name}}">
         </div>
 
         <div class="form-group">
           <label for="pregunta">Respuesta</label>
-          <textarea for="respuesta" name="answer" rows="8" cols="80" class="form-control">{{$pregunta->answer}}</textarea>
+          <textarea for="respuesta" name="answer" rows="8" cols="80" class="form-control">{{$preguntaFrecuente->answer}}</textarea>
         </div>
 
         <button class="modificarFaq" type="submit" name="modificar" class="btn">Modificar pregunta frecuente</button>

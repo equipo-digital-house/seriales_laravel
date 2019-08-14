@@ -7,6 +7,13 @@ use App\Question;
 
 class AnswerController extends Controller
 {
+
+  public function index($id){
+    $question=Question::find($id);
+    return view('series/listadoRespuestas')->with('question',$question);
+  }
+
+
   public function create(){
     $question=Question::all()->last();
 
