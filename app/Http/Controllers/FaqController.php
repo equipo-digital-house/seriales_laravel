@@ -4,20 +4,24 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\FrequentQuestion;
+use App\User;
 
 class FaqController extends Controller
 {
-  public function index(){
+  public function index() {
     $preguntasFrecuentes = FrequentQuestion::all();
     return view('preguntasfrecuentes')->with('preguntasFrecuentes', $preguntasFrecuentes);
   }
 
-  public function showFaq(){
+  public function showFaq() {
+    $this->authorize('acceso', User::class);
+
     $preguntasFrecuentes = FrequentQuestion::all();
     return view('preguntasfrecuentes.administradorpreguntasfrecuentes')->with('preguntasFrecuentes', $preguntasFrecuentes);
 }
 
   public function createFaq(Request $request){
+    $this->authorize('acceso', User::class);
 
     $reglas = [
       'name' => 'required',
@@ -37,6 +41,8 @@ class FaqController extends Controller
   }
 
   public function editFaq($id){
+    $this->authorize('acceso', User::class);
+
     $preguntaFrecuente = FrequentQuestion::find($id);
     return view('preguntasfrecuentes.editarpreguntafrecuente')->with('preguntaFrecuente', $preguntaFrecuente);
   }
@@ -65,6 +71,8 @@ class FaqController extends Controller
   }
 
   public function indexFaq($id){
+    $this->authorize('acceso', User::class);
+
   $preguntaFrecuente = FrequentQuestion::find($id);
   return view('preguntasfrecuentes.eliminarpreguntafrecuente')->with('preguntaFrecuente', $preguntaFrecuente);
 }

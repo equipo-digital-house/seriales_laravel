@@ -24,7 +24,7 @@
 
       </form>
 
-      <a class="flechaVolver" href="administradorPreguntasFrecuentes.php"><i class="fas fa-long-arrow-alt-left"></i></a>
+      <a class="flechaVolver" href={{ URL::to('administradorpreguntasfrecuentes') }}><i class="fas fa-long-arrow-alt-left"></i></a>
         </div>
 
   </section>

@@ -85,6 +85,9 @@ class UserController extends Controller {
   }
 
   public function accessIndex() {
+
+    $this->authorize('acceso', User::class);
+
     $titulo = "Editar Permisos";
     return view ('accesos')->with('titulo', $titulo);
   }

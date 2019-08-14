@@ -5,9 +5,6 @@ namespace App\Policies;
 use App\User;
 use Illuminate\Auth\Access\HandlesAuthorization;
 
-define('ROLE_ADMIN', 9);
-define('ROLE_PLAYER', 0);
-
 class AccesoPolicy
 {
     use HandlesAuthorization;
@@ -24,6 +21,6 @@ class AccesoPolicy
 
     public function acceso(User $user)
     {
-        // return $user->role == ROLE_ADMIN;
+        return $user->role == User::ROLE_ADMIN;
     }
 }
