@@ -47,9 +47,8 @@ Route::get('/juego', function () {
 
 
 
-Route::get('/acceso', function () {
-    return view('acceso');
-});
+Route::get('/accesos', 'UserController@accessIndex');
+Route::post('/accesos', 'UserController@updateAccess');
 
 Route::get('/listadoSeries','SerieController@index');
 Route::get('/listadoPreguntas/{id}','QuestionController@index');

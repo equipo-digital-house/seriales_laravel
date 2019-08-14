@@ -3,19 +3,18 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use app\User;
+use App\User;
 use Auth;
 use Illuminate\Support\Facades\Hash;
 
 class UserController extends Controller {
-  public $titulo = "Mi perfil";
-
 
   public function __construct() {
       // $this->middleware('auth');
     }
 
   public function show() {
+    $titulo = "Mi perfil";
     $usuarioLog = Auth::user();
     if($usuarioLog == null) {
       return redirect('login');
@@ -83,5 +82,36 @@ class UserController extends Controller {
      $usuarioLog->save();
 
      return redirect("perfil");
+  }
+
+  public function accessIndex() {
+    $titulo = "Editar Permisos";
+    return view ('accesos')->with('titulo', $titulo);
+  }
+
+  public function updateAccess(Request $req) {
+
+//VALIDAR FORMULARIO
+    $reglas = [
+      "email" => 'required | string | email | max:255',
+      "role" => 'required'
+    ];
+
+    $mensajes = [
+      "email" => "El campo :attribute debe ser un email.",
+      "role" => "El campo :attribute es requerido."
+    ];
+
+    $this->validate($req, $reglas, $mensajes);
+
+  //APLICAR MODIFICACION
+    $usuario= User::where('email', 'LIKE', $req->email)->get();
+    $id= $usuario[0]->id;
+    $usuarioMod = User::find($id);
+    $usuarioMod->role = $req->role;
+
+    $usuarioMod->save();
+
+    return view('accesos');
   }
 }
