@@ -54,7 +54,7 @@
                           <a href="/editarpreguntafrecuente/update/{{$pregunta->id}}"><i class="fas fa-edit"></i></a>
                       </td>
                       <td>
-                          <a href="/eliminarpreguntafrecuente/{{$pregunta->id}}"><i class="fas fa-trash"></i></a>
+                          <a href="/borrarFaq/{{$pregunta->id}}"><i class="fas fa-trash"></i></a>
                       </td>
                   </tr>
                   @endforeach
