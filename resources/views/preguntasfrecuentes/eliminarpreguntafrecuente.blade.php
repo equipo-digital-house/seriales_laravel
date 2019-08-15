@@ -1,6 +1,5 @@
 @extends('layouts.admin')
 @section('content')
-<body>
 
     <section class="formulario">
 
@@ -17,5 +16,5 @@
       </div>
 
     </section>
-</body>
+
 @endsection

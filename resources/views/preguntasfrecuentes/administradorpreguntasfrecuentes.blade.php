@@ -1,6 +1,5 @@
 @extends('layouts.admin')
 @section('content')
-<body>
      <div class="container-fluid">
 
 <!--Formulario para agregar preguntas frecuentes-->
@@ -70,5 +69,4 @@
 
     </div>
 
-   </body>
 @endsection

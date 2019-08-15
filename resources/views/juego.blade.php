@@ -1,7 +1,6 @@
 @extends('layouts/master')
 @section('content')
 
-  <body>
     <div class="container-fluid p-0">
 
       <section>
@@ -33,6 +32,6 @@
 
 
     </div>
-  </body>
+
 
   @endsection

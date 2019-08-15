@@ -1,7 +1,7 @@
-@extends('layouts.app')
+@extends('layouts.master')
 
 @section('content')
-<div class="container">
+{{-- <div class="container">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">
@@ -44,5 +44,39 @@
             </div>
         </div>
     </div>
-</div>
+</div> --}}
+
+<main>
+      <h2 class="titulo">¿Olvidaste tu contraseña?</h2>
+      <div class="row">
+        <div class="col-12 col-lg-6 offset-lg-3">
+          <p class="text-center">Te enviaremos un enlace para el restablecimiento de contraseña</p>
+
+          @if (session('status'))
+              <div class="alert alert-success" role="alert">
+                  {{ session('status') }}
+              </div>
+          @endif
+
+          <form class="contraseñaNueva" action="{{ route('password.email') }}" method="post" enctype="multipart/form-data">
+
+            @csrf
+
+            <label for="email">Ingresá tu email*</label>
+
+            <input id="email" type="email" class="form-control @error('email') is-invalid @enderror" name="email" value="{{ old('email') }}" required autocomplete="email" autofocus>
+
+            @error('email')
+                <span class="invalid-feedback" role="alert">
+                    <strong>{{ $message }}</strong>
+                </span>
+            @enderror
+
+            <button class="btn-formulario" type="submit" name="submit">{{ __('Enviar enlace') }}</button>
+            <p class="aclaracion">Los campos con * deben ser completados</p>
+            </div>
+          </form>
+        </div>
+      </div>
+    </main>
 @endsection

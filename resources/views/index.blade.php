@@ -1,7 +1,6 @@
 @extends('layouts/master')
 @section('content')
 
-<body>
   <main class="inicio">
     <div id="carouselSeries" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
@@ -53,6 +52,5 @@
 
 </main>
 
-</body>
 
 @endsection
