@@ -22,19 +22,24 @@ class QuestionController extends Controller
     return view('series/nuevaPregunta')->with('serie',$serie)->with('levels',$levels);
   }
   public function store(Request $request){
-    //dd($request->file("filePregunta"));
+    dd($request);
+    dd($request->input('checkPregunta'));
     $nuevaPregunta=new Question();
        if($request->input('checkPregunta')){
+         dd($request->file("filePregutna"));
        //se activo pregunta con imagen
        //se generan las validaciones
-       $this->validate($request,
-       ['pregunta'=>'required',
-       'filePregunta'=>'required|image|mimes:jpg,png'],
-       ['pregunta.required'=>'Debe ingresar una pregunta',
+       $reglas=['pregunta'=>'required',
+       'filePregunta'=>'required|image|mimes:jpg,png'];
+       $mensajes=['pregunta.required'=>'Debe ingresar una pregunta',
        'filePregunta.required'=>'Debe ingresar un archivo de imagen',
         'file'=>'Debe ingresar un archivo de imagen',
-        'mimes'=>'El tipo de archivo debe ser jpg o png']);
+        'mimes'=>'El tipo de archivo debe ser jpg o png'];
 
+
+       $this->validate($request,$reglas,$mensajes);
+
+    //dd($request->file("filePregutna"));
        $ruta=$request->file("filePregunta")->store("public/img/img_questions");
        $avatar=basename($ruta);
        $nuevaPregunta->image=$avatar;
