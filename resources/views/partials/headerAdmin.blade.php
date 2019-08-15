@@ -22,6 +22,9 @@
         <a class="dropdown-item" href="/listadoSeries">Listado</a>
         <a class="dropdown-item" href="/nuevaSerie">Agregar Series</a>
         <a class="dropdown-item" href="/eliminarSeries">Eliminar Series</a>
+        <a class="dropdown-item" href="/listadoSeries">Listado General</a>
+        <a class="dropdown-item" href="/nuevaSerie">Agregar Serie</a>
+        
 
        </div>
        </li>

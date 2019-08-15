@@ -64,6 +64,9 @@ Route::get('/nuevaPregunta/{id}','QuestionController@create');
 Route::post('/nuevaPregunta','QuestionController@store');
 Route::get('/nuevaRespuesta','AnswerController@create');
 Route::post('/nuevaRespuesta','AnswerController@store');
+Route::get('/eliminarSerie/{id}','SerieController@showDelete');
+Route::post('/eliminarSerie','SerieController@Delete');
+Route::post('/eliminarPregunta','QuestionController@store');
 
 Auth::routes();
 
