@@ -58,7 +58,7 @@
                         <td>{{$question->level->name}}</td>
                         <td>{{$question->level->score}}</td>
                         <td><a href="/listadoRespuestas/{{$question->id}}"><i class="far fa-eye"></i></a></td>
-                        <td><a href="eliminarQuestion/{{$question->id}}"><i class="far fa-trash-alt"></i></a></td>
+                        <td><a href="/eliminarPregunta/{{$question->id}}"><i class="far fa-trash-alt"></i></a></td>
                   </tr>
               @endforeach
             </tbody>

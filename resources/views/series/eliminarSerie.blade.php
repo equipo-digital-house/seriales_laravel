@@ -10,44 +10,48 @@
     @csrf
         <div class="form-group">
 
-@if(isset($serie))
-    @if($serie->image!=NULL)
-      <img class="img-thumbnail rounded rounded mx-auto d-block" src="/storage/img/series/{{$serie->image}}" width=300px alt="">
-     @endif
-      <h3>{{$serie->name}}</h3>
+          @if(isset($serie))
+              @if($serie->image!=NULL)
+                <img class="img-thumbnail rounded rounded mx-auto d-block" src="/storage/img/series/{{$serie->image}}" width=300px alt="">
+               @endif
+                <h3>{{$serie->name}}</h3>
 
-      <br>
-    <ul>
-      <p>La serie tiene {{$serie->question->count()}} preguntas asociadas. ¿Desea Eliminar la serie y sus asociaciones?</p>
+                <br>
 
-      <table class="table table-bordered text-center">
+                @php ($asociacion=$serie->question->count())
+                      @if($asociacion!=0)
+                        <p>La serie tiene {{$asociacion}} preguntas asociadas.</p>
+                        <p>¿Desea Eliminar la serie y sus asociaciones?</p>
 
-        <thead class="thead-dark">
-          <tr>
-            <th scope="col">#</th>
-            <th scope="col">Preguntas asociadas</th>
-            </tr>
-        </thead>
-        <tbody>
-            @php ($cont=1)
-            @foreach ($serie->question as $question)
-                <tr>
-                <th scope="row">{{$cont++}}</th>
-                <td>{{$question->name}}</td>
-               </tr>
-          @endforeach
-        </tbody>
-@else
-  <div class="form-group">
-  <label for="exampleFormControlSelect1">Seleccione la Serie</label>
-  <select name="serie" class="form-control" id="exampleFormControlSelect1">
-      @foreach ($series as $serie)
-    <option value="{{$serie->id}}">{{$serie->name}}</option>
-      @endforeach
-  </select>
+                        <table class="table table-bordered text-center">
 
+                          <thead class="thead-dark">
+                            <tr>
+                              <th scope="col">#</th>
+                              <th scope="col">Preguntas asociadas</th>
+                              </tr>
+                          </thead>
+                          <tbody>
+                              @php ($cont=1)
+                              @foreach ($serie->question as $question)
+                                  <tr>
+                                  <th scope="row">{{$cont++}}</th>
+                                  <td>{{$question->name}}</td>
+                                 </tr>
+                            @endforeach
+                          </tbody>
+                        </table>
+                      @else
+                        <p>La serie tiene NO tiene preguntas asociadas.</p>
+                        <p>¿Desea Eliminar la serie?</p>
+
+                      @endif
+
+          @endif
 </div>
-@endif
+</div>
+</div>
+
 <button name="Eliminar"type="submit" class="btn btn-primary" value="si">Eliminar</button>
 <button name="Cancelar"type="submit" class="btn btn-primary" value="no">Cancelar</button>
 <input type="hidden" name="id" value="{{$serie->id}}">

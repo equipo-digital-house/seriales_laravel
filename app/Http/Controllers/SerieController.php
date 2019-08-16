@@ -4,19 +4,23 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Serie;
+use App\User;
 
 class SerieController extends Controller
 {
     //
     public function index(){
+      $this->authorize('acceso', User::class);
       $series=Serie::orderBy('name','ASC')->get();
       return view('series/listadoSeries')->with('series',$series);
     }
     public function create(){
+      $this->authorize('acceso', User::class);
       return view('series/nuevaSerie');
     }
 
     public function store(Request $request){
+      $this->authorize('acceso', User::class);
       //dd($request);
       //$this->validate($request,
       //[
@@ -38,6 +42,7 @@ class SerieController extends Controller
     }
 
     public function show($id){
+      $this->authorize('acceso', User::class);
 
       $serie=Serie::find($id);
       if(!is_null($serie))
@@ -49,6 +54,7 @@ class SerieController extends Controller
     }
 
     public function showDelete($id){
+      $this->authorize('acceso', User::class);
       $series=Serie::all();
       if($id!=0){
       $serie=Serie::find($id);
@@ -58,8 +64,9 @@ class SerieController extends Controller
       return view('series/eliminarSerie')->with('series',$series);
     }
     }
-    public function Delete(Request $request){
-$valor=null;
+    public function delete(Request $request){
+      $this->authorize('acceso', User::class);
+      $valor=null;
       if($request->Cancelar=='no'){
         return redirect('/administrador');
       }else {
