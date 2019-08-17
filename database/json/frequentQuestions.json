@@ -2,12 +2,12 @@
 	{
 		"id" : 1,
 		"name" : "¿Qué es Seriales?",
-		"answer" : "Seriales es un juego en línea de preguntas y respuestas sobre las series contemporáneas más influyentes. Podrás poner a prueba tu conocimiento sobre tus series favoritas y competir en línea con muchos otros fanáticos del mundo. ¡Esperamos que te diviertas!"
+		"answer" : "Seriales es un juego en línea de preguntas y respuestas sobre las series contemporáneas más influyentes. Podrás poner a prueba tu conocimiento sobre tus series favoritas y competir en línea con muchxs otrxs fanáticxs del mundo. ¡Esperamos que te diviertas!"
 	},
 	{
 		"id" : 2,
 		"name" : "¿Como puedo jugar?",
-		"answer" : "Para jugar, ve a \"Registrarme\" y completa los datos requeridos. Una vez hecho esto, recibirás un correo con un enlace para dar de alta tu usuario. Luego, podrás iniciar sesión y ¡listo! Ya estarás listo para jugar."
+		"answer" : "Para jugar, ve a \"Registrarme\" y completa los datos requeridos. Una vez hecho esto, recibirás un correo con un enlace para dar de alta tu usuario. Luego, podrás iniciar sesión y ¡listo! Ya estarás listx para jugar."
 	},
 	{
 		"id" : 3,
@@ -32,6 +32,6 @@
 	{
 		"id" : 7,
 		"name" : "¿Puedo invitar a mis amigxs a jugar?",
-		"answer" : "¡Claro que sí! Nos gusta la tele fuerte, la cerveza fría y lxs jugadorxs copados, copados, así que invitá a todxs lxs amigxs que quieras. :)"
+		"answer" : "¡Claro que sí! Nos gusta la tele fuerte, la cerveza fría y lxs jugadorxs copados, copados, así que invita a todxs lxs amigxs que quieras. :)"
 	}
 ]
