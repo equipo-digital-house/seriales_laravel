@@ -1,0 +1,20 @@
+[
+	{
+		"id" : 1,
+		"question_id" : 86,
+		"user_id" : 3,
+		"answer_user" : 1
+	},
+	{
+		"id" : 2,
+		"question_id" : 87,
+		"user_id" : 3,
+		"answer_user" : 4
+	},
+	{
+		"id" : 3,
+		"question_id" : 88,
+		"user_id" : 3,
+		"answer_user" : 2
+	}
+]
