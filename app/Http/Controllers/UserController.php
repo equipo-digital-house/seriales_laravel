@@ -45,7 +45,7 @@ class UserController extends Controller {
 
         case '3':
           $reglas = [
-            "password" => 'required| string| min:8| confirmed'
+            "password" => 'required | string | min:8 | confirmed'
           ];
       }
 

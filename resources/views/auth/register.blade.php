@@ -14,7 +14,7 @@
       <div class="row">
           <div class="col-12 col-lg-6 offset-lg-3">
 
-              <form class="registro" method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
+              <form id= "formularioRegistro" name="formularioRegistro" class="registro" method="POST" action="{{ route('register') }}" enctype="multipart/form-data">
                   @csrf
 
 
