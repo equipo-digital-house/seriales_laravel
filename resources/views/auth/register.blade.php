@@ -1,11 +1,6 @@
 @extends('layouts.master')
 
 @section('content')
-<!DOCTYPE html>
-<html lang="es" dir="ltr">
-<?php $titulo = "Registro" ?>
-<div class="container-fluid p-0">
-
   <main>
 
     <h3 class="subtitulo">¿Todavía no tenés cuenta?</h3>

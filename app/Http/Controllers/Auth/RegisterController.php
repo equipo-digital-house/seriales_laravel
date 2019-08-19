@@ -48,12 +48,27 @@ class RegisterController extends Controller
      */
     protected function validator(array $data)
     {
-        return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
-            'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
-    }
+        
+        $reglas = [
+          'name' => ['required', 'regex:/^[A-Za-z]{4,}\d*$/', 'max:255', 'unique:users'],
+          'email' => 'required | email | max:255 | unique:users',
+          'password' => 'required | string | min:6 | confirmed'
+        ];
+
+        $mensajes = [
+          'string' => 'El campo :attribute debe ser un texto',
+          'regex' => 'El nombre debe contener cuatro letras como mínimo',
+          'max' => 'El campo :attribute debe contener un máximo de :max caracteres',
+          'email'=> 'Debes ingresar un :attribute válido',
+          'unique' => 'El campo :attribute ya fue elegido por otrx usuarix',
+          'min' => 'El campo :attribute debe contener un mínimo de :min caracteres',
+          'required' => 'El campo :attribute es requerido',
+          'confirmed' => 'Las contraseñas no coinciden'
+        ];
+
+        return Validator::make($data, $reglas, $mensajes);
+
+      }
 
     /**
      * Create a new user instance after a valid registration.
@@ -67,7 +82,11 @@ class RegisterController extends Controller
             'name' => $data['name'],
             'email' => $data['email'],
             'password' => Hash::make($data['password']),
-        ]); //adjuntar imagen por default
+            'avatar' => 'misterX.jpg',
+            'role' => 0,
+            'level' => 0,
+            'score' => 0
+        ]);
 
     }
 }
