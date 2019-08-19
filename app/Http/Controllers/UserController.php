@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\User;
 use Auth;
 use Illuminate\Support\Facades\Hash;
+use App\Serie;
 
 class UserController extends Controller {
 
@@ -116,5 +117,14 @@ class UserController extends Controller {
     $usuarioMod->save();
 
     return view('accesos');
+  }
+
+  public function game() {
+    $series = Serie::all();
+    $usuario = Auth::user();
+    if($usuario == null) {
+      return redirect('login');
+    }
+    return view('juego')->with('usuario', $usuario)->with('series',$series);
   }
 }

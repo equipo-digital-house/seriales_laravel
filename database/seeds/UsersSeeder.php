@@ -27,7 +27,8 @@ class UsersSeeder extends Seeder
           'password'=>$obj->password,
           'avatar'=>$obj->avatar,
           'role'=>$obj->role,
-          'level'=>$obj->level
+          'level'=>$obj->level,
+          'score'=>$obj->score
         ));
 
         }

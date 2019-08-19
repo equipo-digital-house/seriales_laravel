@@ -16,5 +16,23 @@
 		"question_id" : 88,
 		"user_id" : 3,
 		"answer_user" : 2
+	},
+	{
+		"id" : 4,
+		"question_id" : 1,
+		"user_id" : 1,
+		"answer_user" : 2
+	},
+	{
+		"id" : 5,
+		"question_id" : 2,
+		"user_id" : 1,
+		"answer_user" : 4
+	},
+	{
+		"id" : 6,
+		"question_id" : 3,
+		"user_id" : 1,
+		"answer_user" : 2
 	}
 ]

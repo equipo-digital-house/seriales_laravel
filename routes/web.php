@@ -45,9 +45,7 @@ Route::get('/borrarFaq/{id}', 'FaqController@destroyFaq');
 
 Route::post('/perfil', "UserController@update");
 
-Route::get('/juego', function () {
-    return view('juego');
-});
+Route::get('/juego',"UserController@game");
 
 
 
