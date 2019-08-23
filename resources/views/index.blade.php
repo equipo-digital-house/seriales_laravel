@@ -2,7 +2,7 @@
 @section('content')
 
   <main class="inicio">
-    <!-- <div id="carouselSeries" class="carousel slide" data-ride="carousel">
+    <div id="carouselSeries" class="carousel slide" data-ride="carousel">
       <div class="carousel-inner">
         <div class="carousel-item active" data-interval="4000">
           <img src="/imgsitio/gameOfThrones.png" class="d-block w-100" alt="GOT">
@@ -40,21 +40,21 @@
         <span class="sr-only">Next</span>
       </a>
 
-      </div> -->
-        <script>
+      </div>
+        <!-- <script>
 
           var i = 0;
           var imagenes = [];
           var tiempo = 5000;
 
-          imagenes[0] = '/imgsitio/gameOfThrones.png';
-          imagenes[1] = '/imgsitio/explicacion1.png';
-          imagenes[2] = '/imgsitio/orangeIsTheNewBlack.png';
-          imagenes[3] = '/imgsitio/Seinfeld.png';
-          imagenes[4] = '/imgsitio/theBigBangTheory.png';
-          imagenes[5] = '/imgsitio/theWalkingDead.png';
-          imagenes[6] = '/imgsitio/vikings.png';
-          imagenes[7] = '/imgsitio/friends.png';
+          imagenes[0] = "/imgsitio/gameOfThrones.png";
+          imagenes[1] = "/imgsitio/explicacion1.png";
+          imagenes[2] = "/imgsitio/orangeIsTheNewBlack.png";
+          imagenes[3] = "/imgsitio/Seinfeld.png";
+          imagenes[4] = "/imgsitio/theBigBangTheory.png";
+          imagenes[5] = "/imgsitio/theWalkingDead.png";
+          imagenes[6] = "/imgsitio/vikings.png";
+          imagenes[7] = "/imgsitio/friends.png";
 
           function cambiarImg(){
             document.slide.src = imagenes[i];
@@ -72,7 +72,7 @@
 
         </script>
 
-        <img name="slide" width="100%">
+        <img name="slide" width="100%"> -->
 
 
           <div class="botonJugarIndex">
