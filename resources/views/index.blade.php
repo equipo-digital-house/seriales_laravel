@@ -41,6 +41,50 @@
       </a>
 
       </div>
+
+
+      <div id="carouselSeries-mobile" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-interval="4000">
+          <img src="/imgsitio/got_v.png" class="d-block w-100" alt="GOT">
+        </div>
+        <div class="carousel-item" data-interval="5000">
+          <img src="/imgsitio/explicacion_v.png" class="d-block w-100" alt="Seriales">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/friends_v.png" class="d-block w-100" alt="Friends">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/twd_v.png" class="d-block w-100" alt="TWD">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/oitnb_v.png" class="d-block w-100" alt="OITNB">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/seinfeld_v.png" class="d-block w-100" alt="Seinfeld">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/tbbt_v.png" class="d-block w-100" alt="TBBT">
+        </div>
+        <div class="carousel-item" data-interval="4000">
+          <img src="/imgsitio/vikings_v.png" class="d-block w-100" alt="Vikings">
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#carouselSeries-mobile" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#carouselSeries-mobile" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+      </div>
+
+
+
         <!-- <script>
 
           var i = 0;

@@ -47,7 +47,6 @@ padding-bottom: 10px;
   padding: 10px 0 10px 0;
   border: 2px solid #2a6171;
   border-radius: 30px;
-  width: 100%;
   background-color: #75cac3;
 }
 
@@ -195,7 +194,6 @@ main {
   text-align: center;
   border: 2px solid #2a6171;
   border-radius: 30px;
-  width: 20%;
   padding: 10px 30px 10px 30px;
   background-color: #f34573;
   margin: auto;
@@ -277,52 +275,121 @@ main {
   /*Media queries*/
  @media (min-width:320px){
 
-  .saludo {
-    text-align: center;
-    padding-bottom: 2%;
-    padding: 0 10px;
-  }
+    #carouselSeries-mobile{
+      display: block;
+    }
 
-  .tarjeta-1, .tarjetaJuegoA {
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+    #carouselSeries{
+      display: none;
+    }
 
-  .tarjetaJuegoA {
-    flex-direction: row;
-    padding-top: 4%;
-    padding-left: 3%;
-    padding-right: 3%;
-  }
+    .redessociales{
+      font-size: 120%;
+    }
 
-  .tituloA{
-    text-align: center;
-    padding: 20px;
-  }
+    #divLi{
+      width: 100%;
+    }
 
-  .footer-principal a{
-    width: 100vw;
-    font-family: 'Righteous', cursive;
-    font-size:0.7rem;
-    padding: 3px;
+    #hamburguesa{
+      display: block;
+      width: 25px;
+      border: none;
+      background-color: white;
+    }
+
+    #hamburguesa span:nth-child(3),
+    #hamburguesa span:nth-child(5){
+      background: white;
+    }
+
+    #hamburguesa span{
+      display: block;
+      height: 2px;
+      background: #2b6170;
+    }
+
+    .menu-items{
+      display: none;
+    }
+
+    .menu-items a{
+      width: 80%;
+      display: inline-block;
+    }
+
+    .saludo {
+      text-align: center;
+      padding-bottom: 2%;
+      padding: 0 10px;
+    }
+
+    .tarjeta-1, .tarjetaJuegoA {
+      flex-direction: column;
+      flex-wrap: wrap;
+    }
+
+    .tarjetaJuegoA {
+      flex-direction: row;
+      padding-top: 4%;
+      padding-left: 3%;
+      padding-right: 3%;
+    }
+
+    .tituloA{
+      text-align: center;
+      padding: 20px;
+    }
+
+    .footer-principal a{
+      width: 100vw;
+      font-family: 'Righteous', cursive;
+      font-size:0.7rem;
+      padding: 3px;
+
+      }
+      .font-preguntas{
+        font-size: 1rem;
+      }
 
     }
-    .font-preguntas{
-      font-size: 1rem;
-    }
-    }
+
   @media (min-width:720px){
+
+    .menu-items{
+      display: block;
+    }
+
+    #carouselSeries-mobile{
+      display: none;
+    }
+
+    #carouselSeries{
+      display: block;
+    }
+
+    .redessociales{
+      font-size: 100%;
+    }
+
+    #hamburguesa{
+      display: none;
+    }
 
     .redessociales{
       position: relative;
       top: -12px;
     }
 
-  .saludo{
-    text-align: right;
-    padding-bottom: 2%;
-    padding: 0 10px;
+    .menu-items a{
+      width: 100%;
     }
+
+    .saludo{
+      text-align: right;
+      padding-bottom: 2%;
+      padding: 0 10px;
+      }
 
     #banner1 {display: none;}
     #banner2 {display: block;}
@@ -349,6 +416,7 @@ main {
       height: 75%;
       width: 90%;
     }
+
     .footer-principal a{
       width: 100vw;
       font-family: 'Righteous', cursive;
@@ -359,8 +427,6 @@ main {
       .font-preguntas{
 
         font-size: 1.2rem;
-
-
       }
   }
 

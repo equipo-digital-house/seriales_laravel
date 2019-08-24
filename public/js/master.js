@@ -1,5 +1,19 @@
 window.onload = function(){
 
+  //Hamburguesa
+
+  let hamburguesa = document.getElementById("hamburguesa");
+  hamburguesa.onclick = function(){
+    let divLi = document.querySelectorAll("#nav li");
+    for(var item of divLi){
+      if (item.style.display == "block"){
+        item.style.display = "none";
+      } else {
+        item.style.display = "block";
+      }
+    }
+}
+
   // Efecto logo nav
 
   let logoNav = document.querySelector('.logo');
@@ -11,17 +25,5 @@ window.onload = function(){
     this.style.opacity = "1";
   }
 
-
-  //Efecto botones nav
-
-  let botones = document.querySelectorAll('menu-items a');
-  console.log(botones);
-  botones.onmouseover = function(){
-    this.style.width = "90%";
-  }
-
-  botones.onmouseout = function(){
-    this.style.width = "100%";
-  }
 
 }
