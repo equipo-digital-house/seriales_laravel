@@ -66,3 +66,4 @@
     @include('partials.userWelcome')
   @endif
 </header>
+<script src="/js/header.js"></script>

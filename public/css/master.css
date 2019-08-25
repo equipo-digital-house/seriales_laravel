@@ -119,6 +119,49 @@ main {
   font-size: 1rem;
 }
 
+.errorValJS{
+  font-size: 1rem;
+  color: white;
+  font-weight: bold;
+}
+
+#botonModal{
+  color: white;
+}
+
+.modal-content{
+  background-color: tomato;
+  border: 4px solid white;
+  color: white;
+  font-weight: bold;
+}
+
+.modal-title, #botonModal{
+  font-family: 'Righteous', cursive;
+}
+
+#terCoButton{
+  text-decoration: none;
+  color: white;
+}
+
+.modal-title{
+  text-align: center;
+}
+
+.modal-header{
+  border-bottom: none;
+}
+
+.modal-footer{
+  border-top: none;
+}
+
+#terCo{
+  margin-top: 13px;
+}
+
+
 #check1 {
   margin-right: 8px;
 }
