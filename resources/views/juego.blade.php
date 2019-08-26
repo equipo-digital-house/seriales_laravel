@@ -1,4 +1,4 @@
-@extends('layouts/master')
+@extends('layouts/game')
 @section('content')
 
   {{-- MODAL --}}
@@ -28,6 +28,12 @@
 
 
     <div class="container-fluid p-0">
+
+      <section class="seleccionar">
+        <li class="col-4"><a class="cambiar-series" href="{{ URL::to('juego') }}">Cambiar series</a></li>
+        <li class="col-4"><a href="{{ URL::to('index') }}"><i class="fas fa-home"></i></a></li>
+      </section>
+
 
       <section>
 

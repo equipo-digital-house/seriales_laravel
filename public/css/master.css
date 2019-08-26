@@ -446,9 +446,13 @@ main {
         font-size: 1rem;
       }
 
+      .respuesta {
+        width: 100%;
+      }
+
     }
 
-    @media(min-width:500px) {
+    @media(min-width:570px) {
       .respuesta {
         flex-basis: 50%;
       }
@@ -793,4 +797,18 @@ background-image: url('/imgsitio/bg-seriales.png');
   max-width: none;
   width: 100%;
   border-radius: 20%;
+}
+
+.seleccionar {
+  display: none;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.cambiar-series {
+  color: #75cac3;
 }

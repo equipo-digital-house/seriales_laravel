@@ -13,12 +13,7 @@ return [
     |
     */
 
-<<<<<<< HEAD
     'failed' => 'Los datos ingresados no coinciden con nuestros registros.',
     'throttle' => 'Demasiados intentos de ingreso. Por favor, vuelva a intentarlo en :seconds segundos.',
-=======
-    'failed' => 'These credentials do not match our records',
-    'throttle' => 'Too many login attempts. Please try again in :seconds seconds.',
->>>>>>> 23a777932797e6bde561cdb510ea3cc7c6773344
 
 ];

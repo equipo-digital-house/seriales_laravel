@@ -12,7 +12,7 @@
     <span></span>
     <span></span>
   </button>
-    
+
     <ul id="nav" class="row" style="margin-bottom: 0;">
       <a href="{{ URL::to('index') }}" class="offset-3 col-6 col-md-2 offset-md-0"><img class="logo" src="/imgsitio/logoSerialesFB.png" alt="Seriales"></a>
 
@@ -49,7 +49,7 @@
           @if(Auth::User())
           <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ URL::to('juego') }}">jugar</a></li>
           @else
-          <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ route('login') }}">jugar</a></li>
+          <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ route('login') }}">login</a></li>
           @endif
     </ul>
 

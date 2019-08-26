@@ -34,11 +34,13 @@ window.onload = function () {
     (function removeModal() {
 
       let form = document.querySelector('#series-form');
+      let seleccionar = document.querySelector('.seleccionar');
 
       event.preventDefault()
 
       if (event.target == form) {
         modal.style.display = "none";
+        seleccionar.style.display = "flex";
       }
     })();
 
