@@ -27,6 +27,8 @@ Route::get('/preguntasfrecuentes', 'FaqController@index');
 
 Route::get('/perfil', "UserController@show");
 
+Route::post('/perfil', "UserController@update");
+
 // Route::get('/juego/{id}', 'JuegoController@showSerie');
 
 Route::get('/administradorpreguntasfrecuentes', 'FaqController@showFaq');
@@ -41,13 +43,9 @@ Route::get('/eliminarpreguntafrecuente/{id}', 'FaqController@indexFaq');
 
 Route::get('/borrarFaq/{id}', 'FaqController@destroyFaq');
 
-//no estoy segura de si perfil solo sería por post o no
+Route::get('/juego',"JuegoController@showSeries");
 
-Route::post('/perfil', "UserController@update");
-
-Route::get('/juego',"UserController@game");
-
-
+Route::post('/juego', "JuegoController@game");
 
 Route::get('/accesos', 'UserController@accessIndex');
 Route::post('/accesos', 'UserController@updateAccess');

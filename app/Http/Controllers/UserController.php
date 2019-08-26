@@ -118,13 +118,5 @@ class UserController extends Controller {
 
     return view('accesos');
   }
-
-  public function game() {
-    $series = Serie::all();
-    $usuario = Auth::user();
-    if($usuario == null) {
-      return redirect('login');
-    }
-    return view('juego')->with('usuario', $usuario)->with('series',$series);
-  }
+  
 }
