@@ -1,4 +1,5 @@
 @include('partials.headAdmin')
 @include('partials.headerAdmin')
 @yield('content')
+@yield('script')
 @include('partials.footerAdmin')

@@ -26,7 +26,21 @@
                 </ul>
           </div>
         @endif
-          <form class="registro" action="/nuevaPregunta" method="post" enctype= "multipart/form-data">
+        @if ($message=Session::get('success'))
+          <div class="alert alert-success alert-block">
+            <button type="button"  class="close" data-dismiss="alert"name="button"></button>
+            <strong>{{$message}}</strong>
+            @if(Session::get('path')!=null)
+            <img src="/storage/img/img_questions/{{Session::get('path')}}" alt="" width="300">
+            @endif
+            <p>{{$pregunta->name}}</p>
+            <p>{{$pregunta->nivel->name}}</p>
+            <p>{{$pregunta->serie->name}}</p>
+          </div>
+
+        @endif
+
+          <form class="registro" action="{{url('/nuevaPregunta')}}" method="post" enctype= "multipart/form-data">
             @csrf
             <div class="form-group">
             <label for="InputQuestion">Pregunta</label>
@@ -34,11 +48,11 @@
             <small id="questionHelp" class="form-text text-muted">Si la pregunta tiene asociada una imagen, checkea en agregar imagen</small>
           </div>
           <div class="form-group form-check">
-            <input name="checkPregunta" type="checkbox" class="form-check-input" id="checkIddQuestion" value="{{old('checkPregunta')}}">
+            <input name="checkPregunta" type="checkbox" class="form-check-input" id="checkIddQuestion" value="conImagen">
             <label class="form-check-label" for="checkIddQuestion">Asociar imagen a la pregunta</label>
           </div>
           <div class="form-group">
-              <input name="filePregunta" type="file" class="form-control-file" id="filePregunta">
+              <input name="select_file" type="file" class="form-control-file" id="filePregunta">
               <small id="filePregunta" class="form-text text-muted">Solo si ha activado Asociar Imagen podrá seleccionar una imagen. (png y jpg)</small>
             </div>
             <div class="form-group">

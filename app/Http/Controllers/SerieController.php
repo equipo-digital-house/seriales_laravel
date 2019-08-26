@@ -11,7 +11,7 @@ class SerieController extends Controller
     //
     public function index(){
       $this->authorize('acceso', User::class);
-      $series=Serie::orderBy('name','ASC')->get();
+      $series=Serie::orderBy('name','ASC')->paginate();
       return view('series/listadoSeries')->with('series',$series);
     }
     public function create(){
@@ -22,16 +22,20 @@ class SerieController extends Controller
     public function store(Request $request){
       $this->authorize('acceso', User::class);
       //dd($request);
-      //$this->validate($request,
-      //[
-      //  'name'=>'string|required|unique:series:name',
-      //  'avatar'=>'file'],
-      //[
-      //  'required'=>'Debe ingresar un nombre',
-      //  'unique'=>'Series ya existe',
-      //  'string'=>'El campo es string',
-      //  'file'=>'Debe ingresar un archivo de imagen'
-      //]);
+      $this->validate($request,
+      [
+    'nameSerie'=>'required|unique:series,name|string',
+    'avatar'=>'required|image|mimes:jpeg,png,jpg,gif|max:1024'],
+    [
+    'avatar.required'=>'Debe ingresar imagen',
+    'image'=>'Archivo debe ser una imagen',
+    'mimes'=>'Archivo de imagen debe ser jpeg, png, jpg o gif',
+    'max'=>'Archivo debe pesar maximo 1MB',
+    'nameSerie.required'=>'Debe ingresar una Serie',
+    'unique'=>'Series ya existe',
+    'string'=>'El campo debe ser string'
+    ]);
+
         $ruta=$request->file("avatar")->store("public/img/series");
         $avatar=basename($ruta);
         $nuevaSerie=new Serie();

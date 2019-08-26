@@ -24,40 +24,54 @@ class QuestionController extends Controller
     return view('series/nuevaPregunta')->with('serie',$serie)->with('levels',$levels);
   }
   public function store(Request $request){
+  //  dd($request->checkPregunta);
     $this->authorize('acceso', User::class);
+  $new_name=null;
+  $nuevaPregunta=new Question();
 
-    dd($request->input('checkPregunta'));
-    $nuevaPregunta=new Question();
-       if($request->input('checkPregunta')){
-         dd($request->file("filePregutna"));
        //se activo pregunta con imagen
        //se generan las validaciones
-       $reglas=['pregunta'=>'required',
-       'filePregunta'=>'required|image|mimes:jpg,png'];
-       $mensajes=['pregunta.required'=>'Debe ingresar una pregunta',
-       'filePregunta.required'=>'Debe ingresar un archivo de imagen',
-        'file'=>'Debe ingresar un archivo de imagen',
-        'mimes'=>'El tipo de archivo debe ser jpg o png'];
-       $this->validate($request,$reglas,$mensajes);
-       $this->validate($request,$reglas,$mensajes);
+if($request->checkPregunta=="conImagen"){
+       $this->validate($request,[
+         'select_file'=>'
+              required|image|mimes:jpeg,png,jpg,gif|max:1024',
+         'pregunta'=>'
+              required|string'
+       ],
+       [
+         'select_file.required'=>'Debe ingresar imagen',
+         'image'=>'Archivo debe ser una imagen',
+         'mimes'=>'Archivo de imagen debe ser jpeg, png, jpg o gif',
+         'max'=>'Archivo debe pesar maximo 1MB',
+         'pregunta.required'=>'Debe ingresar una pregunta',
+         'pregunta.string'=>'La pregunta debe estar formada por letras'
+       ]);
+      $image=$request->file('select_file')->store("/public/img/img_questions");
+      //$new_name=rand().'.'.$image->getClientOriginalExtension();
+      //$image->storage("/public/img/img_questions");
+      $new_name=basename($image);
+    }else{
+      $this->validate($request,[
+        'pregunta'=>'required|string'],
+      [
+        'pregunta.required'=>'Debe ingresar una pregunta',
+        'pregunta.string'=>'La pregunta debe estar formada por letras'
+      ]);
 
-    //dd($request->file("filePregutna"));
-       $ruta=$request->file("filePregunta")->store("public/img/img_questions");
-       $avatar=basename($ruta);
-       $nuevaPregunta->image=$avatar;
+    }
 
-     }else{
-       $this->validate($request,
-       ['pregunta'=>'required'],
-       ['required'=>'Debe ingresar una pregunta']);
-        }
 
+      $nuevaPregunta->image=$new_name;
       $nuevaPregunta->name=$request['pregunta'];
       $nuevaPregunta->level_id=$request['selectNivel'];
       $nuevaPregunta->serie_id=$request['serie_id'];
       $nuevaPregunta->save();
-      return redirect('/nuevaRespuesta');
-    }
+      $question=Question::all()->last();
+      $id=$question->id;
+      //return back()->with('success', 'Pregunta fue guardada correctamente')->with('path',$new_name)->with('pregunta',$nuevaPregunta);
+
+      return redirect('/nuevaRespuesta')->with('question',$question);
+      }
 
     public function showDelete($id){
       $this->authorize('acceso', User::class);

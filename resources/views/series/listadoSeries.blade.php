@@ -5,8 +5,9 @@
           <div class="alert alert-dark" role="alert">
           <h2 class="display-6 text-center">Listado de Series - Preguntas y Respuestas</h2>
           </div>
-
-
+      <p>
+        <span id="series-total">{{$series->total()}} registros</span> | página {{$series->currentPage()}} de {{$series->lastPage()}}</p>
+        <div id="alert" class="alert alert-info"></div>
         <table class="table table-bordered text-center">
 
           <thead class="thead-dark">
@@ -42,14 +43,16 @@
                         <i class="far fa-edit"></i>
                       </a>
                   </td>
-                  <td><a href="/eliminarSerie/{{$serie->id}}">
-                        <i class="far fa-trash-alt"></i>
-                      </a>
+                  <td>
+                      <a class="" href="/eliminarSerie/{{$serie->id}}"><i class="far fa-trash-alt"></i></a>
+                                          </a>
                   </td>
 
                 </tr>
             @endforeach
           </tbody>
+        </table>
+        {!!$series->render()!!}
       </div>
 
   <ul class="nav justify-content-end">
@@ -62,5 +65,7 @@
   </li>
 
    </ul>
-
+@endsection
+@section('script')
+<script src="{{ asset('/js/admin.js') }}"></script>
 @endsection

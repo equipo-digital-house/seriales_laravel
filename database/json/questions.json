@@ -635,5 +635,124 @@
 		"serie_id" : 17,
 		"level_id" : 1,
 		"image" : null
+	},
+	{
+		"id" : 92,
+		"name" : "¿Como se llama el novio de Blanca Flores?",
+		"serie_id" : 2,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 93,
+		"name" : "Quien adopto a Taystee de joven?",
+		"serie_id" : 2,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 94,
+		"name" : "¿En que distrito tenia el restaurant Red?",
+		"serie_id" : 2,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 95,
+		"name" : "¿Cuando la familia de Piper va a la prisión ¿Qué día era?",
+		"serie_id" : 2,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 96,
+		"name" : "¿Cómo muere el profesor Artz?",
+		"serie_id" : 4,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 97,
+		"name" : "¿Quien interpreta a Sawyer?",
+		"serie_id" : 4,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 98,
+		"name" : "¿Cuál de los sobrevivientes del accidente aéreo estuvo en el hospital psiquiátrico con Hurley?",
+		"serie_id" : 4,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 99,
+		"name" : "¿Quien NO estuvo encerrado en el Cuarto 23?",
+		"serie_id" : 4,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 100,
+		"name" : "¿Cuál era el nombre de Sawyer mientras vivió con la iniciativa Dharma?",
+		"serie_id" : 4,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 101,
+		"name" : "¿De qué estado es Frank Underwood?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 102,
+		"name" : "¿En qué temporada se vio el beso de Edward Meechum, Frank y Claire?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 103,
+		"name" : "¿Como se llama el cocinero amigo de Frank?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 104,
+		"name" : "¿Cuál era la profesión del amante de Claire?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 105,
+		"name" : "¿Cual es el nombre del presidente en la temporada 1?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 106,
+		"name" : "¿En que año se casaron Frank y Claire?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 107,
+		"name" : "¿De que organización sin fines de lucro era CEO Claire?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 108,
+		"name" : "¿Cuál es el grupo que aparece en escena con el presidente Viktor Petrov?",
+		"serie_id" : 11,
+		"level_id" : 1,
+		"image" : null
 	}
 ]

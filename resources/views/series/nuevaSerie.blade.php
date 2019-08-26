@@ -12,19 +12,25 @@
             </li>
             </ul>
           </div>
+          @if(count($errors)>0)
+            <ul class="alert alert-danger">
 
+              @foreach ($errors->all() as $error)
+                <li> {{$error}}</li>
+              @endforeach
+          @endif
+          </ul>
           <form class="agregarSerie" action="/nuevaSerie" accept-charset="UTF-8" method="post" enctype= "multipart/form-data">
-            {{csrf_field()}}
-              <ul class="alert alert-light">
-
+            @csrf
                 <div class="form-group">
                       <label for="InputSerie">Nombre Serie</label>
-                      <input name="nameSerie" type="text" class="form-control"  value="" id="InputSerie"  placeholder="Ingrese Serie">
+                      <input name="nameSerie" type="text" class="form-control"  value="" id="InputSerie"  placeholder="Ingrese Serie" value="{{old('nameSerie')}}">
 
                  </div>
 
+
                 <div class="form-group">
-                      <input name="avatar" type="file" class="form-control-file" id="fileSerie">
+                      <input name="avatar" type="file" class="form-control-file" id="fileSerie" value="{{old('avatar')}}">
                       <small id="fileSerie" class="form-text text-muted">Se solicita ingrese el logo de la serie. (png y jpg)</small>
 
                 </div>
