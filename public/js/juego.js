@@ -100,9 +100,9 @@ window.onload = function () {
           function() {
             let indiceMaximo = preguntasMezcladas.length - 1;
             if(indice < indiceMaximo && indice < 14) {
-              pregunta.parentElement.style.display = 'none';
               clicks = 0;
               if(respuestasIncorrectas() == false) {
+                pregunta.parentElement.style.display = 'none';
                 agregarEventoARespuesta();
                 proximaPregunta();
               } else {
@@ -131,7 +131,6 @@ window.onload = function () {
 
       function respuestasIncorrectas() {
         let respuestasIncorrectas = document.querySelectorAll('.respuestaIncorrecta');
-        console.log(respuestasIncorrectas.length);
 
         if(respuestasIncorrectas.length == 3) {
           let mensaje =
@@ -154,6 +153,8 @@ window.onload = function () {
       }
 
       function refresh() {
+        indice = 0;
+        pregunta.parentElement.style.display = 'none';
         let respuestasIncorrectas = document.querySelectorAll('.respuestaIncorrecta');
         let respuestasCorrectas = document.querySelectorAll('.respuestaCorrecta');
 
