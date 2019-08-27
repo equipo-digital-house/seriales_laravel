@@ -1,6 +1,7 @@
 @extends('layouts.master')
 
 @section('content')
+  <link rel="stylesheet" href="/css/modalspoiler.css">
   <main>
 
     <h3 class="subtitulo">¿Todavía no tenés cuenta?</h3>

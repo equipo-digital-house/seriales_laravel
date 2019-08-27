@@ -32,15 +32,15 @@ window.onload = function(){
   console.log(botones);
   for(var item of botones){
     botones.onmouseover = function(){
-      item.padding-top = "3px";
+      item.paddingTop = "3px";
     }
 
     botones.onmouseout = function(){
-      item.padding-top = "0px";
+      item.paddingTop = "0px";
     }
 }
 
-  
+
 
 
 

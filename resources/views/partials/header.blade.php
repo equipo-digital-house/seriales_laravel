@@ -49,7 +49,7 @@
           @if(Auth::User())
           <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ URL::to('juego') }}">jugar</a></li>
           @else
-          <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ route('login') }}">login</a></li>
+          <li class="col-12 flex-column flex-md-row col-md-2 menu-items"><a class="play-btn" href="{{ route('login') }}">jugar</a></li>
           @endif
     </ul>
 
