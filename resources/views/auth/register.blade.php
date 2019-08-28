@@ -80,9 +80,9 @@
 
     <div id="terCoModal" class="modal fade" tabindex="-1" role="dialog">
       <div class="modal-dialog" role="document">
-        <div class="modal-content">
-          <div class="modal-header">
-            <h5 class="modal-title">SPOILER ALERT</h5>
+        <div id="modalSpoiler" class="modal-content">
+          <div id="modalHeader" class="modal-header">
+            <h5 id="modalTitle" class="modal-title">SPOILER ALERT</h5>
             <button type="button" class="close" data-dismiss="modal" aria-label="close">
               <span aria-hidden="true">&times;</span>
             </button>
@@ -92,14 +92,14 @@
               Seriales contiene información sobre todas las temporadas de las series con las que puedes jugar. Por lo tanto, es nuestro deber avisarte que podrías ser víctima de spoilers en algunas de las preguntas. ¡Estás avisadx! ;)
             </p>
           </div>
-          <div class="modal-footer">
+          <div id="modalFooter" class="modal-footer">
             <button type="button" id="botonModal" class="btn btn-link" data-dismiss="modal">Cerrar</button>
           </div>
         </div>
       </div>
     </div>
-
   </main>
 </div>
-@endsection
 <script src="/js/register.js"></script>
+@endsection
+
