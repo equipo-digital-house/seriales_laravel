@@ -3,14 +3,11 @@ window.onload = function () {
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // While there remain elements to shuffle...
     while (0 !== currentIndex) {
 
-      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
 
-      // And swap it with the current element.
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -22,12 +19,14 @@ window.onload = function () {
   //add Modal
   let series;
   let modal = document.querySelector('.modal');
+  let footer = document.querySelector('.main-footer');
   let seriesElegidas = [];
   let preguntasElegidas = [];
 
   (function addModal () {
 
     modal.style.display = "block";
+    footer.style.display = "none";
   })();
 
   window.onsubmit = function(event) {
@@ -41,6 +40,7 @@ window.onload = function () {
       if (event.target == form) {
         modal.style.display = "none";
         seleccionar.style.display = "flex";
+        footer.style.display = "block";
       }
     })();
 
@@ -108,6 +108,8 @@ window.onload = function () {
               } else {
                 respuestasIncorrectas();
               }
+            } else {
+              ganaste();
             }
           }, 1000);
       }
@@ -136,9 +138,9 @@ window.onload = function () {
           let mensaje =
           Swal.fire({
             type: 'error',
-            title: 'No estas de suerte!',
-            text: 'Queres seguir jugando?',
-            confirmButtonText: 'Jugar!',
+            title: '¡No estas de suerte!',
+            text: '¿Queres seguir jugando?',
+            confirmButtonText: 'Jugar',
             confirmButtonColor: '#F34573',
             onClose: () => {
               refresh();
@@ -169,6 +171,24 @@ window.onload = function () {
             respuesta.classList.remove('respuestaCorrecta');
           }
         }
+      }
+
+      function ganaste() {
+        Swal.fire({
+          title: '¡Ganaste!',
+          text: 'Definitivamente, sabes mucho de tus series favoritas.',
+          imageUrl: '/imgsitio/won.gif',
+          imageWidth: 400,
+          imageHeight: 200,
+          imageAlt: 'Custom image',
+          animation: false,
+          confirmButtonText: '¿Probar otras series?',
+          confirmButtonColor: '#F34573',
+          onClose: () => {
+            //REDIRECCIONA PARA ELEGIR NUEVAS SERIES
+            window.location.href = "juego";
+          }
+        })
       }
     })()
 
