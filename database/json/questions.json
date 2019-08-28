@@ -754,5 +754,250 @@
 		"serie_id" : 11,
 		"level_id" : 1,
 		"image" : null
+	},
+	{
+		"id" : 109,
+		"name" : "¿Cual es el superhéroe preferido de Jerry?",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 110,
+		"name" : "¿De que trabaja Newman?",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 111,
+		"name" : "El niño burbuja es un niño...",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 112,
+		"name" : "Elaine es muy mala para ...",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 113,
+		"name" : "El título original de Seinfeld era",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 114,
+		"name" : "¿Cómo muere Susan, la prometida de George?",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 115,
+		"name" : "¿Como aparecio vestido Jerry en el \"Today\" Show?",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 116,
+		"name" : "¿Sobre que conversan George y Jerry en el primer y ultimo episodios?",
+		"serie_id" : 13,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 117,
+		"name" : "Después de terminar con Marshall, ¿a qué ciudad se va Lily?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 118,
+		"name" : "¿Como se llaman lxs hijxs de Ted?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 119,
+		"name" : "¿Qué película ven Ted, Barney y Marshall cada tres años?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 120,
+		"name" : "¿Cómo se llama el hermano de Barney?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 121,
+		"name" : "¿Como se llama la pareja de El Capitán?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 122,
+		"name" : "Ted y Barney abrieron un bar, como se llamaba?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 123,
+		"name" : "¿Quien es la madre de Barney?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 124,
+		"name" : "¿A qué se dedica el papá de Lily?",
+		"serie_id" : 12,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 125,
+		"name" : "¿Cual es la profesión de Walter White?",
+		"serie_id" : 7,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 126,
+		"name" : "¿Que significa Breaking Bad?",
+		"serie_id" : 7,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 127,
+		"name" : "¿Donde transcurre la serie Breaking Bad?",
+		"serie_id" : 7,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 128,
+		"name" : "¿Cual es el seudonimo usado por Jesse Pinkman ?",
+		"serie_id" : 7,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 129,
+		"name" : "¿Cual es el nombre de este personaje?",
+		"serie_id" : 7,
+		"level_id" : 1,
+		"image" : "4IUXxyLz0ndvTdW7EDearuXTuUVMt8gXYZ5ZDSrA.jpeg"
+	},
+	{
+		"id" : 130,
+		"name" : "¿Cual es el nombre del niño desaparecido misteriosamente?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 131,
+		"name" : "¿Donde sucede esta historia?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 132,
+		"name" : "¿Cuales son los hijxs de este personaje?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : "7sDBdTYJM0mapDAVTyHCW9ZLZCt6knqiaoIbeb07.jpeg"
+	},
+	{
+		"id" : 133,
+		"name" : "¿Cual es el verdadero nombre de Once?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : "cutwpMDhj55YjTNSRbDS8zKPS707kEgPtPKSfoxz.jpeg"
+	},
+	{
+		"id" : 134,
+		"name" : "¿Quien es Dustin Henderson?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 135,
+		"name" : "¿Cual es la canción que es interpretada a dúo por Dustin y Suzie?",
+		"serie_id" : 3,
+		"level_id" : 1,
+		"image" : "gzXVVOeWiZFBOPOkYJLx18Yao01Pa6KLmHc2yGFT.jpeg"
+	},
+	{
+		"id" : 136,
+		"name" : "¿Quien usa a menudo esta frase? Es un hermoso día para salvar vidas",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 137,
+		"name" : "¿Quién es el verdadero padre de Meredith Grey?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 138,
+		"name" : "¿Quienes son los padres de la Jefe de cirugía Maggie Pierce?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : "x9YuelxflNtZPWxRH5KIT8oN5cq77IMnrfHentig.jpeg"
+	},
+	{
+		"id" : 139,
+		"name" : "¿En que hospital trabajan los médicos cirujanos?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 140,
+		"name" : "A quien pertenecen estos sobrenombres Dr. Sexy (McSexy) - Dr. Bombón (McYummy)-McNífico",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 141,
+		"name" : "¿Qué personaje fue dejado plantado en el altar?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
+	},
+	{
+		"id" : 142,
+		"name" : "¿Quien era Denny Duquette?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : "tgKzlCuMOEhvzGFLpdlEUOG28CIxR726H8xkJX1F.jpeg"
+	},
+	{
+		"id" : 143,
+		"name" : "¿Que le sucede a Derek Shepherd en la última temporada?",
+		"serie_id" : 14,
+		"level_id" : 1,
+		"image" : null
 	}
 ]

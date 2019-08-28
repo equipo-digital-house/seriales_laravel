@@ -72,7 +72,7 @@ class SerieController extends Controller
       $this->authorize('acceso', User::class);
       $valor=null;
       if($request->Cancelar=='no'){
-        return redirect('/administrador');
+        return redirect('/listadoSeries');
       }else {
       //aca se eliminara respuestas, preguntas y serie
       $id=$request->input("id");
@@ -86,7 +86,7 @@ class SerieController extends Controller
         $question->delete();
       }
       $serie->delete();
-      return redirect('/administrador');
+      return redirect('/listadoSeries');
       }
 
     }
