@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener("load", function(){
 
   //Hamburguesa
 
@@ -28,20 +28,27 @@ window.onload = function(){
 
   // Efecto botones
 
-  let botones = document.querySelectorAll("#nav li");
-  console.log(botones);
-  for(var item of botones){
-    botones.onmouseover = function(){
-      item.padding-top = "3px";
+  let botones = document.querySelectorAll(".menu-items a");
+  for(var boton of botones){
+    boton.onmouseover = function(){
+      this.style.backgroundColor = "#f34472";
     }
 
-    botones.onmouseout = function(){
-      item.padding-top = "0px";
+    boton.onmouseout = function(){
+      this.style.backgroundColor = "#75cac3";
+      this.style.paddingTop = "10px";
     }
-}
 
-  
+  let paddingBotones = document.querySelectorAll(".menu-items");
+  for(var paddingBoton of paddingBotones){
+    paddingBoton.onmouseover = function(){
+      this.style.paddingTop = "50px";
+    }
 
+    paddingBoton.onmouseout = function(){
+      this.style.paddingTop = "10px";
+    }
+  }
+  }
 
-
-}
+});

@@ -19,7 +19,7 @@
               </span>
           @enderror
 
-          <span id="errorEmail" class="errorValJs"></span>
+          <span id="errorEmail" class="errorValJS"></span>
 
 
           <label for="password">{{ __('Contraseña*') }}</label>
@@ -58,5 +58,6 @@
     <p class="aclaracion">Los campos con * deben ser completados</p>
   </main>
 </div>
-@endsection
 <script src="/js/login.js"></script>
+@endsection
+

@@ -20,7 +20,6 @@ Route::get('/index', function () {
     return view('index');
 });
 
-
 Route::get('/administrador', 'AdministradorController@mostrar');
 
 Route::get('/preguntasfrecuentes', 'FaqController@index');

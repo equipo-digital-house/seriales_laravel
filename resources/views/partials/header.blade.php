@@ -65,5 +65,7 @@
   @if(Auth::User())
     @include('partials.userWelcome')
   @endif
+
+  <script src="/js/header.js"></script>
 </header>
-<script src="/js/header.js"></script>
+

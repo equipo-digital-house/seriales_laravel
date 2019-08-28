@@ -1,4 +1,5 @@
-window.onload = function(){
+window.addEventListener("load", function(){
+    
     let formulario = document.getElementById("formularioLogin");
     formulario.elements.email.focus();
     formulario.onsubmit = function(evento){
@@ -50,4 +51,4 @@ window.onload = function(){
         }
     }
 
-}
+});

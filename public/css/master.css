@@ -18,7 +18,6 @@ nav {
   display: flex;
   margin: 0 auto;
   width: 100%;
-  height:100%;
 }
 
 .menu-items {
@@ -36,10 +35,6 @@ padding-top: 10px;
 padding-bottom: 10px;
 }
 
-.menu-items a:hover {
-  background-color: #f34472;
-}
-
 .menu-items a {
   text-transform: uppercase;
   font-family: 'Righteous', cursive;
@@ -51,7 +46,7 @@ padding-bottom: 10px;
 }
 
 .menu-items a.play-btn {
-  background-color: #f34472;
+  background-color: #f34472 !important;
 }
 
 main {
@@ -125,18 +120,23 @@ main {
   font-weight: bold;
 }
 
+.modal-backdrop{
+  position: relative;
+}
+
 #botonModal{
   color: white;
 }
 
-.modal-content{
+#modalSpoiler{
   background-color: tomato;
   border: 4px solid white;
   color: white;
   font-weight: bold;
+  width: 100%;
 }
 
-.modal-title, #botonModal{
+#modalTitle, #botonModal{
   font-family: 'Righteous', cursive;
 }
 
@@ -145,15 +145,15 @@ main {
   color: white;
 }
 
-.modal-title{
+#modalTitle{
   text-align: center;
 }
 
-.modal-header{
+#modalHeader{
   border-bottom: none;
 }
 
-.modal-footer{
+#modalFooter{
   border-top: none;
 }
 
@@ -253,8 +253,10 @@ main {
 }
 
 .botonJugar:hover {
-  color:#75cac3;
+  background-color:#75cac3;
+  color: #f34573;
   text-decoration: none;
+  width: 15%;
   }
 
 /*Css Juego*/
@@ -820,3 +822,94 @@ background-image: url('/imgsitio/bg-seriales.png');
   .flechaVolver{
     font-size: 40px;
   }
+<<<<<<< HEAD
+=======
+
+  /* MODAL */
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 70%;
+}
+
+.series {
+  color:#f34573;
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.serie {
+  margin-left: 15%;
+}
+
+.lista-series {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.btn-ubicacion {
+  width: 30%;
+  display: flex;
+}
+
+.container-fluid {
+  background-image: url(../imgsitio/bg-seriales.png);
+}
+
+.imagen-pregunta {
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 20%;
+  border: 1px black solid;
+  margin-top: 15px;
+  background-color: white;
+}
+
+.imagen-respuesta {
+  width: 200px;
+  max-width: 100%;
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  position: relative;
+  height: 200px;
+  display: flex;
+}
+
+.imagen-respuesta img {
+  display: block;
+  max-width: none;
+  width: 100%;
+  border-radius: 20%;
+}
+
+.seleccionar {
+  display: none;
+  justify-content: center;
+  list-style: none;
+  font-size: 20px;
+  text-align: center;
+  background-color: white;
+  padding: 20px 0;
+}
+
+.cambiar-series {
+  color: #75cac3;
+}
+>>>>>>> 3095fef1e91c06790501e25cc858e81dd2c50307

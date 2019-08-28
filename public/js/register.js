@@ -1,4 +1,4 @@
-window.onload = function(){
+window.addEventListener("load", function(){
     let formulario = document.getElementById("formularioRegistro");
     formulario.elements.name.focus();
     formulario.onsubmit = function(evento){
@@ -108,4 +108,4 @@ window.onload = function(){
     }
 
 
-}
+});
