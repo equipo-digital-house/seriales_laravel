@@ -30,20 +30,6 @@ window.onload = function () {
   })();
 
   window.onsubmit = function(event) {
-    (function removeModal() {
-
-      let form = document.querySelector('#series-form');
-      let seleccionar = document.querySelector('.seleccionar');
-
-      event.preventDefault()
-
-      if (event.target == form) {
-        modal.style.display = "none";
-        seleccionar.style.display = "flex";
-        footer.style.display = "block";
-      }
-    })();
-
     //Get the series
     series = document.getElementsByClassName('serie-checked');
 
@@ -65,6 +51,28 @@ window.onload = function () {
         }
       }
     }
+
+    (function removeModal() {
+
+      let form = document.querySelector('#series-form');
+      let seleccionar = document.querySelector('.seleccionar');
+      series = document.getElementsByClassName('serie-checked');
+
+      event.preventDefault()
+
+      if (event.target == form && seriesElegidas.length!= 0) {
+        modal.style.display = "none";
+        seleccionar.style.display = "flex";
+        footer.style.display = "block";
+      } else {
+          let errorMessage = document.createElement("p");
+          errorMessage.classList.add('text-danger');
+          errorMessage.classList.add('text-center');
+          errorMessage.innerHTML = "Debes seleccionar al menos una serie.";
+
+          form.parentElement.insertBefore(errorMessage, form);
+      }
+    })();
 
     //Mezclar preguntasElegidas
 
