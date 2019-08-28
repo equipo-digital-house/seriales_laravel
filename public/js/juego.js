@@ -108,6 +108,8 @@ window.onload = function () {
               } else {
                 respuestasIncorrectas();
               }
+            } else {
+              ganaste();
             }
           }, 1000);
       }
@@ -136,9 +138,9 @@ window.onload = function () {
           let mensaje =
           Swal.fire({
             type: 'error',
-            title: 'No estas de suerte!',
-            text: 'Queres seguir jugando?',
-            confirmButtonText: 'Jugar!',
+            title: '¡No estas de suerte!',
+            text: '¿Queres seguir jugando?',
+            confirmButtonText: 'Jugar',
             confirmButtonColor: '#F34573',
             onClose: () => {
               refresh();
@@ -169,6 +171,24 @@ window.onload = function () {
             respuesta.classList.remove('respuestaCorrecta');
           }
         }
+      }
+
+      function ganaste() {
+        Swal.fire({
+          title: '¡Ganaste!',
+          text: 'Definitivamente, sabes mucho de tus series favoritas.',
+          imageUrl: '/imgsitio/won.gif',
+          imageWidth: 400,
+          imageHeight: 200,
+          imageAlt: 'Custom image',
+          animation: false,
+          confirmButtonText: '¿Probar otras series?',
+          confirmButtonColor: '#F34573',
+          onClose: () => {
+            //REDIRECCIONA PARA ELEGIR NUEVAS SERIES
+            window.location.href = "juego";
+          }
+        })
       }
     })()
 
