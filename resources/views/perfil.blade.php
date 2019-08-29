@@ -120,7 +120,15 @@
      </div>
 
     <div class="my-3">
-      <a class="btn-cerrar" href="logout.php">Cerrar Sesión</a>
+      <a class="btn-cerrar" href="{{ route('logout') }}"
+        onclick="event.preventDefault();
+                document.getElementById('logout-form').submit();">
+      {{ __('Cerrar Sesión') }}
+      </a>
+
+      <form id="logout-form" action="{{ route('logout') }}" method="POST">
+          @csrf
+      </form>
     </div>
 
     </article>
