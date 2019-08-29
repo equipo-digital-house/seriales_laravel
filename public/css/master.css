@@ -329,7 +329,7 @@ main {
 }
 
 .respuesta:hover{
-  transform: scale(1.1);
+  transform: scale(1.05);
 }
 
 .respuesta button {
@@ -444,7 +444,8 @@ main {
 }
 
 .container-fluid {
-  background-image: url(../imgsitio/bg-seriales.png);;
+  background-image: url(../imgsitio/bg-seriales.png);
+  height: 100%;
 }
 
 .imagen-pregunta {
@@ -566,7 +567,7 @@ main {
       padding: 3px;
 
       }
-    
+
       .font-preguntas{
       font-size: 1rem;
     }
@@ -855,6 +856,7 @@ font-family: 'Lato', sans-serif;
 /**Codigo de Footer**/
 .main-footer{
   background-image: url('/imgsitio/bg-seriales.png');
+  padding-bottom: 0;
 }
 
   .footer-principal a{
@@ -903,6 +905,7 @@ font-family: 'Lato', sans-serif;
   display: flex;
   flex-direction: row;
   justify-content: center;
+  padding-top: 20px;
 
   }
   .avatar img{
