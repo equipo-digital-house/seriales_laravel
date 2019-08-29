@@ -1,21 +1,25 @@
 <main class="main-footer">
 <footer class="footer-principal">
-  <div class="menu-secundario">
-    <a href="index.php">Home</a>
-    <a href="juego.php">¡Jugar!</a>
-    <a href="preguntas.php">Preguntas</a>
-     @if(isset($_SESSION["email"]))
-      <a href="perfil.php">Mi Perfil</a>
-    @else
-      <a href="registro.php">Registrarse</a>
-    @endif
 
+  <div id="iconRedes">
+    <a href="#"><i id="footerIcon" class="fab fa-facebook-f"></i></a>
+      <a href="#"><i id="footerIcon" class="fab fa-twitter"></i></a>
+      <a href="#"><i id="footerIcon" class="fab fa-instagram"></i></a>
+      <a href="#"><i id="footerIcon" class="fab fa-google-play"></i></a>
+      <a href="#"><i id="footerIcon" class="fab fa-apple"></i></a>
+    </div>
 
-    @if(isset($_SESSION["email"]))
-      <a href="logout.php">Desloguearme</a>
-    @else
-      <a href="login.php">Login</a>
-    @endif
+  <div id="iconContactos" class="menu-secundario">
+    <a href="#"><i id="footerIcon" class="fas fa-envelope"></i></a>
+    <a href="#"><i id="footerIcon" class="fas fa-phone"></i></a>
+  </div>
+
+  <div class="derechos" style="display: none;">
+    <div align="right" style="line-height: 1;">
+    <a href="#">ARC Games//</a>
+    <br class="espacio">
+    <span>Todos los derechos reservados</span>
+    </div>
   </div>
 
 </footer>

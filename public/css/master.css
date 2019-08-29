@@ -41,7 +41,7 @@ transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out
   font-family: 'Righteous', cursive;
   color: white;
   padding: 10px 0 10px 0;
-  border: 2px dashed #2a6171;
+  border: 2px solid #2a6171;
   border-radius: 30px;
   background-color: #75cac3;
   transition: color .5s, background .5s, height .5s !important;
@@ -55,7 +55,6 @@ transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out
 main {
   padding: 30px;
   background-image: url('/imgsitio/bg-seriales.png');
-
 }
 
 .subtitulo {
@@ -102,6 +101,7 @@ main {
   border-radius: 30px;
   padding: 10px 20px;
   text-transform: uppercase;
+  transition: color .5s, background .5s, height .5s !important;
 }
 
 .btn-cerrar {
@@ -241,6 +241,7 @@ main {
   display:flex;
   align-items: center;
   justify-content: center;
+  transition: 0.15s padding ease-out, 0.15s margin ease-out, 0.15s border ease-out !important;
 }
 
 .botonJugar {
@@ -253,6 +254,7 @@ main {
   color: #ffffff;
   font-family: 'Righteous', cursive;
   text-transform: uppercase;
+  transition: color .5s, background .3s, height .5s !important;
 }
 
 .botonJugar:hover {
@@ -269,14 +271,23 @@ main {
   border-radius: 10px;
 }
 
-.admin-button{
-  right: 2%;
-  position: absolute;
+.fa-cog{
+  font-size: 25px;
+  -webkit-transition: 1s ease-out;
+  -moz-transition:  1s ease-out;
+  transition:  1s ease-out;
 }
 
-.admin-button a {
-  color:grey;
+#iconoAdmin{
+  color: gray;
 }
+
+.fa-cog:hover{
+  -webkit-transform: rotateZ(720deg);
+  -moz-transform: rotateZ(720deg);
+  transform: rotateZ(720deg);
+}
+
 
 .saludo {
   color: #F34573;
@@ -285,6 +296,7 @@ main {
   padding-right: 2%;
   flex: 1;
   margin-bottom: 0;
+  text-shadow: 2px 3px 3px #A9A9A9;
 }
 
 
@@ -308,10 +320,16 @@ main {
   flex-direction: row;
   flex-wrap: wrap;
   align-self: center;
+  transition: background-color .3s linear;
 }
 
 .respuesta {
   padding: 10px;
+  transition: transform .5s;
+}
+
+.respuesta:hover{
+  transform: scale(1.1);
 }
 
 .respuesta button {
@@ -326,6 +344,12 @@ main {
   height: 100%;
   border-radius: 6px;
   padding: 20px;
+  transition:all 0.4s ease-out;
+  }
+
+  .respuesta button:hover{
+    background: white;
+    color: #F34573;
   }
 
   .respuesta button:focus {
@@ -542,15 +566,44 @@ main {
       padding: 3px;
 
       }
+    
       .font-preguntas{
-        font-size: 1rem;
-      }
-
-      .respuesta {
-        width: 100%;
-      }
-
+      font-size: 1rem;
     }
+
+    .respuesta {
+      width: 100%;
+    }
+
+    .admin-button{
+      right: 3%;
+      top: 2%;
+      position: absolute;
+    }
+
+    .fa-cog{
+      font-size: 20px;
+    }
+
+    .footer-principal{
+
+      width:100%;
+      background-image: url('/imgsitio/bg-seriales2.png');
+      height: 40px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      border-radius: 10px 10px 0 0;
+      justify-content: space-around;
+      }
+
+    #iconRedes, #iconContactos{
+      padding-bottom: 3px;
+    }
+
+  }
 
     @media(min-width:570px) {
       .respuesta {
@@ -633,11 +686,52 @@ main {
       padding: 5px;
 
       }
-      .font-preguntas{
+    .font-preguntas{
 
-        font-size: 1.2rem;
+      font-size: 1.2rem;
+    }
+
+    .admin-button{
+      right: 2%;
+      top: 0.5%;
+      position: absolute;
+    }
+
+    .fa-cog{
+      font-size: 20px;
+    }
+
+    .footer-principal{
+
+      width:100%;
+      background-image: url('/imgsitio/bg-seriales2.png');
+      height: 50px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 10px 10px 0 0;
       }
 
+    .derechos{
+      display: block !important;
+    }
+
+    .derechos a{
+      font-family: 'Righteous', sans-serif;
+      color: white;
+      padding: 0;
+    }
+
+    .derechos span{
+      font-family: 'Lato', sans-serif;
+      color: white;
+      font-weight: bold;
+      padding: 0;
+      font-size: 12px;
+    }
 
   }
 
@@ -695,9 +789,33 @@ main {
       padding: 6px;
 
       }
-      .font-preguntas{
+    .font-preguntas{
 
-        font-size: 1.5rem;
+      font-size: 1.5rem;
+    }
+
+    .admin-button{
+      right: 2%;
+      top: 4.5%;
+      position: absolute;
+    }
+
+    .fa-cog{
+      font-size: 30px;
+    }
+
+    .footer-principal{
+
+      width:100%;
+      background-image: url('/imgsitio/bg-seriales2.png');
+      height: 75px;
+      margin-top: 30px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: space-around;
+      border-radius: 20px 20px 0 0;
       }
 
   }
@@ -736,49 +854,51 @@ font-family: 'Lato', sans-serif;
 }
 /**Codigo de Footer**/
 .main-footer{
-
-background-image: url('/imgsitio/bg-seriales.png');
-
+  background-image: url('/imgsitio/bg-seriales.png');
 }
-.footer-principal{
 
-	width:100%; /* Establecemos que el header abarque el 100% del documento */
-
-	background-image: url('/imgsitio/bg-seriales2.png');
-  width: 100%;
-  height:100px;
-
-  margin-top: 30px;
-  /*FLEXBOX*/
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  align-items: center;
-  justify-content: center;
-  border-radius: 20px 20px 0 0;
-
-  }
   .footer-principal a{
     color:#fff;
     text-align: center;
     text-decoration: none;
-    border-left:1px solid #fff;
+    border-left: 1px solid #fff;
 
   }
+
   .footer-principal a:hover{
     color:#f34573;
     text-decoration: none;
     }
+
+  #footerIcon{
+    color: white;
+    padding: 0;
+    border-bottom: solid 2px transparent;
+    -webkit-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+    -moz-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+    -ms-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+    -o-transition: color .2s ease-out, border-bottom-color .2s ease-out;
+    transition: color .2s ease-out, border-bottom-color .2s ease-out;
+  }
+
+  #footerIcon:hover{
+    color:#f34573;
+    border-bottom: solid 1px white;
+  }
+
   .footer-principal a:nth-child(1){
-      border-left: 0;
+    border-left: 0;
+  }
+
+  .mostrar {
+    display: block;
+    text-align: center;
     }
-    .mostrar {
-          display: block;
-          text-align: center;
-          }
-    .noMostrar{
-        display: none;
-            }
+
+  .noMostrar{
+    display: none;
+  }
+
   .avatar{
   display: flex;
   flex-direction: row;

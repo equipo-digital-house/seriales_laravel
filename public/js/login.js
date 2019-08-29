@@ -51,4 +51,19 @@ window.addEventListener("load", function(){
         }
     }
 
+    // Efecto boton login
+
+    let botonLogin = document.querySelector(".btn-formulario");
+    botonLogin.onmouseover = function(){
+        this.style.backgroundColor = "#2b6170";
+        this.style.color = "#f34573";
+        this.style.border = "2px dashed #75cac2";
+    }
+
+    botonLogin.onmouseout = function(){
+        this.style.backgroundColor = "#75cac2";
+        this.style.color = "white";
+        this.style.border = "2px solid #2b6170";
+    }
+
 });
