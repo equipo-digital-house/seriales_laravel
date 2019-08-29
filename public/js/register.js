@@ -108,4 +108,20 @@ window.addEventListener("load", function(){
     }
 
 
+    // Efecto botón Registrarme
+
+    let botonRegistrarme = document.querySelector(".btn-formulario");
+    botonRegistrarme.onmouseover = function(){
+        this.style.backgroundColor = "#2b6170";
+        this.style.color = "#f34573";
+        this.style.border = "2px dashed #75cac2";
+    }
+
+    botonRegistrarme.onmouseout = function(){
+        this.style.backgroundColor = "#75cac2";
+        this.style.color = "white";
+        this.style.border = "2px solid #2b6170";
+    }
+
+
 });
