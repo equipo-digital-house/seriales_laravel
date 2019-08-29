@@ -28,16 +28,18 @@
         @endif
             <form class="registro" action="{{url('/modificarPregunta')}}" method="post" enctype= "multipart/form-data">
             @csrf
-            <div class="form-group">
 
             @if($question->image!=null)
               <div class="text-center">
                 <img src="/storage/img/img_questions/{{$question->image}}" width="150px"alt="">
               </div>
-              <label for="InputQuestion">Pregunta</label>
-            @endif
-            <input name="pregunta" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="questionHelp" value="{{$question->name}}">
 
+            @endif
+            <label for="InputQuestion">Pregunta</label>
+            <input name="pregunta" type="text" class="form-control" id="exampleInputEmail1" aria-describedby="questionHelp" value="{{$question->name}}">
+            <input name="select_file" type="file" class="form-control-file"  value="">
+            <input name="imagenPregunta" type="hidden" class="form-control"  value="{{$question->image}}">
+            <br>
             <label for="selectPregunta">Nivel de Pregunta</label>
             <select name="selectNivel" class="form-control" id="selectPregunta" value="{{$question->level->id}}">
 
@@ -61,6 +63,8 @@
                         @endif
                         <input name="respuesta{{$cont}}" type="text" class="form-control" id="inputRespuesta{{$cont}}"  value="{{$answer->name}}">
                         <input name="answer{{$cont}}" type="hidden" class="form-control"  value="{{$answer->id}}">
+                        <input name="fileRespuesta{{$cont}}" type="file" class="form-control-file"  value="">
+                        <input name="imagenAnswer{{$cont}}" type="hidden" class="form-control"  value="{{$answer->image}}">
                               @if($answer->correctAnswer!=0)
                                 @php($respuestaCorrecta=$answer->correctAnswer)
                               @endif
@@ -84,16 +88,13 @@
                             </div>
                             <input type="hidden" name="question_id" value="{{$question->id}}">
                             <input type="hidden" name="serie_id" value="{{$question->serie->id}}">
-                            <button type="submit" class="btn btn-primary">Update Respuestas</button>
+                            <button type="submit" class="btn btn-primary">Update Pregunta</button>
 
     </form>
     </div>
-
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    </div>
-    </div>
-    </body>
-
-    </html>
+  </div>
+</div>
+  @endsection
+  @section('script')
+  <script src="{{ asset('/js/admin.js') }}"></script>
+  @endsection

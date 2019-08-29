@@ -18,7 +18,6 @@ class SerieController extends Controller
       $this->authorize('acceso', User::class);
       return view('series/nuevaSerie');
     }
-
     public function store(Request $request){
       $this->authorize('acceso', User::class);
       //dd($request);
@@ -45,15 +44,40 @@ class SerieController extends Controller
         return redirect('/listadoSeries');
     }
 
+    public function update(Request $request){
+      $this->authorize('acceso', User::class);
+      //dd($request);
+
+      $this->validate($request,
+      [
+    'nameSerie'=>'string',
+    'avatar'=>'image|mimes:jpeg,png,jpg,gif|max:1024'],
+    [
+    'image'=>'Archivo debe ser una imagen',
+    'mimes'=>'Archivo de imagen debe ser jpeg, png, jpg o gif',
+    'max'=>'Archivo debe pesar maximo 1MB',
+    'string'=>'El campo debe ser string'
+    ]);
+      $nuevaSerie=Serie::find($request['serie_id']);
+      $nuevaSerie->name=$request['nameSerie'];
+      if(isset($request['avatar'])){
+        $ruta=$request->file("avatar")->store("public/img/series");
+        $avatar=basename($ruta);
+        $nuevaSerie->image=$avatar;
+      }else{
+        $nuevaSerie->image=$request['serie_image'];
+      }
+
+        $nuevaSerie->save();
+        return redirect('/listadoSeries');
+    }
+
     public function show($id){
       $this->authorize('acceso', User::class);
 
       $serie=Serie::find($id);
-      if(!is_null($serie))
-      return view('serie.mostrar',['serie'=>$serie->toArray()]);
-      else {
-        // code...
-      }
+
+      return view('series/modificarSerie')->with('serie',$serie);
 
     }
 
