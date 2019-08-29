@@ -37,7 +37,7 @@
               <a class="dropdown menu" href="{{ route('logout') }}"
                 onclick="event.preventDefault();
                         document.getElementById('logout-form').submit();">
-              {{ __('Desloguearme') }}
+              {{ __('Logout') }}
               </a>
 
               <form id="logout-form" action="{{ route('logout') }}" method="POST">
@@ -62,4 +62,3 @@
 
   <script src="/js/header.js"></script>
 </header>
-
