@@ -83,7 +83,7 @@ if($request->checkPregunta=="conImagen"){
     public function delete(Request $request){
       $this->authorize('acceso', User::class);
       if($request->Cancelar=='no'){
-        return redirect('/administrador');
+        return redirect('/listadoSeries');
       }else {
       //aca se eliminara respuestas, preguntas y serie
       $id=$request->input("id");
@@ -94,7 +94,7 @@ if($request->checkPregunta=="conImagen"){
         }
       $question->delete();
 
-      return redirect('/administrador');
+      return redirect('/listadoSeries');
       }
 
     }

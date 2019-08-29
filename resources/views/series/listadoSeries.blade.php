@@ -5,9 +5,21 @@
           <div class="alert alert-dark" role="alert">
           <h2 class="display-6 text-center">Listado de Series - Preguntas y Respuestas</h2>
           </div>
+          <div class="submenu">
+                <ul class="nav justify-content-end">
+                <li class="nav-item">
+                  <a class="nav-link" href="/administrador"><i class="fas fa-arrow-circle-left" alt="Retornar"></i>Retornar</a>
+                </li>
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/nuevaSerie"><i class="fas fa-plus-circle"></i>Nueva Serie</a>
+                </li>
+
+                </ul>
+
+          </div>
       <p>
         <span id="series-total">{{$series->total()}} registros</span> | página {{$series->currentPage()}} de {{$series->lastPage()}}</p>
-        <div id="alert" class="alert alert-info"></div>
         <table class="table table-bordered text-center">
 
           <thead class="thead-dark">

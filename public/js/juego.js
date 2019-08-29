@@ -3,14 +3,11 @@ window.onload = function () {
   function shuffle(array) {
     var currentIndex = array.length, temporaryValue, randomIndex;
 
-    // While there remain elements to shuffle...
     while (0 !== currentIndex) {
 
-      // Pick a remaining element...
       randomIndex = Math.floor(Math.random() * currentIndex);
       currentIndex -= 1;
 
-      // And swap it with the current element.
       temporaryValue = array[currentIndex];
       array[currentIndex] = array[randomIndex];
       array[randomIndex] = temporaryValue;
@@ -22,28 +19,17 @@ window.onload = function () {
   //add Modal
   let series;
   let modal = document.querySelector('.modal');
+  let footer = document.querySelector('.main-footer');
   let seriesElegidas = [];
   let preguntasElegidas = [];
 
   (function addModal () {
 
     modal.style.display = "block";
+    footer.style.display = "none";
   })();
 
   window.onsubmit = function(event) {
-    (function removeModal() {
-
-      let form = document.querySelector('#series-form');
-      let seleccionar = document.querySelector('.seleccionar');
-
-      event.preventDefault()
-
-      if (event.target == form) {
-        modal.style.display = "none";
-        seleccionar.style.display = "flex";
-      }
-    })();
-
     //Get the series
     series = document.getElementsByClassName('serie-checked');
 
@@ -65,6 +51,28 @@ window.onload = function () {
         }
       }
     }
+
+    (function removeModal() {
+
+      let form = document.querySelector('#series-form');
+      let seleccionar = document.querySelector('.seleccionar');
+      series = document.getElementsByClassName('serie-checked');
+
+      event.preventDefault()
+
+      if (event.target == form && seriesElegidas.length!= 0) {
+        modal.style.display = "none";
+        seleccionar.style.display = "flex";
+        footer.style.display = "block";
+      } else {
+          let errorMessage = document.createElement("p");
+          errorMessage.classList.add('text-danger');
+          errorMessage.classList.add('text-center');
+          errorMessage.innerHTML = "Debes seleccionar al menos una serie.";
+
+          form.parentElement.insertBefore(errorMessage, form);
+      }
+    })();
 
     //Mezclar preguntasElegidas
 

@@ -268,14 +268,14 @@
 	{
 		"id" : 39,
 		"name" : "respuesta3",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : "imganswers39.jpg",
 		"question_id" : 10
 	},
 	{
 		"id" : 40,
 		"name" : "respuesta4",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : "imganswers40.jpg",
 		"question_id" : 10
 	},
@@ -2994,5 +2994,985 @@
 		"correctAnswer" : 4,
 		"image" : "mUhnQ3aVrAxgB2d4GXOMNIAEReX8woojLHH6YgO9.jpeg",
 		"question_id" : 108
+	},
+	{
+		"id" : 429,
+		"name" : "He-man",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 109
+	},
+	{
+		"id" : 430,
+		"name" : "Spiderman",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 109
+	},
+	{
+		"id" : 431,
+		"name" : "Batman",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 109
+	},
+	{
+		"id" : 432,
+		"name" : "Superman",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 109
+	},
+	{
+		"id" : 433,
+		"name" : "Mesero",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 110
+	},
+	{
+		"id" : 434,
+		"name" : "Cartero",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 110
+	},
+	{
+		"id" : 435,
+		"name" : "Plomero",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 110
+	},
+	{
+		"id" : 436,
+		"name" : "Encargado de edificio",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 110
+	},
+	{
+		"id" : 437,
+		"name" : "que ama las burbujas",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 111
+	},
+	{
+		"id" : 438,
+		"name" : "el cual Jerry inventa en uno de sus monólogos",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 111
+	},
+	{
+		"id" : 439,
+		"name" : "superheroe a quien George ama",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 111
+	},
+	{
+		"id" : 440,
+		"name" : "que vive dentro de una burbuja por salud",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 111
+	},
+	{
+		"id" : 441,
+		"name" : "escribir",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 112
+	},
+	{
+		"id" : 442,
+		"name" : "bailar",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 112
+	},
+	{
+		"id" : 443,
+		"name" : "cantar",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 112
+	},
+	{
+		"id" : 444,
+		"name" : "dibujar",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 112
+	},
+	{
+		"id" : 445,
+		"name" : "Jerry and Co.",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 113
+	},
+	{
+		"id" : 446,
+		"name" : "Jerry!",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 113
+	},
+	{
+		"id" : 447,
+		"name" : "Jerry and friends",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 113
+	},
+	{
+		"id" : 448,
+		"name" : "The Seinfeld Chronicles",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 113
+	},
+	{
+		"id" : 449,
+		"name" : "Accidente automovilístico",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 114
+	},
+	{
+		"id" : 450,
+		"name" : "Un infarto",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 114
+	},
+	{
+		"id" : 451,
+		"name" : "Se resbala en la calle",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 114
+	},
+	{
+		"id" : 452,
+		"name" : "Por lamer invitaciones de boda",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 114
+	},
+	{
+		"id" : 453,
+		"name" : "De Policía",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 115
+	},
+	{
+		"id" : 454,
+		"name" : "De vaquero",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 115
+	},
+	{
+		"id" : 455,
+		"name" : "De bombero",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 115
+	},
+	{
+		"id" : 456,
+		"name" : "De pirata",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 115
+	},
+	{
+		"id" : 457,
+		"name" : "Relaciones",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 116
+	},
+	{
+		"id" : 458,
+		"name" : "Comida",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 116
+	},
+	{
+		"id" : 459,
+		"name" : "Ropa",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 116
+	},
+	{
+		"id" : 460,
+		"name" : "Deportes",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 116
+	},
+	{
+		"id" : 461,
+		"name" : "Los Ángeles",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 117
+	},
+	{
+		"id" : 462,
+		"name" : "Seattle",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 117
+	},
+	{
+		"id" : 463,
+		"name" : "Chicago",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 117
+	},
+	{
+		"id" : 464,
+		"name" : "San Francisco",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 117
+	},
+	{
+		"id" : 465,
+		"name" : "Rob y Jenny",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 118
+	},
+	{
+		"id" : 466,
+		"name" : "Jim y Linda",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 118
+	},
+	{
+		"id" : 467,
+		"name" : "Paul y Rachel",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 118
+	},
+	{
+		"id" : 468,
+		"name" : "Luke y Penny",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 118
+	},
+	{
+		"id" : 469,
+		"name" : "Duro de matar",
+		"correctAnswer" : 0,
+		"image" : "lcATdHe7RhGLKuym0U74PBYgRL69t3HUTBswrnQQ.jpeg",
+		"question_id" : 119
+	},
+	{
+		"id" : 470,
+		"name" : "Star Wars",
+		"correctAnswer" : 0,
+		"image" : "O77LTxaUnJcyyhdKvWtCdFnGeEiWUjPJL8nVWSHK.jpeg",
+		"question_id" : 119
+	},
+	{
+		"id" : 471,
+		"name" : "Star Trek",
+		"correctAnswer" : 0,
+		"image" : "KrMuPTN2J5LvAAqZnQJsWwJWWyElyWK6tNyCs3dK.jpeg",
+		"question_id" : 119
+	},
+	{
+		"id" : 472,
+		"name" : "Terminator",
+		"correctAnswer" : 4,
+		"image" : "8zoFX4Coh94tbpXQZ8VcNYLujEv2aRzX1AcHQVhT.jpeg",
+		"question_id" : 119
+	},
+	{
+		"id" : 473,
+		"name" : "Ricky",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 120
+	},
+	{
+		"id" : 474,
+		"name" : "Lenny",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 120
+	},
+	{
+		"id" : 475,
+		"name" : "Michael",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 120
+	},
+	{
+		"id" : 476,
+		"name" : "James",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 120
+	},
+	{
+		"id" : 477,
+		"name" : "Stella",
+		"correctAnswer" : 0,
+		"image" : "K8O1mDpyBwaeY6TKNQEQHHRFyJ3uHqeLsAjfrlbM.jpeg",
+		"question_id" : 121
+	},
+	{
+		"id" : 478,
+		"name" : "Robin",
+		"correctAnswer" : 0,
+		"image" : "FWHsKSrXEYXj18NOOo6NBnAa8VE83E8iMTrnvNIJ.jpeg",
+		"question_id" : 121
+	},
+	{
+		"id" : 479,
+		"name" : "Zoe",
+		"correctAnswer" : 0,
+		"image" : "H07uQNYUY7lRWBusIA1UiirsJJOUSQY2g3m6dlUR.png",
+		"question_id" : 121
+	},
+	{
+		"id" : 480,
+		"name" : "Quinn",
+		"correctAnswer" : 4,
+		"image" : "NKHb9U9DJfINwxYg5f6kspr3GFI0NgEWkVPQYROt.jpeg",
+		"question_id" : 121
+	},
+	{
+		"id" : 481,
+		"name" : "MacLaren's Bar",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 122
+	},
+	{
+		"id" : 482,
+		"name" : "The Bar",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 122
+	},
+	{
+		"id" : 483,
+		"name" : "The Bro's Bar",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 122
+	},
+	{
+		"id" : 484,
+		"name" : "Puzzles",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 122
+	},
+	{
+		"id" : 485,
+		"name" : "Mindy",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 123
+	},
+	{
+		"id" : 486,
+		"name" : "Helen",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 123
+	},
+	{
+		"id" : 487,
+		"name" : "Susan",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 123
+	},
+	{
+		"id" : 488,
+		"name" : "Loreta",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 123
+	},
+	{
+		"id" : 489,
+		"name" : "Abogado",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 124
+	},
+	{
+		"id" : 490,
+		"name" : "Corredor Inmobiliario",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 124
+	},
+	{
+		"id" : 491,
+		"name" : "Taxista",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 124
+	},
+	{
+		"id" : 492,
+		"name" : "Crea juegos de mesa",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 124
+	},
+	{
+		"id" : 493,
+		"name" : "Vendedor",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 125
+	},
+	{
+		"id" : 494,
+		"name" : "Ingeniero químico",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 125
+	},
+	{
+		"id" : 495,
+		"name" : "Biólogo",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 125
+	},
+	{
+		"id" : 496,
+		"name" : "Profesor de química",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 125
+	},
+	{
+		"id" : 497,
+		"name" : "Algo que se pudre o se echa a perder, algo que es bueno y se convierte en malo.",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 126
+	},
+	{
+		"id" : 498,
+		"name" : "Algo que se mejora constantemente",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 126
+	},
+	{
+		"id" : 499,
+		"name" : "La idea de que se quiebra la cabeza",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 126
+	},
+	{
+		"id" : 500,
+		"name" : "Alguien con mala suerte y que le va mal",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 126
+	},
+	{
+		"id" : 501,
+		"name" : "Chihuahua",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 127
+	},
+	{
+		"id" : 502,
+		"name" : "Albuquerque",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 127
+	},
+	{
+		"id" : 503,
+		"name" : "Oklahoma",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 127
+	},
+	{
+		"id" : 504,
+		"name" : "Texas",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 127
+	},
+	{
+		"id" : 505,
+		"name" : "Cap'n Cook",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 128
+	},
+	{
+		"id" : 506,
+		"name" : "Heisenberg",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 128
+	},
+	{
+		"id" : 507,
+		"name" : "Hank",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 128
+	},
+	{
+		"id" : 508,
+		"name" : "Jimmy",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 128
+	},
+	{
+		"id" : 509,
+		"name" : "Andrea Cantillo",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 129
+	},
+	{
+		"id" : 510,
+		"name" : "Gretchen Schwartz",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 129
+	},
+	{
+		"id" : 511,
+		"name" : "Jane Margolis",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 129
+	},
+	{
+		"id" : 512,
+		"name" : "Lydia Rodarte-Quayle",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 129
+	},
+	{
+		"id" : 513,
+		"name" : "Dustin Henderson",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 130
+	},
+	{
+		"id" : 514,
+		"name" : "Will Byers",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 130
+	},
+	{
+		"id" : 515,
+		"name" : "Jonathan Byers",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 130
+	},
+	{
+		"id" : 516,
+		"name" : "Billy Hargrove",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 130
+	},
+	{
+		"id" : 517,
+		"name" : "Hawkins, Indiana",
+		"correctAnswer" : 1,
+		"image" : null,
+		"question_id" : 131
+	},
+	{
+		"id" : 518,
+		"name" : "Indianapolis",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 131
+	},
+	{
+		"id" : 519,
+		"name" : "Evansville",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 131
+	},
+	{
+		"id" : 520,
+		"name" : "Lafayette",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 131
+	},
+	{
+		"id" : 521,
+		"name" : "Matt y Ross Duffer",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 132
+	},
+	{
+		"id" : 522,
+		"name" : "Michael \"Mike\" y Karen Wheeler",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 132
+	},
+	{
+		"id" : 523,
+		"name" : "Will y Jonathan Byers",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 132
+	},
+	{
+		"id" : 524,
+		"name" : "Lukas y Erica Sinclair",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 132
+	},
+	{
+		"id" : 525,
+		"name" : "Sophia",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 133
+	},
+	{
+		"id" : 526,
+		"name" : "Millie",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 133
+	},
+	{
+		"id" : 527,
+		"name" : "Diane",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 133
+	},
+	{
+		"id" : 528,
+		"name" : "Jane",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 133
+	},
+	{
+		"id" : 529,
+		"name" : "Respuesta1",
+		"correctAnswer" : 0,
+		"image" : "Ia3XE33umMLCKjVEbB8m3S1MMbI8VfRb6Y8AfEFW.jpeg",
+		"question_id" : 134
+	},
+	{
+		"id" : 530,
+		"name" : "Respuesta2",
+		"correctAnswer" : 0,
+		"image" : "2lrh4Rw6RWHVsP6vm442Ojk6lCrK94h6NiPOOPRl.jpeg",
+		"question_id" : 134
+	},
+	{
+		"id" : 531,
+		"name" : "Respuesta3",
+		"correctAnswer" : 0,
+		"image" : "CQKyylO1MWSLC0VWaPbFuGLg6pmKH49zgpXnO04k.jpeg",
+		"question_id" : 134
+	},
+	{
+		"id" : 532,
+		"name" : "Respuesta4",
+		"correctAnswer" : 4,
+		"image" : "kl4oYT30T1yZwQpV3gorlBW6EgYzdd2mOZwfqlHA.jpeg",
+		"question_id" : 134
+	},
+	{
+		"id" : 533,
+		"name" : "Just another day",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 135
+	},
+	{
+		"id" : 534,
+		"name" : "The NeverEnding Story",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 135
+	},
+	{
+		"id" : 535,
+		"name" : "Islands in the stream",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 135
+	},
+	{
+		"id" : 536,
+		"name" : "Wango Tango",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 135
+	},
+	{
+		"id" : 537,
+		"name" : "Meredith Gray",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 136
+	},
+	{
+		"id" : 538,
+		"name" : "Derek Shepherd",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 136
+	},
+	{
+		"id" : 539,
+		"name" : "Cristina Yang",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 136
+	},
+	{
+		"id" : 540,
+		"name" : "Richard Webber",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 136
+	},
+	{
+		"id" : 541,
+		"name" : "Preston Burke",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 137
+	},
+	{
+		"id" : 542,
+		"name" : "Richard Webber",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 137
+	},
+	{
+		"id" : 543,
+		"name" : "Thatcher Grey",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 137
+	},
+	{
+		"id" : 544,
+		"name" : "Zola Gray",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 137
+	},
+	{
+		"id" : 545,
+		"name" : "Mark Sloan y Julia Canner",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 138
+	},
+	{
+		"id" : 546,
+		"name" : "Owen Hunt y Amelia Shepherd",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 138
+	},
+	{
+		"id" : 547,
+		"name" : "Sarah Drew  y Jesse Williams",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 138
+	},
+	{
+		"id" : 548,
+		"name" : "Ellis Gray y Richard Webber",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 138
+	},
+	{
+		"id" : 549,
+		"name" : "Johns Hopkins Hospital",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 139
+	},
+	{
+		"id" : 550,
+		"name" : "Grey Sloan Memorial Hospital",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 139
+	},
+	{
+		"id" : 551,
+		"name" : "Hospital Northwestern Memorial",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 139
+	},
+	{
+		"id" : 552,
+		"name" : "Hospital General de Massachusetts",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 139
+	},
+	{
+		"id" : 553,
+		"name" : "Mark Sloan",
+		"correctAnswer" : 1,
+		"image" : "F7H0xzoNxoLo7fbaZv9AJgSJbNkSKAc3DYS2yDDm.jpeg",
+		"question_id" : 140
+	},
+	{
+		"id" : 554,
+		"name" : "Alex Karev",
+		"correctAnswer" : 0,
+		"image" : "HLhiVw76EN7hrG7media4v3DvqCnqHvSyqkvn6T9.jpeg",
+		"question_id" : 140
+	},
+	{
+		"id" : 555,
+		"name" : "Jackson Avery",
+		"correctAnswer" : 0,
+		"image" : "jwl15vJ72brctiyP7CuHoEeGzsBdxpQscKh4dEVM.jpeg",
+		"question_id" : 140
+	},
+	{
+		"id" : 556,
+		"name" : "George O'Malley",
+		"correctAnswer" : 0,
+		"image" : "oyFr8QXRpTs3jRNPC02iPfKyz8PI0SssgMsVTAYW.jpeg",
+		"question_id" : 140
+	},
+	{
+		"id" : 557,
+		"name" : "Callie Torres",
+		"correctAnswer" : 0,
+		"image" : "8LfOZUpxYctNdANFMXFUCfvsaeg8f4UXpTjFKrkO.jpeg",
+		"question_id" : 141
+	},
+	{
+		"id" : 558,
+		"name" : "Lexie Grey",
+		"correctAnswer" : 0,
+		"image" : "uK1f1CFY6rT7xl8rwZMIYx84XsFYB4efMpuwG8hb.jpeg",
+		"question_id" : 141
+	},
+	{
+		"id" : 559,
+		"name" : "Isobel  Stevens",
+		"correctAnswer" : 0,
+		"image" : "TTNj3R5G6SVo4WW93tKKw40Nao1uRryz6sQHtA47.jpeg",
+		"question_id" : 141
+	},
+	{
+		"id" : 560,
+		"name" : "Cristina Yang",
+		"correctAnswer" : 4,
+		"image" : "zHCiLA9pSZ3qyO8zhwwMpz3qhGljHRsDuzYQ3xIc.jpeg",
+		"question_id" : 141
+	},
+	{
+		"id" : 561,
+		"name" : "Especialista en cirugía plástica y neo-natal.",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 142
+	},
+	{
+		"id" : 562,
+		"name" : "Un paciente que necesitaba urgentemente un trasplante de corazón.",
+		"correctAnswer" : 2,
+		"image" : null,
+		"question_id" : 142
+	},
+	{
+		"id" : 563,
+		"name" : "El veterinario del perro de Meredith",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 142
+	},
+	{
+		"id" : 564,
+		"name" : "Un  médico militar que ha vuelto de Irak",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 142
+	},
+	{
+		"id" : 565,
+		"name" : "Se divorcia de Meredith",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 143
+	},
+	{
+		"id" : 566,
+		"name" : "Renuncia a su puesto en el Hospital",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 143
+	},
+	{
+		"id" : 567,
+		"name" : "Muere",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 143
+	},
+	{
+		"id" : 568,
+		"name" : "Le da un ataque al corazón",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 143
 	}
 ]
