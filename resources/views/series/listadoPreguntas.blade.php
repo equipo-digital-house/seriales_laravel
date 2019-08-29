@@ -42,6 +42,7 @@
                 <th scope="col">Nivel</th>
                 <th scope="col">Puntaje</th>
                 <th scope="col">Respuestas</th>
+                <th scope="col">Modificar</th>
                 <th scope="col">Eliminar</th>
               </tr>
             </thead>
@@ -58,6 +59,7 @@
                         <td>{{$question->level->name}}</td>
                         <td>{{$question->level->score}}</td>
                         <td><a href="/listadoRespuestas/{{$question->id}}"><i class="far fa-eye"></i></a></td>
+                        <td><a href="/modificarPregunta/{{$question->id}}"><i class="far fa-trash-alt"></i></a></td>
                         <td><a href="/eliminarPregunta/{{$question->id}}"><i class="far fa-trash-alt"></i></a></td>
                   </tr>
               @endforeach

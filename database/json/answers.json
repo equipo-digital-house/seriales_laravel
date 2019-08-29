@@ -813,28 +813,28 @@
 	},
 	{
 		"id" : 117,
-		"name" : "\"Benjamin les tendió una trampa\"\".\"",
+		"name" : "Benjamin les tendió una trampa.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
 		"id" : 118,
-		"name" : "\"Desmond no es quién dice ser\"\".\"",
+		"name" : "Desmond no es quién dice ser.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
 		"id" : 119,
-		"name" : "\"Este no es el barco de Penny\"\".\"",
+		"name" : "Este no es el barco de Penny.",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 30
 	},
 	{
 		"id" : 120,
-		"name" : "\"El bebé de Claire es la causa del accidente\"\".\"",
+		"name" : "El bebé de Claire es la causa del accidente.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 30
@@ -2529,7 +2529,7 @@
 	{
 		"id" : 362,
 		"name" : "Satan",
-		"correctAnswer" : 2,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 92
 	},
@@ -2543,7 +2543,7 @@
 	{
 		"id" : 364,
 		"name" : "Diablo",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 92
 	},
@@ -2557,7 +2557,7 @@
 	{
 		"id" : 366,
 		"name" : "Jane Ingalls",
-		"correctAnswer" : 2,
+		"correctAnswer" : 0,
 		"image" : "zoXWZXk0J9SeYpwa9oiVKEXhSLOxBxFyp0yNs4wD.jpeg",
 		"question_id" : 93
 	},
@@ -2571,14 +2571,14 @@
 	{
 		"id" : 368,
 		"name" : "Vee",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : "JUU8j7Zz4asgRaK8eUDxzD0wIJuomMfzN2tn6Dcg.jpeg",
 		"question_id" : 93
 	},
 	{
 		"id" : 369,
 		"name" : "Manhattan",
-		"correctAnswer" : 1,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 94
 	},
@@ -2592,7 +2592,7 @@
 	{
 		"id" : 371,
 		"name" : "Queens",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 94
 	},
@@ -2620,14 +2620,14 @@
 	{
 		"id" : 375,
 		"name" : "Su cumpleaños",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 95
 	},
 	{
 		"id" : 376,
 		"name" : "Un día normal",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 95
 	},
@@ -2641,20 +2641,20 @@
 	{
 		"id" : 378,
 		"name" : "Atacado por los Otros",
-		"correctAnswer" : 2,
-		"image" : null,
-		"question_id" : 96
-	},
-	{
-		"id" : 379,
-		"name" : "Asesinado por el Humo Negro",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 96
 	},
 	{
-		"id" : 380,
+		"id" : 379,
 		"name" : "Cargando dinamita",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 96
+	},
+	{
+		"id" : 380,
+		"name" : "Asesinado por el Humo Negro",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 96
@@ -2676,14 +2676,14 @@
 	{
 		"id" : 383,
 		"name" : "Josh Holloway",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 97
 	},
 	{
 		"id" : 384,
 		"name" : "Jorge Garcia",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 97
 	},
@@ -2704,14 +2704,14 @@
 	{
 		"id" : 387,
 		"name" : "Michael",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : "ZOxjktDxZ8EbLjRR6MUcB3kG9x9IrNvvpQrjSI8i.jpeg",
 		"question_id" : 98
 	},
 	{
 		"id" : 388,
 		"name" : "Libby",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : "Mh9ogYRL7SzCGjXjXk3GwHJQLfkcvBrtXegbMrmQ.jpeg",
 		"question_id" : 98
 	},
@@ -2732,28 +2732,28 @@
 	{
 		"id" : 391,
 		"name" : "Juliet",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : "5wODCEXTlVMhtRAu3ayKR5sk6DTmhk5OjUclM48b.jpeg",
 		"question_id" : 99
 	},
 	{
 		"id" : 392,
 		"name" : "Jin-Soo Kwon",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : "xtjqlkMa1sPTRKtpZjRozLKwRDiNTJM1SpuQ26ZO.jpeg",
 		"question_id" : 99
 	},
 	{
 		"id" : 393,
 		"name" : "Roger Linus",
-		"correctAnswer" : 1,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 100
 	},
 	{
 		"id" : 394,
 		"name" : "Jim Lefleur",
-		"correctAnswer" : 0,
+		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 100
 	},
@@ -2773,7 +2773,7 @@
 	},
 	{
 		"id" : 397,
-		"name" : "Colorado",
+		"name" : "Carolina del Sur",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 101
@@ -2794,7 +2794,7 @@
 	},
 	{
 		"id" : 400,
-		"name" : "Carolina del Sur",
+		"name" : "Colorado",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 101
@@ -2808,21 +2808,21 @@
 	},
 	{
 		"id" : 402,
-		"name" : "Cuarta",
-		"correctAnswer" : 0,
+		"name" : "Segunda",
+		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 102
 	},
 	{
 		"id" : 403,
 		"name" : "Primera",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 102
 	},
 	{
 		"id" : 404,
-		"name" : "Segunda",
+		"name" : "Cuarta",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 102
@@ -2830,7 +2830,7 @@
 	{
 		"id" : 405,
 		"name" : "Freddy",
-		"correctAnswer" : 0,
+		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 103
 	},
@@ -2851,7 +2851,7 @@
 	{
 		"id" : 408,
 		"name" : "Paul",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 103
 	},
@@ -2865,20 +2865,20 @@
 	{
 		"id" : 410,
 		"name" : "Político",
-		"correctAnswer" : 2,
-		"image" : null,
-		"question_id" : 104
-	},
-	{
-		"id" : 411,
-		"name" : "Periodista",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 104
 	},
 	{
-		"id" : 412,
+		"id" : 411,
 		"name" : "Fotografo",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 104
+	},
+	{
+		"id" : 412,
+		"name" : "Periodista",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 104
@@ -2886,7 +2886,7 @@
 	{
 		"id" : 413,
 		"name" : "Garret Walker",
-		"correctAnswer" : 0,
+		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 105
 	},
@@ -2900,7 +2900,7 @@
 	{
 		"id" : 415,
 		"name" : "Markus Hopkings",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 105
 	},
@@ -2914,7 +2914,7 @@
 	{
 		"id" : 417,
 		"name" : "1990",
-		"correctAnswer" : 1,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 106
 	},
@@ -2935,7 +2935,7 @@
 	{
 		"id" : 420,
 		"name" : "1987",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 106
 	},
@@ -2955,14 +2955,14 @@
 	},
 	{
 		"id" : 423,
-		"name" : "Clean Water for All",
+		"name" : "Clean Water Initiative",
 		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 107
 	},
 	{
 		"id" : 424,
-		"name" : "Clean Water Initiative",
+		"name" : "Clean Water for All",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 107
@@ -2984,21 +2984,21 @@
 	{
 		"id" : 427,
 		"name" : "Pussy Riot",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : "aQ6szm49Eu0EcwKLQ8otR5Y9gcWoYWMuxFGfBKKT.jpeg",
 		"question_id" : 108
 	},
 	{
 		"id" : 428,
 		"name" : "Sonic Death",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : "mUhnQ3aVrAxgB2d4GXOMNIAEReX8woojLHH6YgO9.jpeg",
 		"question_id" : 108
 	},
 	{
 		"id" : 429,
 		"name" : "He-man",
-		"correctAnswer" : 1,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 109
 	},
@@ -3019,7 +3019,7 @@
 	{
 		"id" : 432,
 		"name" : "Superman",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 109
 	},
@@ -3033,14 +3033,14 @@
 	{
 		"id" : 434,
 		"name" : "Cartero",
-		"correctAnswer" : 0,
+		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 110
 	},
 	{
 		"id" : 435,
 		"name" : "Plomero",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 110
 	},
@@ -3061,7 +3061,7 @@
 	{
 		"id" : 438,
 		"name" : "el cual Jerry inventa en uno de sus monólogos",
-		"correctAnswer" : 2,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 111
 	},
@@ -3075,7 +3075,7 @@
 	{
 		"id" : 440,
 		"name" : "que vive dentro de una burbuja por salud",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 111
 	},
@@ -3089,7 +3089,7 @@
 	{
 		"id" : 442,
 		"name" : "bailar",
-		"correctAnswer" : 0,
+		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 112
 	},
@@ -3103,14 +3103,14 @@
 	{
 		"id" : 444,
 		"name" : "dibujar",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 112
 	},
 	{
 		"id" : 445,
-		"name" : "Jerry and Co.",
-		"correctAnswer" : 0,
+		"name" : "The Seinfeld Chronicles",
+		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 113
 	},
@@ -3124,20 +3124,20 @@
 	{
 		"id" : 447,
 		"name" : "Jerry and friends",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 113
 	},
 	{
 		"id" : 448,
-		"name" : "The Seinfeld Chronicles",
+		"name" : "Jerry and Co.",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 113
 	},
 	{
 		"id" : 449,
-		"name" : "Accidente automovilístico",
+		"name" : "Por lamer invitaciones de boda",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 114
@@ -3158,7 +3158,7 @@
 	},
 	{
 		"id" : 452,
-		"name" : "Por lamer invitaciones de boda",
+		"name" : "Accidente automovilístico",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 114
@@ -3173,7 +3173,7 @@
 	{
 		"id" : 454,
 		"name" : "De vaquero",
-		"correctAnswer" : 2,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 115
 	},
@@ -3187,7 +3187,7 @@
 	{
 		"id" : 456,
 		"name" : "De pirata",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 115
 	},
@@ -3208,14 +3208,14 @@
 	{
 		"id" : 459,
 		"name" : "Ropa",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : null,
 		"question_id" : 116
 	},
 	{
 		"id" : 460,
 		"name" : "Deportes",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 116
 	},
@@ -3236,14 +3236,14 @@
 	{
 		"id" : 463,
 		"name" : "Chicago",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 117
 	},
 	{
 		"id" : 464,
 		"name" : "San Francisco",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 117
 	},
@@ -3256,7 +3256,7 @@
 	},
 	{
 		"id" : 466,
-		"name" : "Jim y Linda",
+		"name" : "Luke y Penny",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 118
@@ -3270,7 +3270,7 @@
 	},
 	{
 		"id" : 468,
-		"name" : "Luke y Penny",
+		"name" : "Jim y Linda",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 118
@@ -3285,7 +3285,7 @@
 	{
 		"id" : 470,
 		"name" : "Star Wars",
-		"correctAnswer" : 0,
+		"correctAnswer" : 2,
 		"image" : "O77LTxaUnJcyyhdKvWtCdFnGeEiWUjPJL8nVWSHK.jpeg",
 		"question_id" : 119
 	},
@@ -3299,14 +3299,14 @@
 	{
 		"id" : 472,
 		"name" : "Terminator",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : "8zoFX4Coh94tbpXQZ8VcNYLujEv2aRzX1AcHQVhT.jpeg",
 		"question_id" : 119
 	},
 	{
 		"id" : 473,
 		"name" : "Ricky",
-		"correctAnswer" : 1,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 120
 	},
@@ -3327,7 +3327,7 @@
 	{
 		"id" : 476,
 		"name" : "James",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 120
 	},
@@ -3348,21 +3348,21 @@
 	{
 		"id" : 479,
 		"name" : "Zoe",
-		"correctAnswer" : 0,
+		"correctAnswer" : 3,
 		"image" : "H07uQNYUY7lRWBusIA1UiirsJJOUSQY2g3m6dlUR.png",
 		"question_id" : 121
 	},
 	{
 		"id" : 480,
 		"name" : "Quinn",
-		"correctAnswer" : 4,
+		"correctAnswer" : 0,
 		"image" : "NKHb9U9DJfINwxYg5f6kspr3GFI0NgEWkVPQYROt.jpeg",
 		"question_id" : 121
 	},
 	{
 		"id" : 481,
-		"name" : "MacLaren's Bar",
-		"correctAnswer" : 0,
+		"name" : "Puzzles",
+		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 122
 	},
@@ -3376,13 +3376,13 @@
 	{
 		"id" : 483,
 		"name" : "The Bro's Bar",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 122
 	},
 	{
 		"id" : 484,
-		"name" : "Puzzles",
+		"name" : "MacLaren's Bar",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 122
@@ -3396,7 +3396,7 @@
 	},
 	{
 		"id" : 486,
-		"name" : "Helen",
+		"name" : "Loreta",
 		"correctAnswer" : 2,
 		"image" : null,
 		"question_id" : 123
@@ -3410,7 +3410,7 @@
 	},
 	{
 		"id" : 488,
-		"name" : "Loreta",
+		"name" : "Helen",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 123
@@ -3432,14 +3432,14 @@
 	{
 		"id" : 491,
 		"name" : "Taxista",
-		"correctAnswer" : 3,
+		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 124
 	},
 	{
 		"id" : 492,
 		"name" : "Crea juegos de mesa",
-		"correctAnswer" : 0,
+		"correctAnswer" : 4,
 		"image" : null,
 		"question_id" : 124
 	},
@@ -3613,28 +3613,28 @@
 	},
 	{
 		"id" : 517,
-		"name" : "Hawkins, Indiana",
+		"name" : "Tres temporadas",
 		"correctAnswer" : 1,
 		"image" : null,
 		"question_id" : 131
 	},
 	{
 		"id" : 518,
-		"name" : "Indianapolis",
+		"name" : "Una temporada",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 131
 	},
 	{
 		"id" : 519,
-		"name" : "Evansville",
+		"name" : "Cinco temporadas",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 131
 	},
 	{
 		"id" : 520,
-		"name" : "Lafayette",
+		"name" : "Dos temporadas",
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 131
@@ -3974,5 +3974,89 @@
 		"correctAnswer" : 0,
 		"image" : null,
 		"question_id" : 143
+	},
+	{
+		"id" : 569,
+		"name" : "Madison",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 73
+	},
+	{
+		"id" : 570,
+		"name" : "Milwauke",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 73
+	},
+	{
+		"id" : 571,
+		"name" : "Point Place",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 73
+	},
+	{
+		"id" : 572,
+		"name" : "Green Bay",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 73
+	},
+	{
+		"id" : 573,
+		"name" : "Cocina",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 144
+	},
+	{
+		"id" : 574,
+		"name" : "Dormitorio",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 144
+	},
+	{
+		"id" : 575,
+		"name" : "Sotano",
+		"correctAnswer" : 3,
+		"image" : null,
+		"question_id" : 144
+	},
+	{
+		"id" : 576,
+		"name" : "Piscina",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 144
+	},
+	{
+		"id" : 577,
+		"name" : "Donna Pincotti y Steven Hyde",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 145
+	},
+	{
+		"id" : 578,
+		"name" : "Fez y Laurie Forman",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 145
+	},
+	{
+		"id" : 579,
+		"name" : "Ninguno de ellos",
+		"correctAnswer" : 0,
+		"image" : null,
+		"question_id" : 145
+	},
+	{
+		"id" : 580,
+		"name" : "Michael Kelso y Jackie Burkhart",
+		"correctAnswer" : 4,
+		"image" : null,
+		"question_id" : 145
 	}
 ]

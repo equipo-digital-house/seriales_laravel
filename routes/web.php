@@ -63,6 +63,8 @@ Route::get('/eliminarSerie/{id}','SerieController@showDelete');
 Route::post('/eliminarSerie','SerieController@delete');
 Route::get('/eliminarPregunta/{id}','QuestionController@showDelete');
 Route::post('/eliminarPregunta','QuestionController@delete');
+Route::get('/modificarPregunta/{id}','QuestionController@showUpdate');
+Route::post('/modificarPregunta','QuestionController@update');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');

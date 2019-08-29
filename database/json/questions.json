@@ -2,1002 +2,1016 @@
 	{
 		"id" : 1,
 		"name" : "¿Cuál de las siguientes imágenes pertenece a la Batalla de los Bastardos?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 2,
 		"name" : "¿Cómo pierde la mano derecha Jamie Lannister?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 3,
 		"name" : "¿Cuál de las siguientes mujeres es la esposa de Lord Roose Bolton?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 3,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 4,
 		"name" : "¿Quiénes se unen a la Guardia de la Noche?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 5,
 		"name" : "¿Cómo muere Ramsay Bolton?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 6,
 		"name" : "¿Por qué se exilia Sir Jorah Mormont?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 7,
 		"name" : "¿Qué acto era considerado deshonroso para los Dothraki?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 8,
 		"name" : "¿Quién organiza la boda entre Daenerys Targaryen y Khal Drogo?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 9,
 		"name" : "¿Cuál de las siguientes imágenes muestra a Syrio Forel?",
+		"image" : null,
 		"serie_id" : 18,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 10,
 		"name" : "¿Cuál de los siguientes personajes salió con Rachel durante la secundaria y luego tiene una cita Monica en la temporada 2?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 11,
 		"name" : "¿Qué herida le causa Monica Geller a Chandler Bing cuando eran adolescentes?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 12,
 		"name" : "¿En qué otra serie aparece Ursula Buffay, la hermana gemela de Phoebe?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 13,
 		"name" : "¿Cuál de lxs amigxs quiere aprender a tocar la guitarra?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 14,
 		"name" : "¿En que lugar público Chandler Bing se quedó encerrado con la modelo Jill Goodacre?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 15,
 		"name" : "¿Cuál es el mayor de lxs amigxs?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 3,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 16,
 		"name" : "¿Cuál de estxs actorxs nunca apareció en Friends?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 3,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 17,
 		"name" : "¿Cómo se llaman los trillizos que Phoebe Buffay tuvo para su hermano Frank Buffay Jr.?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 18,
 		"name" : "¿Quién vivía antes en el departamento que alquila Ross Geller tras separarse de Emily Waltham?",
+		"image" : null,
 		"serie_id" : 1,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 19,
 		"name" : "¿Cuál es el verdadero nombre de la interna apodada \"Crazy Eyes\"\"?\"",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 20,
 		"name" : "¿Por qué envían a la cárcel a la protagonista, Piper Chapman?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 21,
 		"name" : "¿Cuál era la profesión de Sophia Burset antes de cambiarse de género?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 22,
 		"name" : "¿Por qué razón Sophia Burset terminó en la cárcel?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 23,
 		"name" : "¿Cuál de las internas muere a manos de un guardia tras un levantamiento en el centro penitenciario?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 24,
 		"name" : "¿Para qué sirven las mañanas según el jefe Jim Hopper?",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 25,
 		"name" : "¿Cómo se llama la ciudad ficticia donde transcurren los hechos?",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 26,
 		"name" : "¿Por qué razón Once (Eleven) se llama así? ",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 27,
 		"name" : "¿En qué temporada y qué personajes descubre la escotilla escondida?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 28,
 		"name" : "¿Qué personaje muere primero?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 29,
 		"name" : "¿Cuántos sobrevivientes hay luego de la caída del vuelo 815?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 30,
 		"name" : "¿Cuál es el mensaje final de Charlie Pace?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 31,
 		"name" : "¿Qué celebridad todavía no aparecio en Los Simpson?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 32,
 		"name" : "¿Por qué va a la cárcel el payaso Krusty en la primera temporada?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 33,
 		"name" : "¿Cuál de los siguientes personajes es Todd Flanders?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 34,
 		"name" : "¿Cuál es el apellido de la siguiente familia?",
+		"image" : "imgid34.png",
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : "imgid34.png"
+		"level_id" : 1
 	},
 	{
 		"id" : 35,
 		"name" : "¿Qué casa es esta?",
+		"image" : "imgid35.png",
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : "imgid35.png"
+		"level_id" : 1
 	},
 	{
 		"id" : 36,
 		"name" : "En el episodio Bart vende su alma, ¿qué canción de rock incluye en el cancionero de la iglesia sin que nadie se dé cuenta?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 37,
 		"name" : "¿Cómo se llama la canción que simboliza el amor que une a Homero y Marge?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 38,
 		"name" : "¿Con qué banda se cruza Bart en la temporada 18 luego de que el psicólogo le recomendara aprender a tocar la batería?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 39,
 		"name" : "¿Cómo se llama la banda de motoqueros a la que se une Homero en el episodio Llévate a mi esposa?",
+		"image" : null,
 		"serie_id" : 5,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 40,
 		"name" : "¿Qué trofeo se guardaba el protagonista de cada una de sus víctimas?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 41,
 		"name" : "¿Qué nombre le da la prensa al asesino serial que azota Miami y que nadie sabe que es Dexter?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 42,
 		"name" : "¿Cómo se llamaba la serie de reglas para asesinar que sigue Dexter, que pretendían canalizar su sed de sangre?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 43,
 		"name" : "¿Cómo se llamaba la víctima que lleva a Dexter a empezar a tomar trofeos de las personas que asesinaba?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 44,
 		"name" : "¿Quién murió primero en la serie?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 45,
 		"name" : "¿A qué país deseaba mudarse Dexter con Hannah y su hijo Harrison?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 46,
 		"name" : "¿Cuántas parejas tuvo Dexter durante la serie?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 47,
 		"name" : "¿Cuál de estos personajes no pertenecía al equipo de científicos y policías con el que trabajaba Dexter?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 48,
 		"name" : "¿Qué acción no realiza Dexter durante los créditos iniciales de la serie?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 49,
 		"name" : "¿Cuál de las siguientes imágenes no muestra a un criminal asesinado por Dexter?",
+		"image" : null,
 		"serie_id" : 6,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 50,
 		"name" : "¿Qué relación unía a los personajes Walter White y Jesse Pinkman antes de que se asociaran para cocinar cristal azul?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 51,
 		"name" : "¿Con quién tiene un romance extramatrimonial la protagonista Skyler White? ",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 52,
 		"name" : "¿Cómo se llama la antigua compañera de química de Walter White y actual cofundadora de Gray Matter Technologies, con quien tuvo un relación amorosa en el pasado?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 53,
 		"name" : "¿Qué tipo de cáncer contrae Walter White?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 54,
 		"name" : "¿Cuántas temporadas duró la serie?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 55,
 		"name" : "¿Cuál es la profesión de Rajesh Koothrappali?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 56,
 		"name" : "¿En qué temporada aparece la la neurobióloga Amy Farrah Fowler en la Serie?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 57,
 		"name" : "¿A qué se dedica Penny Hofstadter en las primeras temporadas?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 58,
 		"name" : "¿A qué edad obtiene su doctorado en fisica experimental Leonard Hofstadter?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 59,
 		"name" : "¿Dónde trabajan los amigos y científicos de la serie?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 60,
 		"name" : "¿Qué personaje entabla una relación amorosa con Bernadette Rostenkowski?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 61,
 		"name" : "¿Cuál es el coefiente intelectual de Sheldon Cooper?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 62,
 		"name" : "¿Cuál es el superhéroe favorito de Sheldon Cooper?",
+		"image" : null,
 		"serie_id" : 8,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 63,
 		"name" : "¿A qué se decica la madre de Charlie y Alan Harper?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 64,
 		"name" : "¿Cuándo se estrenó el último episodio de la serie?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 65,
 		"name" : "¿Cómo se llamaba la vecina de los Harper que estaba enamorada de Charlie?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 66,
 		"name" : "¿En qué ciudad de los Estados Unidos ocurren los hechos de la serie?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 67,
 		"name" : "¿Qué actor reemplazó a Charlie Sheen luego de que este decidiera abandonar la serie?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 68,
 		"name" : "¿Cómo amasó su fortuna Charlie Harper?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 69,
 		"name" : "¿Qué reef de guitarra tocan Jake y su amigo Chun Pu en el episodio 20 de la primera temporada?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 70,
 		"name" : "¿A qué se dedicaba Herb Melnick, el actual esposo de Judith Harper?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 71,
 		"name" : "¿En qué otra serie contemporánea hizo un cameo Conchata Ferrell, quien interpretaba a Berta?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 3,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 72,
 		"name" : "¿Cuál de estas estrellas nunca participó como actor invitado en la serie?",
+		"image" : null,
 		"serie_id" : 9,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 73,
 		"name" : "¿En qué ciudad transcurre la serie?",
+		"image" : null,
 		"serie_id" : 10,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 74,
 		"name" : "¿Quién ataca a Doug Stamper en el bosque?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 75,
 		"name" : "¿Cómo se llama el conductor de limusinas?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 76,
 		"name" : "¿Cuál es el primer nombre de Kramer?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 77,
 		"name" : "¿Cuál es el apodo de Derek Shepherd?",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 78,
 		"name" : "¿Cómo se llama la única hija de Ragnar Lothbrok?",
+		"image" : null,
 		"serie_id" : 15,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 79,
 		"name" : "¿Cómo se llamaba la granja en la que se refugian los personajes durante la segunda temporada?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 80,
 		"name" : "¿En qué situación había recibido un disparo el sheriff Rick Grimes antes del apocalipsis zombie, que lo mandó al hospital en el inicio de la temporada?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 3,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 81,
 		"name" : "¿Cuál de estos personajes muere primero en la serie?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 82,
 		"name" : "¿Cuál de las siguientes locaciones no pertenece a la serie?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 83,
 		"name" : "¿Cuáles eran las tres preguntas que los protagonistas les hacían a las personas que querían unirse a su grupo?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 84,
 		"name" : "¿En qué temporada aparece por primera vez el peor villano de la serie, Negan?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 2,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 85,
 		"name" : "¿A quién de los siguientes personajes mata primero Negan?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 86,
 		"name" : "¿Con qué amenaza se encuentra el grupo de sobrevivientes en la temporada 9?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 87,
 		"name" : "¿Cuál es la acción del pasado que lo atormenta al padre Gabriel Stokes?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 88,
 		"name" : "¿En qué circunstancias Carl Grimes pierde un ojo?",
+		"image" : null,
 		"serie_id" : 16,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 89,
 		"name" : "¿Cuáles son los apodos para el día de los enamorados de Claire y Phil?",
+		"image" : null,
 		"serie_id" : 17,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 90,
 		"name" : "¿En que lugar se desarrolla la serie?",
+		"image" : null,
 		"serie_id" : 17,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 91,
 		"name" : "¿Cuales son los hijos de Jay?",
+		"image" : null,
 		"serie_id" : 17,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 92,
 		"name" : "¿Como se llama el novio de Blanca Flores?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 93,
 		"name" : "Quien adopto a Taystee de joven?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 94,
 		"name" : "¿En que distrito tenia el restaurant Red?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 95,
 		"name" : "¿Cuando la familia de Piper va a la prisión ¿Qué día era?",
+		"image" : null,
 		"serie_id" : 2,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 96,
 		"name" : "¿Cómo muere el profesor Artz?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 97,
 		"name" : "¿Quien interpreta a Sawyer?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 98,
 		"name" : "¿Cuál de los sobrevivientes del accidente aéreo estuvo en el hospital psiquiátrico con Hurley?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 99,
 		"name" : "¿Quien NO estuvo encerrado en el Cuarto 23?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 100,
 		"name" : "¿Cuál era el nombre de Sawyer mientras vivió con la iniciativa Dharma?",
+		"image" : null,
 		"serie_id" : 4,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 101,
 		"name" : "¿De qué estado es Frank Underwood?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 102,
 		"name" : "¿En qué temporada se vio el beso de Edward Meechum, Frank y Claire?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 103,
 		"name" : "¿Como se llama el cocinero amigo de Frank?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 104,
 		"name" : "¿Cuál era la profesión del amante de Claire?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 105,
 		"name" : "¿Cual es el nombre del presidente en la temporada 1?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 106,
 		"name" : "¿En que año se casaron Frank y Claire?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 107,
 		"name" : "¿De que organización sin fines de lucro era CEO Claire?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 108,
 		"name" : "¿Cuál es el grupo que aparece en escena con el presidente Viktor Petrov?",
+		"image" : null,
 		"serie_id" : 11,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 109,
 		"name" : "¿Cual es el superhéroe preferido de Jerry?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 110,
 		"name" : "¿De que trabaja Newman?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 111,
 		"name" : "El niño burbuja es un niño...",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 112,
 		"name" : "Elaine es muy mala para ...",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 113,
 		"name" : "El título original de Seinfeld era",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 114,
 		"name" : "¿Cómo muere Susan, la prometida de George?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 115,
 		"name" : "¿Como aparecio vestido Jerry en el \"Today\" Show?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 116,
 		"name" : "¿Sobre que conversan George y Jerry en el primer y ultimo episodios?",
+		"image" : null,
 		"serie_id" : 13,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 117,
 		"name" : "Después de terminar con Marshall, ¿a qué ciudad se va Lily?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 118,
 		"name" : "¿Como se llaman lxs hijxs de Ted?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 119,
 		"name" : "¿Qué película ven Ted, Barney y Marshall cada tres años?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 120,
 		"name" : "¿Cómo se llama el hermano de Barney?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 121,
 		"name" : "¿Como se llama la pareja de El Capitán?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 122,
 		"name" : "Ted y Barney abrieron un bar, como se llamaba?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 123,
 		"name" : "¿Quien es la madre de Barney?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 2
 	},
 	{
 		"id" : 124,
 		"name" : "¿A qué se dedica el papá de Lily?",
+		"image" : null,
 		"serie_id" : 12,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 3
 	},
 	{
 		"id" : 125,
 		"name" : "¿Cual es la profesión de Walter White?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 126,
 		"name" : "¿Que significa Breaking Bad?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 127,
 		"name" : "¿Donde transcurre la serie Breaking Bad?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 128,
 		"name" : "¿Cual es el seudonimo usado por Jesse Pinkman ?",
+		"image" : null,
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 129,
 		"name" : "¿Cual es el nombre de este personaje?",
+		"image" : "4IUXxyLz0ndvTdW7EDearuXTuUVMt8gXYZ5ZDSrA.jpeg",
 		"serie_id" : 7,
-		"level_id" : 1,
-		"image" : "4IUXxyLz0ndvTdW7EDearuXTuUVMt8gXYZ5ZDSrA.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 130,
 		"name" : "¿Cual es el nombre del niño desaparecido misteriosamente?",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 131,
-		"name" : "¿Donde sucede esta historia?",
+		"name" : "¿Cuantas temporadas tiene la serie?",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 132,
 		"name" : "¿Cuales son los hijxs de este personaje?",
+		"image" : "7sDBdTYJM0mapDAVTyHCW9ZLZCt6knqiaoIbeb07.jpeg",
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : "7sDBdTYJM0mapDAVTyHCW9ZLZCt6knqiaoIbeb07.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 133,
 		"name" : "¿Cual es el verdadero nombre de Once?",
+		"image" : "cutwpMDhj55YjTNSRbDS8zKPS707kEgPtPKSfoxz.jpeg",
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : "cutwpMDhj55YjTNSRbDS8zKPS707kEgPtPKSfoxz.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 134,
 		"name" : "¿Quien es Dustin Henderson?",
+		"image" : null,
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 135,
 		"name" : "¿Cual es la canción que es interpretada a dúo por Dustin y Suzie?",
+		"image" : "gzXVVOeWiZFBOPOkYJLx18Yao01Pa6KLmHc2yGFT.jpeg",
 		"serie_id" : 3,
-		"level_id" : 1,
-		"image" : "gzXVVOeWiZFBOPOkYJLx18Yao01Pa6KLmHc2yGFT.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 136,
 		"name" : "¿Quien usa a menudo esta frase? Es un hermoso día para salvar vidas",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 137,
 		"name" : "¿Quién es el verdadero padre de Meredith Grey?",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 138,
 		"name" : "¿Quienes son los padres de la Jefe de cirugía Maggie Pierce?",
+		"image" : "x9YuelxflNtZPWxRH5KIT8oN5cq77IMnrfHentig.jpeg",
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : "x9YuelxflNtZPWxRH5KIT8oN5cq77IMnrfHentig.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 139,
 		"name" : "¿En que hospital trabajan los médicos cirujanos?",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 140,
 		"name" : "A quien pertenecen estos sobrenombres Dr. Sexy (McSexy) - Dr. Bombón (McYummy)-McNífico",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 141,
 		"name" : "¿Qué personaje fue dejado plantado en el altar?",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
 	},
 	{
 		"id" : 142,
 		"name" : "¿Quien era Denny Duquette?",
+		"image" : "tgKzlCuMOEhvzGFLpdlEUOG28CIxR726H8xkJX1F.jpeg",
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : "tgKzlCuMOEhvzGFLpdlEUOG28CIxR726H8xkJX1F.jpeg"
+		"level_id" : 1
 	},
 	{
 		"id" : 143,
 		"name" : "¿Que le sucede a Derek Shepherd en la última temporada?",
+		"image" : null,
 		"serie_id" : 14,
-		"level_id" : 1,
-		"image" : null
+		"level_id" : 1
+	},
+	{
+		"id" : 144,
+		"name" : "En que lugar de la casa de Erick pasaban la mayor parte del tiempo",
+		"image" : null,
+		"serie_id" : 10,
+		"level_id" : 2
+	},
+	{
+		"id" : 145,
+		"name" : "¿Qué personajes ficticio de la serie That 70s show son matrimonio en la vida real?",
+		"image" : null,
+		"serie_id" : 10,
+		"level_id" : 2
 	}
 ]
