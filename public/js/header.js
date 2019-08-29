@@ -5,7 +5,7 @@ window.addEventListener("load", function(){
   let hamburguesa = document.getElementById("hamburguesa");
   hamburguesa.onclick = function(){
     let divLi = document.querySelectorAll("#nav li");
-    for(var item of divLi){
+    for(let item of divLi){
       if (item.style.display == "block"){
         item.style.display = "none";
       } else {
