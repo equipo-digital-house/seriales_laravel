@@ -87,8 +87,7 @@ class AnswerController extends Controller
              'respuesta2.required'=>'Falta ingresar la Respuesta 2',
              'respuesta3.required'=>'Falta ingresar la Respuesta 3',
              'respuesta4.required'=>'Falta ingresar la Respuesta 4',
-             'respuesta4Help.required'=>'falta ingresar una Respuesta',
-             'string'=>'La respuesta debe estar formada por letras'
+             'string'=>'La respuesta debe ser un string'
            ]);
 
           $image1=$request->file('fileRespuesta1')->store("/public/img/img_answers");
